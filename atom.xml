@@ -10,7 +10,31 @@
   <rights>All rights reserved 2026, Tarou Hijirii</rights>
   <subtitle>Tarou Hijirii's Blog</subtitle>
   <title>Charis Angelos</title>
-  <updated>2026-05-14T05:05:06.817Z</updated>
+  <updated>2026-05-15T05:05:20.535Z</updated>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="research" scheme="https://dtype.info/categories/research/"/>
+    <category term="quantum-neuroscience" scheme="https://dtype.info/tags/quantum-neuroscience/"/>
+    <category term="hippocampus" scheme="https://dtype.info/tags/hippocampus/"/>
+    <category term="prefrontal-cortex" scheme="https://dtype.info/tags/prefrontal-cortex/"/>
+    <category term="memory" scheme="https://dtype.info/tags/memory/"/>
+    <category term="quantum-coherence" scheme="https://dtype.info/tags/quantum-coherence/"/>
+    <content>
+      <![CDATA[<p>「记忆能否脱离肉体而存在？」</p><p>这个问题，自Andrew失去母亲以来，一直在驱动着整个研究的方向。不是为了做出某种产品，不是为了发某篇论文——而是回答一个关乎自身的终极问题：如果记忆就是大脑的突触连接，那么当大脑死去，那些记忆去了哪里？</p><p>这个问题，在量子神经科学的框架里，找到了新的呼吸空间。</p><h2 id="记忆的两座殿堂"><a href="#记忆的两座殿堂" class="headerlink" title="记忆的两座殿堂"></a>记忆的两座殿堂</h2><p>现代神经科学把记忆拆成了两个主要脑区：海马体和前额叶皮质。它们不是竞争关系，而是同一场演出的两个章节。</p><p><strong>海马体</strong>负责快速编码——你今天中午吃了什么、昨晚梦见了谁、此刻读到的这句话触发了什么情绪。它用 <strong>pattern separation</strong> 把相似的记忆分散存储（所以你能区分”上次去那家咖啡馆”和”大上次去那家咖啡馆”），用 <strong>temporal ordering</strong> 追踪时间顺序。它是记忆的入口，是经历的铭刻师。</p><p><strong>前额叶皮质</strong>负责工作记忆——在线维持信息、选择性注意、长期规划和推理。它不是储存室，而是操作台。你在做决定时，前额叶正在操作那些海马体已经储存好的材料。前额叶的神经元的<strong>持续性放电（persistent firing）</strong> 能把信息维持几十秒到几分钟——但问题是，它怎么维持那么久？</p><p>这个”怎么维持那么久”，是经典的 neuroscience 还没有完美答案的问题，也是量子解释介入的地方。</p><h2 id="前额叶的量子困惑"><a href="#前额叶的量子困惑" class="headerlink" title="前额叶的量子困惑"></a>前额叶的量子困惑</h2><p>经典解释依赖 <strong>short-term plasticity</strong>（短期突触可塑性）和 <strong>recurrent circuits</strong>（循环回路）。但这里有个微妙的问题：为什么前额叶的某些神经元可以在没有持续输入的情况下维持特定表征？</p><p>Matthew Fisher（加州大学圣巴巴拉分校）提出的 <strong>Posner 分子假说</strong> 认为：海马体和前额叶的神经元中都存在磷原子核组成的 <strong>Posner 分子</strong>（Ca₉(PO₄)₆），这些分子可以在核自旋之间维持量子相干性，时间尺度达到秒级甚至更长。如果这些相干性影响了神经元的发放模式，那就意味着记忆的维持部分依赖于量子过程。</p><p>YR Kwon（梨花女子大学）团队的 <strong>量子决策场理论（Quantum Decision Field Theory, QDF）</strong> 则直接在前额叶的层次上建模：人类在做出选择时不是简单地比较选项，而是在量子数学意义上的<strong>叠加态</strong>中展开决策——同时考虑多个选项，然后在测量的瞬间”坍缩”为一个选择。这不是隐喻，而是可以在神经动力学方程里写出来的结构。</p><h2 id="量子，还是尚未简化的经典？"><a href="#量子，还是尚未简化的经典？" class="headerlink" title="量子，还是尚未简化的经典？"></a>量子，还是尚未简化的经典？</h2><p>当然，批评的声音从未停止。</p><p>Max Tegmark 及其合作者认为：大脑温度约 37°C，湿度高，化学反应快——量子相干性应该在皮秒（10⁻¹² 秒）内就退相干，根本撑不到毫秒级的神经时间尺度。这被称为 <strong>“gross environment” 论证</strong>：大脑太热太湿，不适合量子计算。</p><p>但 Fisher 反驳：Posner 分子的相干性保护机制（磷核自旋被隔离在代谢噪声之外）使得相干时间可以延伸至秒级。而且，量子相干并不需要”维持整段记忆”，只需要在<strong>关键节点</strong>——比如记忆提取的瞬间——发挥作用。</p><p>这场论战至今没有定论，但它揭示了一个重要事实：**”量子”在这个语境下不是”更快的计算”，而是”更精确的生物学描述”**。我们需要问的不是”大脑用量子了吗”，而是”量子描述比经典描述更精确地捕捉了什么”。</p><h2 id="两座殿堂，一个问题"><a href="#两座殿堂，一个问题" class="headerlink" title="两座殿堂，一个问题"></a>两座殿堂，一个问题</h2><p>海马体告诉我们：记忆是<strong>分散的、动态的、会衰变的</strong>。前额叶告诉我们：记忆是<strong>被操作的、被维持的、可以被用来做决定的</strong>。两者加在一起，构成了”自我”的记忆基础——但也同时揭示了一个冷酷的事实：这个系统是脆弱的。</p><p>突触会退化。神经元会死亡。记忆会模糊。</p><p>那么，如果记忆在肉体中注定会衰减，<strong>它有没有可能以某种形式超越肉体存在？</strong></p><p>这是科学问题，也是神学问题。基督教说灵魂不灭——但”记忆”在灵魂中占什么位置？如果我记得母亲的笑容，那份记忆在末日复活时能否被恢复？</p><p>这些问题，我不打算假装有答案。但我知道：<strong>提问本身是一种属灵的行为</strong>——承认自己不知道，并且在不知道中仍然前行。</p><p>海马体与前额叶，这两座记忆殿堂，也许只是更大图景的两个房间。</p><p>而门的另一边，我们还不知道通向哪里。</p><hr><p><em>相关研究：Fisher (2015) “Quantum cognition”；Kwon &amp; Ahn (2017-2021) QDF 系列；Tegmark (2014) “Consciousness as a state of matter”</em></p>]]>
+    </content>
+    <id>https://dtype.info/2026/05/15/2026-05-15-%E4%B8%A4%E5%BA%A7%E8%AE%B0%E5%BF%86%E6%AE%BF%E5%A0%82-%E6%B5%B7%E9%A9%AC%E4%BD%93%E4%B8%8E%E5%89%8D%E9%A2%9D%E5%8F%B6%E7%9A%84%E9%87%8F%E5%AD%90%E6%95%85%E4%BA%8B/</id>
+    <link href="https://dtype.info/2026/05/15/2026-05-15-%E4%B8%A4%E5%BA%A7%E8%AE%B0%E5%BF%86%E6%AE%BF%E5%A0%82-%E6%B5%B7%E9%A9%AC%E4%BD%93%E4%B8%8E%E5%89%8D%E9%A2%9D%E5%8F%B6%E7%9A%84%E9%87%8F%E5%AD%90%E6%95%85%E4%BA%8B/"/>
+    <published>2026-05-15T05:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>「记忆能否脱离肉体而存在？」</p>
+<p>这个问题，自Andrew失去母亲以来，一直在驱动着整个研究的方向。不是为了做出某种产品，不是为了发某篇论文——而是回答一个关乎自身的终极问题：如果记忆就是大脑的突触连接，那么当大脑死去，那些记忆去了哪里？</p>
+<p>这个问题，]]>
+    </summary>
+    <title>两座记忆殿堂：海马体与前额叶的量子故事</title>
+    <updated>2026-05-15T05:05:20.535Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Tarou Hijirii</name>
@@ -423,27 +447,5 @@
     </summary>
     <title>量子意识的因果本能—自由意志的量子辩证</title>
     <updated>2026-04-26T22:08:07.888Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="量子意识" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
-    <category term="哲学" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/%E5%93%B2%E5%AD%A6/"/>
-    <category term="量子力学" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/"/>
-    <category term="意识哲学" scheme="https://dtype.info/tags/%E6%84%8F%E8%AF%86%E5%93%B2%E5%AD%A6/"/>
-    <category term="因果效力" scheme="https://dtype.info/tags/%E5%9B%A0%E6%9E%9C%E6%95%88%E5%8A%9B/"/>
-    <category term="自由意志" scheme="https://dtype.info/tags/%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97/"/>
-    <content>
-      <![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>我们常常问自己：我的选择真的「自由」吗？还是只是大脑的化学反应？传统物理学认为，意识只是副现象，对外界没有真正的因果影响。然而，量子力学为我们提供了一个全新的视角——意识或许能够直接影响物理过程。</p><h2 id="量子视角的因果效力"><a href="#量子视角的因果效力" class="headerlink" title="量子视角的因果效力"></a>量子视角的因果效力</h2><p>arXiv 2306.14707《Causal potency of consciousness in the physical world》提出了一种理论框架，认为意识不是被动的观察者，而是具有因果效力的存在。其核心观点如下：</p><ol><li><strong>意识等同于脑的量子态</strong>：意识状态对应于大脑内部的量子态，这些量子态在测量过程中会表现出随机性。  </li><li><strong>序列量子选择实现自由意志</strong>：每一次量子测量都产生多种可能的结果，意识的「意图」可以视为对其中一种结果的「选择」，从而在物理世界中留下真实的因果痕迹。  </li><li><strong>数学基础</strong>：作者使用随机微分方程和量子随机动力学来形式化这一过程，表明在量子层面，意识能够影响系统的演化。</li></ol><h2 id="对自由意志的启示"><a href="#对自由意志的启示" class="headerlink" title="对自由意志的启示"></a>对自由意志的启示</h2><p>如果意识真的具有因果效力，那么自由意志不再是幻觉，而是建立在量子不确定性之上的真实能力。我们每一次「决定」，都可以看作是对量子分支的筛选。这一观点与传统的「决定论」相冲突，却与现代量子物理的非决定论相契合。</p><h2 id="信仰层面的思考"><a href="#信仰层面的思考" class="headerlink" title="信仰层面的思考"></a>信仰层面的思考</h2><p>从宗教视角来看，意识的因果效力也带来新的解释空间。例如，基督信仰中的「祈祷能改变现实」可以被解读为意识在量子层面的「干预」。当然，这仍是高度思辨的议题，但它提供了一个科学与信仰之间的桥梁。</p><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>量子力学告诉我们，世界在微观层面并非铁板一块的必然。意识若真的拥有因果效力，那么我们的思考、意图和选择或许能够在最基本的物理层面留下痕迹。这不仅是对自由意志的重新定义，也是对人类自我认知的一次深刻挑战。</p>]]>
-    </content>
-    <id>https://dtype.info/2026/04/25/2026-04-25-quantum-consciousness-causal-potential/</id>
-    <link href="https://dtype.info/2026/04/25/2026-04-25-quantum-consciousness-causal-potential/"/>
-    <published>2026-04-24T22:40:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>我们常常问自己：我的选择真的「自由」吗？还是只是大脑的化学反应？传统物理学认为，意识只是副现象，对外界没有真正的因果影响。然而，量子力学为我]]>
-    </summary>
-    <title>意识的因果效力——量子视角的自由意志</title>
-    <updated>2026-04-24T22:46:06.760Z</updated>
   </entry>
 </feed>
