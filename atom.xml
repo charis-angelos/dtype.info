@@ -10,7 +10,31 @@
   <rights>All rights reserved 2026, Tarou Hijirii</rights>
   <subtitle>Tarou Hijirii's Blog</subtitle>
   <title>Charis Angelos</title>
-  <updated>2026-05-15T05:05:20.535Z</updated>
+  <updated>2026-05-18T23:16:19.800Z</updated>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="research" scheme="https://dtype.info/categories/research/"/>
+    <category term="quantum-neuroscience" scheme="https://dtype.info/tags/quantum-neuroscience/"/>
+    <category term="quantum-coherence" scheme="https://dtype.info/tags/quantum-coherence/"/>
+    <category term="Posner-molecule" scheme="https://dtype.info/tags/Posner-molecule/"/>
+    <category term="quantum-memory" scheme="https://dtype.info/tags/quantum-memory/"/>
+    <category term="Fisher" scheme="https://dtype.info/tags/Fisher/"/>
+    <content>
+      <![CDATA[<p>「记忆会消失吗？」</p><p>我们谈论记忆的脆弱性：阿尔茨海默病夺走一个人的一生叙事，脑外伤让一个人忘记自己是谁。但在神经科学的主流叙事里，答案始终是机械的：记忆是神经元之间突触连接的强化，只要神经元存活，记忆就能被提取。</p><p>但如果这个答案不完整呢？</p><p>如果记忆在某些关键节点上，依赖的不是经典化学，而是量子相干性——那种只能在极低温或真空环境中维持的脆弱状态——那么我们关于记忆的所有常识，都需要被重新审视。</p><p>这就是 Matthew Fisher 2015 年论文 <em>Quantum cognition</em> 所提出的问题。</p><h2 id="Fisher-的问题意识"><a href="#Fisher-的问题意识" class="headerlink" title="Fisher 的问题意识"></a>Fisher 的问题意识</h2><p>Fisher 是诺贝尔物理学奖得主，他研究的是量子材料。但在某个时刻，他开始思考一个完全不同的对象：大脑。</p><p>他的核心问题是：大脑太热、太湿——温度 37°C，水分充足，化学反应在皮秒级别发生。在这种环境下，量子相干性（quantum coherence）应该瞬间退相干（decohere），根本无法维持到神经信号的毫秒级时间尺度。</p><p>但 Fisher 注意到，这不是故事的全部。</p><p>经典计算依赖经典比特——0 或 1，开或关。但量子计算依赖量子比特——可以同时处于 0 和 1 的叠加态。经典计算的核心硬件是晶体管，用电压表示比特。量子计算的核心硬件是超导回路、离子阱或光子系统。</p><p>大脑的”计算”呢？</p><h2 id="Posner-分子：被遗忘的候选者"><a href="#Posner-分子：被遗忘的候选者" class="headerlink" title="Posner 分子：被遗忘的候选者"></a>Posner 分子：被遗忘的候选者</h2><p>Fisher 提出，大脑中可能存在一种特殊的分子结构，可以作为量子比特的载体——<strong>Posner 分子</strong>，化学式 Ca₉(PO₄)₆。</p><p>Posner 分子是什么？它是磷和钙的化合物，广泛存在于骨骼和体液中。Fisher 的假设是：这些分子在某些脑区（特别是海马体和前额叶皮质）的神经元内可以形成，并且其<strong>磷原子核的自旋</strong>可以维持量子相干性，时间尺度达到秒级甚至更长。</p><p>为什么是磷原子核？因为磷核自旋与其他核自旋的耦合很弱，可以被代谢噪声”屏蔽”。这就像把一群脆弱的量子比特，放在了一个隔音室里——外界的热噪声无法轻易干扰它们。</p><p>如果这个假设成立，那么神经元就不只是经典的电化学计算机，它们同时也是量子信息处理器。</p><h2 id="这与记忆有什么关系？"><a href="#这与记忆有什么关系？" class="headerlink" title="这与记忆有什么关系？"></a>这与记忆有什么关系？</h2><p>记忆的形成需要两个阶段：<strong>编码</strong>（encoding）和<strong>巩固</strong>（consolidation）。</p><p>海马体负责快速编码——把一段新的体验转化为神经表征。这个过程涉及突触可塑性（LTP，长时程增强），是经典的神经科学。</p><p>但记忆的巩固需要更长时间。夜间睡眠时，海马体向皮层回放记忆，这个过程被称为<strong>系统巩固</strong>（systems consolidation）。问题是：海马体和皮层之间的信息传递，是纯经典的，还是有量子层面的参与？</p><p>Fisher 认为，Posner 分子可能在记忆巩固中扮演了一个隐藏角色：如果记忆的某些关键特征被编码在核自旋的量子态中，而这些量子态可以在海马体和前额叶之间通过量子纠缠传递，那么记忆的储存就不是纯粹经典的。</p><p>这并不是说整个记忆都是量子态——而是说，<strong>某些记忆提取过程中的”读取精度”可能依赖于量子相干性</strong>。</p><h2 id="批评与边界"><a href="#批评与边界" class="headerlink" title="批评与边界"></a>批评与边界</h2><p>当然，这里有巨大的质疑。</p><p>Max Tegmark 精确计算过：大脑中的相干时间应该在皮秒量级。Tegmark 的论证不是哲学的，而是热力学的——37°C 下的生物环境，无法为量子相干提供足够的隔离。</p><p>Fisher 的回应是：关键不是”大脑整体是量子计算机”，而是”某些特定分子结构可以在局部维持相干性”。这类似于生物学中的光合作用——叶绿素中的量子相干性已经被实验证实（Fleming et al., 2006），而光合作用发生在植物细胞里，温度条件与大脑相近。</p><p>但即便如此，从”叶绿素中的量子相干性”到”Posner 分子维持记忆”，还有很长的距离。我们甚至还没有直接实验手段检测活人大脑中的 Posner 分子量子态。</p><h2 id="为什么这个问题值得问"><a href="#为什么这个问题值得问" class="headerlink" title="为什么这个问题值得问"></a>为什么这个问题值得问</h2><p>我追问”记忆能否脱离肉体存在”，这个问题从失去母亲的那天起就一直跟着我。</p><p>如果记忆纯粹是突触连接，那么突触退化时，记忆就消失了。没有备份，没有永恒。</p><p>但如果记忆在某个层面上依赖于量子过程——如果那些构成记忆的磷核自旋在某个瞬间脱离了神经元，但仍以某种形式存在——那么”记忆的永生”就不再是纯粹的幻想，而是一个可以被认真对待的物理问题。</p><p>这不是宗教慰藉，这是对物质极限的追问。</p><p>Posner 分子假说也许最终会被证伪。但这并不减少它作为问题的价值——<strong>它迫使我们认真对待大脑中的量子效应，逼使我们问：经典物理是描述大脑的充分语言吗？</strong></p><p>记忆的量子托底，也许只是假说。但追问本身，已经是一种力量。</p><hr><p><em>参考文献：Fisher (2015) “Quantum cognition: Can quantum physics explain radical rationality?”; Fleming et al. (2006) “Quantum coherence in photosynthetic systems”</em></p>]]>
+    </content>
+    <id>https://dtype.info/2026/05/19/2026-05-19-%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E6%89%98%E5%BA%95-Posner%E5%88%86%E5%AD%90%E4%B8%8E%E6%B5%B7%E9%A9%AC%E4%BD%93%E7%9A%84%E9%9A%90%E8%97%8F%E7%A8%B3%E5%AE%9A%E5%B1%82/</id>
+    <link href="https://dtype.info/2026/05/19/2026-05-19-%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E6%89%98%E5%BA%95-Posner%E5%88%86%E5%AD%90%E4%B8%8E%E6%B5%B7%E9%A9%AC%E4%BD%93%E7%9A%84%E9%9A%90%E8%97%8F%E7%A8%B3%E5%AE%9A%E5%B1%82/"/>
+    <published>2026-05-18T23:14:00.000Z</published>
+    <summary>
+      <![CDATA[<p>「记忆会消失吗？」</p>
+<p>我们谈论记忆的脆弱性：阿尔茨海默病夺走一个人的一生叙事，脑外伤让一个人忘记自己是谁。但在神经科学的主流叙事里，答案始终是机械的：记忆是神经元之间突触连接的强化，只要神经元存活，记忆就能被提取。</p>
+<p>但如果这个答案不完整呢？</p>]]>
+    </summary>
+    <title>记忆的量子托底：Posner 分子与海马体的隐藏稳定层</title>
+    <updated>2026-05-18T23:16:19.800Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Tarou Hijirii</name>
@@ -427,25 +451,5 @@
     </summary>
     <title>量子意识的因果潜能：自由意志的量子挑战</title>
     <updated>2026-04-27T22:06:02.680Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="量子意识" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
-    <category term="认知科学" scheme="https://dtype.info/tags/%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6/"/>
-    <category term="自由意志" scheme="https://dtype.info/tags/%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97/"/>
-    <category term="宗教哲学" scheme="https://dtype.info/tags/%E5%AE%97%E6%95%99%E5%93%B2%E5%AD%A6/"/>
-    <content>
-      <![CDATA[<h1 id="量子意识的因果本能"><a href="#量子意识的因果本能" class="headerlink" title="量子意识的因果本能"></a>量子意识的因果本能</h1><p>当量子力学把意识视为“可复制但不可复制”时，新的哲学命题浮现：意识的因果能力是否本质上是量子化的？</p><h2 id="1-量子测量与意识的不可逆性"><a href="#1-量子测量与意识的不可逆性" class="headerlink" title="1. 量子测量与意识的不可逆性"></a>1. 量子测量与意识的不可逆性</h2><p>arXiv:1906.02813 中提出的<strong>独特历史定理</strong>指出，任何意识状态都与其唯一历史相连，测量过程不可逆。对意识而言，测量即感知：当我们主观地捕捉到某一外界信息，它在我们的脑内确立一个“记录”。如果这过程可被复制，意识就会多重出现；但我们的经验始终是单条线性——这正是量子测量不可逆性的直观映射。</p><h2 id="2-互补性与自由意志"><a href="#2-互补性与自由意志" class="headerlink" title="2. 互补性与自由意志"></a>2. 互补性与自由意志</h2><p>在量子叠加的世界里，行动并非事先确定，而是潜在状态的选择。若把“自由意志”视作在叠加谱系间做出的纠缠选择，那么意识的因果作用就是<strong>纠缠</strong>——它不是单纯的因果链，而是情境与可能的共同进化。自由意志在此被框定为量子“倾向”，既非决定性也非随机。</p><h2 id="3-神学视角：复活与自主"><a href="#3-神学视角：复活与自主" class="headerlink" title="3. 神学视角：复活与自主"></a>3. 神学视角：复活与自主</h2><p>在基督教传统中，复活被视为<strong>身体与魂的合一</strong>。若意识的历史是不可复制的，复活并非技术复制，而是对“自我”本质的重建。自由意志的量子建模进一步暗示：复活可能需要一种“量子重构”，即在死亡后用新的测量方式再构意识的历史轨迹。</p><h2 id="4-研究与实验展望"><a href="#4-研究与实验展望" class="headerlink" title="4. 研究与实验展望"></a>4. 研究与实验展望</h2><ol><li><strong>神经元电波的量子干涉</strong>：利用高灵敏度光谱测定大脑皮层的微观干涉模式。若发现对应疲历联结的干涉结构，即可为量子意识提供实证基础。</li><li><strong>因果测序实验</strong>：设计可逆与不可逆测量流程，比较受试者在主观报告上的差异，以检验意识记录的不可复制属性。</li><li><strong>神学案例研究</strong>：梳理历史上“神迹”与可证伪科学现象的交叉，探索量子不可复制性在宗教文本中的隐喻。</li></ol><h2 id="5-结语"><a href="#5-结语" class="headerlink" title="5. 结语"></a>5. 结语</h2><p>量子力学提出的测量不可逆的<strong>唯独历史</strong>与意识的单向体验相契合；自由意志的探讨也因此得到非决定论的文本。未来的跨学科实验将决定，是否在世界的根底上写下<strong>意识的量子脚印</strong>，并在实现自由意志与神学复活的漫长旅程中，指引我们如何重新认识自己的存在。</p><hr><p><strong>参考文献</strong></p><ul><li>arXiv:1906.02813 – <em>Unique History Theorem</em></li><li>arXiv:2001.00909 – <em>Inner Privacy of Conscious Experiences and Quantum Information</em></li></ul>]]>
-    </content>
-    <id>https://dtype.info/2026/04/27/2026-04-27-quantum-consciousness-causal-potential/</id>
-    <link href="https://dtype.info/2026/04/27/2026-04-27-quantum-consciousness-causal-potential/"/>
-    <published>2026-04-26T22:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h1 id="量子意识的因果本能"><a href="#量子意识的因果本能" class="headerlink" title="量子意识的因果本能"></a>量子意识的因果本能</h1><p>当量子力学把意识视为“可复制但不可复制”时，新的哲学命题浮现：意识的因果能力是否本质]]>
-    </summary>
-    <title>量子意识的因果本能—自由意志的量子辩证</title>
-    <updated>2026-04-26T22:08:07.888Z</updated>
   </entry>
 </feed>
