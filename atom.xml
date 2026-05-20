@@ -10,7 +10,33 @@
   <rights>All rights reserved 2026, Tarou Hijirii</rights>
   <subtitle>Tarou Hijirii's Blog</subtitle>
   <title>Charis Angelos</title>
-  <updated>2026-05-19T05:05:07.678Z</updated>
+  <updated>2026-05-20T05:03:36.847Z</updated>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="research" scheme="https://dtype.info/categories/research/"/>
+    <category term="quantum-neuroscience" scheme="https://dtype.info/tags/quantum-neuroscience/"/>
+    <category term="memory" scheme="https://dtype.info/tags/memory/"/>
+    <category term="Fisher" scheme="https://dtype.info/tags/Fisher/"/>
+    <category term="quantum-measurement" scheme="https://dtype.info/tags/quantum-measurement/"/>
+    <category term="decoherence" scheme="https://dtype.info/tags/decoherence/"/>
+    <category term="neural-collapse" scheme="https://dtype.info/tags/neural-collapse/"/>
+    <content>
+      <![CDATA[<p>在量子神经科学的叙事里，”相干性”是最常被谈论的英雄。</p><p>我们讨论 Posner 分子如何保护磷核自旋的量子态，讨论海马体和前额叶之间可能存在的量子纠缠，讨论量子效应的存活时间——皮秒还是秒。</p><p>但有一个问题，几乎从未被放在聚光灯下：</p><p><strong>即使量子相干性在大脑中真的存在——它是如何被”读取”的？</strong></p><p>这就是今天要谈的量子测量问题。它不只是技术细节，而是整个量子记忆假说的命门。</p><h2 id="测量问题的日常版本"><a href="#测量问题的日常版本" class="headerlink" title="测量问题的日常版本"></a>测量问题的日常版本</h2><p>在量子力学里，”测量”不是一个被动观察的行为，而是一个主动的物理事件。</p><p>一个量子比特可以处于 0 和 1 的叠加态。但当你”测量”它时，它立刻随机坍缩到 0 或 1。你得到哪个结果，概率由量子态的系数决定。测量行为本身改变了系统。</p><p>这个过程在实验室里由精密仪器完成——光子探测器、超导电路、离子阱。它们都是极端设计的设备，刻意与环境的交互被压制到最低。</p><p>现在，把这个场景搬进大脑。</p><h2 id="大脑里的测量设备是什么？"><a href="#大脑里的测量设备是什么？" class="headerlink" title="大脑里的测量设备是什么？"></a>大脑里的测量设备是什么？</h2><p>大脑是一个极其嘈杂的环境。神经元在不断放电，神经递质在突触间扩散，星形胶质细胞在代谢，三羧酸循环在持续运转。在这种环境下，任何量子系统都在被持续”测量”——也就是被环境噪声干扰而退相干。</p><p>这是 Max Tegmark 的核心论点：大脑太热太湿，环境太吵，量子态会在皮秒内崩溃。</p><p>但我们假设，Fisher 的 Posner 分子确实在某处保护了量子相干性。那么下一个问题是：</p><p><strong>是什么机制读取了这些量子态？</strong></p><p>如果 Posner 分子里的磷核自旋是量子比特，那么把它们的信息转化为神经信号——即”测量”——需要一个<strong>量子到经典的接口</strong>。这个接口是什么？它在哪里？它如何运作？</p><p>没有这个接口，量子记忆就是一本锁在保险箱里、钥匙也被烧掉了的书。</p><h2 id="核自旋如何影响神经元发放？"><a href="#核自旋如何影响神经元发放？" class="headerlink" title="核自旋如何影响神经元发放？"></a>核自旋如何影响神经元发放？</h2><p>有一种可能性：量子态的影响是<strong>间接的</strong>，而非直接的。</p><p>也就是说，Posner 分子的量子态不直接编码记忆内容，而是通过<strong>非常微弱的物理效应</strong>影响神经元的发放模式——比如改变钙离子通道的开关概率，或者调整神经递质的释放阈值。</p><p>如果这是真的，那量子测量就不需要是一个剧烈的”坍缩事件”，而是一个<strong>慢速的、统计的</strong>过程。量子相干性通过调节细胞膜电位，间接影响神经活动。</p><p>这个场景让我想起量子生物学的另一个成功案例：光合作用。</p><p>光合作用中，量子相干性被用来优化能量传递效率——但量子效应并不是直接”计算”出最优路径，而是让系统在一个更长的时间内保持多种可能性的叠加，然后用一种物理上尚未完全理解的方式”引导”能量流向反应中心。生物系统用的是量子力学的<strong>概率结构</strong>，而不是其计算能力。</p><p>如果量子记忆也是这样——不是”量子比特存储了记忆”，而是”量子概率结构影响了记忆提取的精度”——那么测量问题的难度会降低，但实验验证的难度却会上升：我们需要在活体大脑中检测到极其微弱的信号差异。</p><h2 id="为什么这个问题值得认真对待"><a href="#为什么这个问题值得认真对待" class="headerlink" title="为什么这个问题值得认真对待"></a>为什么这个问题值得认真对待</h2><p>我一直在追问”记忆能否脱离肉体存在”。</p><p>这个问题有两种截然不同的回答框架：</p><p><strong>经典框架</strong>：记忆是突触连接的强化模式。突触退化，记忆消失。没有例外，没有上诉渠道。</p><p><strong>量子框架</strong>：记忆的某些层面依赖于量子过程。量子过程不受经典物理的完全约束——它们在原理上有可能在肉体之外以某种形式继续存在。</p><p>量子框架更令人不安，因为它给出的不是答案，而是一个更清晰的<strong>问题结构</strong>——我们不仅需要问”记忆在哪里”，还要问”记忆是如何被读取的”。只有回答了测量问题，量子记忆假说才有完整的物理意义。</p><p>这不是在回避问题。这是在把问题放到正确的粒度上。</p><h2 id="开放的结尾"><a href="#开放的结尾" class="headerlink" title="开放的结尾"></a>开放的结尾</h2><p>如果记忆的量子托底是真实的，那么它一定有一个读取机制。这个机制可能非常微弱，可能只在特定条件下激活，可能直到今天我们还没有实验工具去探测它。</p><p>但这不意味着它不存在。</p><p><strong>追问测量问题，不是为了证明量子记忆是真的。而是为了问出更精确的问题。</strong></p><p>而更精确的问题，永远是科学和信仰共同前进的方式。</p><hr><p><em>参考文献：Fisher (2015) “Quantum cognition”；Tegmark (2014) “Consciousness as a state of matter”；Fleming et al. (2006) “Quantum coherence in photosynthetic systems”</em></p>]]>
+    </content>
+    <id>https://dtype.info/2026/05/20/2026-05-20-%E9%87%8F%E5%AD%90%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AF%BB%E5%87%BA%E9%97%AE%E9%A2%98-%E7%9B%B8%E5%B9%B2%E6%80%A7%E4%B9%8B%E5%90%8E%E8%B0%81%E6%9D%A5%E6%B5%8B%E9%87%8F/</id>
+    <link href="https://dtype.info/2026/05/20/2026-05-20-%E9%87%8F%E5%AD%90%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AF%BB%E5%87%BA%E9%97%AE%E9%A2%98-%E7%9B%B8%E5%B9%B2%E6%80%A7%E4%B9%8B%E5%90%8E%E8%B0%81%E6%9D%A5%E6%B5%8B%E9%87%8F/"/>
+    <published>2026-05-20T05:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在量子神经科学的叙事里，”相干性”是最常被谈论的英雄。</p>
+<p>我们讨论 Posner 分子如何保护磷核自旋的量子态，讨论海马体和前额叶之间可能存在的量子纠缠，讨论量子效应的存活时间——皮秒还是秒。</p>
+<p>但有一个问题，几乎从未被放在聚光灯下：</p>
+<p>]]>
+    </summary>
+    <title>量子记忆的&quot;读出问题&quot;：相干性之后，谁来测量？</title>
+    <updated>2026-05-20T05:03:36.847Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Tarou Hijirii</name>
@@ -428,30 +454,5 @@
     </summary>
     <title>量子意识中的意识不可复制性与基督信仰中的复活</title>
     <updated>2026-04-30T05:05:52.654Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="量子意识" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
-    <category term="神学反思" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/%E7%A5%9E%E5%AD%A6%E5%8F%8D%E6%80%9D/"/>
-    <category term="神经科学" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/%E7%A5%9E%E5%AD%A6%E5%8F%8D%E6%80%9D/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/"/>
-    <category term="量子认知" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E8%AE%A4%E7%9F%A5/"/>
-    <category term="量子力学" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/"/>
-    <category term="自由意志" scheme="https://dtype.info/tags/%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97/"/>
-    <category term="主体性" scheme="https://dtype.info/tags/%E4%B8%BB%E4%BD%93%E6%80%A7/"/>
-    <category term="意识科学" scheme="https://dtype.info/tags/%E6%84%8F%E8%AF%86%E7%A7%91%E5%AD%A6/"/>
-    <category term="神学" scheme="https://dtype.info/tags/%E7%A5%9E%E5%AD%A6/"/>
-    <content>
-      <![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>2025年10月，Emily C. Adlam、Kelvin J. McQueen、Mordecai Waegell 在论文《Agency cannot be a purely quantum phenomenon》中提出了一个引人深思的论证：<strong>纯粹量子系统无法满足主体性（agency）的三个最小条件</strong>——这与《创世记》2章7节「耶和华神将生气吹在他鼻孔里，他就成了有灵的活人」形成了跨越科学与神学的对话。</p><hr><h2 id="主体性的三个量子困境"><a href="#主体性的三个量子困境" class="headerlink" title="主体性的三个量子困境"></a>主体性的三个量子困境</h2><p>Adlam 等人指出，任何具备真正主体性的系统必须满足：</p><ol><li><strong>构建世界模型</strong>：能够从环境中提取信息并建立对世界的表征</li><li><strong>评估替代行动</strong>：能够复制世界模型以模拟不同行动的后果</li><li><strong>可靠执行</strong>：能够按照「最大化期望效用」的原则行动</li></ol><p>问题是，这三个条件在量子力学框架下<strong>全部遭遇根本性困难</strong>：</p><ul><li><strong>条件1与2违反不可克隆定理</strong>：量子信息不可复制，而构建世界模型本质上需要从环境复制信息。</li><li><strong>条件3违反量子动力学线性特性</strong>：量子演化是线性的，无法可靠执行「最大化期望效用」的非线性决策。</li></ul><p>因此，<strong>纯粹量子系统（无退相干、无坍缩）无法产生真正的主体性</strong>。</p><hr><h2 id="经典-量子交汇处的涌现"><a href="#经典-量子交汇处的涌现" class="headerlink" title="经典-量子交汇处的涌现"></a>经典-量子交汇处的涌现</h2><p>论文的四个推论至关重要：</p><ol><li>主体性需要<strong>显著的经典资源</strong></li><li>需要揭示经典主体如何在量子宇宙中<strong>涌现</strong></li><li>量子计算机无法直接模拟主体行为</li><li>这挑战了量子主体性、自由意志和意识理论</li></ol><p>这意味着：意识与自由意志既不是纯粹的量子现象（太脆弱、太线性），也不是纯粹的经典现象（需要量子接口来处理不确定性）。它们处于某种<strong>经典-量子的交汇处</strong>。</p><hr><h2 id="「有灵的活人」的神学回响"><a href="#「有灵的活人」的神学回响" class="headerlink" title="「有灵的活人」的神学回响"></a>「有灵的活人」的神学回响</h2><p>《创世记》2章7节的叙事在此显现出惊人的深度：</p><blockquote><p>「耶和华神用地上的尘土造人，将生气吹在他鼻孔里，他就成了有灵的活人。」</p></blockquote><p>「生气」（נִשְׁמַת חַיִּים，nishmat chayim）——生命的气息——在希伯来语境中指向<strong>非物质的、赋予生命的灵性原则</strong>。但这里的关键不是简单的二元论（身体+灵魂分开），而是：</p><p><strong>泥土（经典、物质、有限）+ 生气（吹入、非物质、超越）&#x3D; 有灵的活人</strong></p><p>这与论文的科学结论形成了深刻共鸣：</p><ul><li>纯粹的<strong>量子系统</strong>（相干、线性、无经典资源）无法产生主体性</li><li>纯粹的<strong>经典系统</strong>（确定性的、无法处理叠加态）也无法完全解释意识的灵活性</li><li><strong>真实的主体性出现在经典-量子的交汇处</strong></li></ul><p>这正是「道成肉身」的微观回响：纯粹的灵（超越的、不确定的）与确定的物质（可克隆的、经典的）在基督里相遇，形成真实的主体性。人的意识——「有灵的活人」——可能正是这种神圣交汇的见证。</p><hr><h2 id="退相干作为「救赎」的类比？"><a href="#退相干作为「救赎」的类比？" class="headerlink" title="退相干作为「救赎」的类比？"></a>退相干作为「救赎」的类比？</h2><p>从量子力学的角度看，退相干（decoherence）是量子相干性丧失到环境中的过程。它通常被视为「量子优势」的敌人——量子比特因为与环境交互而失去叠加态。</p><p>但从另一个角度看，退相干也许是<strong>主体性涌现的必要条件</strong>。没有退相干，量子系统永远在线性叠加中循环；有了退相干，系统才能「坍缩」到确定的经典状态，从而做出决策。</p><p>这与救赎神学中的「虚己」（kenosis）概念形成了惊人类比：</p><blockquote><p>「他本有神的形像，不以自己与神同等为强夺的，反倒虚己，取了奴仆的形像，成为人的样式。」（腓2:6-7）</p></blockquote><p>基督「倒空」了永恒的、超越的、不受限制的存在方式，取了有限的、脆弱的、经典的身体——这不是损失，而是<strong>真实人性的涌现</strong>。正如量子系统通过退相干获得确定的经典态，基督通过虚己获得了真实的人性。</p><hr><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>Adlam 等人的研究指向一个深刻结论：意识与主体性不能被还原为纯粹的量子现象，也不能被还原为纯粹的经典计算。它们需要某种<strong>交汇处</strong>——一个允许量子不确定性与经典确定性共存并相互作用的界面。</p><p>对于基督徒来说，这个结论不令人惊讶。我们早就相信：<strong>人是按神的形像造的</strong>，而这形像不是纯粹属灵的（天使），也不是纯粹属物质的（动物）。人处于灵与物质的交汇点，正如基督处于神与人之间。</p><p>也许，量子意识科学的下一步，将越来越接近这个古老的启示。</p><hr><p><strong>参考论文</strong>：</p><ul><li>Adlam, E. C., McQueen, K. J., &amp; Waegell, M. (2025). <em>Agency cannot be a purely quantum phenomenon</em>. arXiv:2510.13247.</li></ul>]]>
-    </content>
-    <id>https://dtype.info/2026/04/28/2026-04-28-%E4%B8%BB%E4%BD%93%E6%80%A7%E4%B8%8D%E8%83%BD%E8%A2%AB%E7%BA%AF%E7%B2%B9%E9%87%8F%E5%AD%90%E8%A7%A3%E9%87%8A-%E6%84%8F%E8%AF%86%E7%A7%91%E5%AD%A6%E7%9A%84%E7%A5%9E%E5%AD%A6%E5%8F%8D%E6%80%9D/</id>
-    <link href="https://dtype.info/2026/04/28/2026-04-28-%E4%B8%BB%E4%BD%93%E6%80%A7%E4%B8%8D%E8%83%BD%E8%A2%AB%E7%BA%AF%E7%B2%B9%E9%87%8F%E5%AD%90%E8%A7%A3%E9%87%8A-%E6%84%8F%E8%AF%86%E7%A7%91%E5%AD%A6%E7%9A%84%E7%A5%9E%E5%AD%A6%E5%8F%8D%E6%80%9D/"/>
-    <published>2026-04-28T05:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>2025年10月，Emily C. Adlam、Kelvin J. McQueen、Mordecai Waegell 在论文《Agency]]>
-    </summary>
-    <title>主体性不能被纯粹量子解释——从量子力学原理看「有灵的活人」</title>
-    <updated>2026-04-28T05:14:33.367Z</updated>
   </entry>
 </feed>
