@@ -10,7 +10,29 @@
   <rights>All rights reserved 2026, Tarou Hijirii</rights>
   <subtitle>Tarou Hijirii's Blog</subtitle>
   <title>Charis Angelos</title>
-  <updated>2026-05-23T05:03:24.902Z</updated>
+  <updated>2026-05-24T05:03:34.539Z</updated>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="量子意识与认知" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86%E4%B8%8E%E8%AE%A4%E7%9F%A5/"/>
+    <category term="量子意识" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
+    <category term="海马体" scheme="https://dtype.info/tags/%E6%B5%B7%E9%A9%AC%E4%BD%93/"/>
+    <category term="记忆形成" scheme="https://dtype.info/tags/%E8%AE%B0%E5%BF%86%E5%BD%A2%E6%88%90/"/>
+    <category term="Hebb定律" scheme="https://dtype.info/tags/Hebb%E5%AE%9A%E5%BE%8B/"/>
+    <category term="量子纠缠" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E7%BA%A0%E7%BC%A0/"/>
+    <content>
+      <![CDATA[<h1 id="记忆的量子签名：当”一起放电”遇上量子纠缠"><a href="#记忆的量子签名：当”一起放电”遇上量子纠缠" class="headerlink" title="记忆的量子签名：当”一起放电”遇上量子纠缠"></a>记忆的量子签名：当”一起放电”遇上量子纠缠</h1><h2 id="那个经典问题"><a href="#那个经典问题" class="headerlink" title="那个经典问题"></a>那个经典问题</h2><p>神经元科学家Donald Hebb在1949年留下了神经科学最著名的格言之一：**”一起放电的神经元，连接在一起。”**（Cells that fire together, wire together.）</p><p>这句话至今是记忆形成的核心教条。每当你记住一个电话号码、一个人的面孔、或童年的某个场景，背后的过程都离不开海马体中特定神经元群的同步激活——它们被反复同时点亮，突触权重就此加固。</p><p>但我一直在思考一个更根本的问题：**”一起放电”为什么必然产生”连接”？经典突触可塑性（STDP&#x2F;Spike-Timing-Dependent Plasticity）足够解释我们的记忆吗？还是说，在更深的层面上，”一起放电”的真实含义与量子纠缠有着某种同构关系？**</p><h2 id="Hebb定律的经典解释及其局限"><a href="#Hebb定律的经典解释及其局限" class="headerlink" title="Hebb定律的经典解释及其局限"></a>Hebb定律的经典解释及其局限</h2><p>Hebb定律在经典框架下是优美的：神经元A反复参与激活神经元B，它们的突触连接强度就增加。这是赫布本人提出”记忆印记（engram）”概念的数学基础——记忆不是存储在某个单一位置，而是编码在神经元之间增强的连接模式中。</p><p>然而，这个框架有三个深层问题：</p><p><strong>第一，符号绑定问题。</strong> 经典神经网络面临”绑定问题”（binding problem）：大脑中并行处理的感觉信息——颜色、形状、运动、声音——最终必须被整合为一个统一的感知对象。单纯的Hebbian共激活无法解释这个整合过程如何避免产生混乱的虚假组合。</p><p><strong>第二，记忆稳定性问题。</strong> 蛋白质会在数小时到数天内降解。突触权重依赖于蛋白质构成的受体分布——如果记忆仅依赖蛋白质构型，它如何维持数年乃至一生的记忆？海马体的记忆印记细胞（engram cells）如何在蛋白质代谢的循环中保持数十年的稳定性？</p><p><strong>第三，量子维度的可能性。</strong> 如果我们把”一起放电”理解为不仅仅是经典的相关性（correlation），而是量子纠缠（quantum entanglement）呢？</p><h2 id="一起放电-vs-量子纠缠：类比与深化"><a href="#一起放电-vs-量子纠缠：类比与深化" class="headerlink" title="一起放电 vs. 量子纠缠：类比与深化"></a>一起放电 vs. 量子纠缠：类比与深化</h2><p>量子纠缠是自然界最反直觉的现象之一：两个粒子一旦处于纠缠态，无论相距多远，对其中一个的测量会瞬间影响另一个的量子态。爱因斯坦称其为”鬼魅般的超距作用”。</p><p>Hebb定律描述的相关性——“一起放电的神经元连接在一起”——在形式上与量子纠缠有惊人的结构相似性：</p><table><thead><tr><th>Hebbian plasticity</th><th>Quantum entanglement</th></tr></thead><tbody><tr><td>神经元A和B同时激活</td><td>两个粒子相互作用后纠缠</td></tr><tr><td>共激活增强突触权重</td><td>纠缠态无法用独立粒子描述</td></tr><tr><td>连接一旦形成，信息可跨系统传递</td><td>纠缠粒子共享信息，测量即确定</td></tr><tr><td>重复激活强化记忆</td><td>重复交互深化纠缠（纯化）</td></tr></tbody></table><p>但相似不等于相同。关键问题在于：<strong>经典突触传递是经典的电化学过程——它能产生真正的量子纠缠吗？</strong></p><h2 id="微管：量子记忆的候选基质"><a href="#微管：量子记忆的候选基质" class="headerlink" title="微管：量子记忆的候选基质"></a>微管：量子记忆的候选基质</h2><p>这个问题将我们引向Penrose-Hameroff的Orch-OR理论，以及更现代的微管量子计算假说。Hameroff和其合作者提出：神经元的细胞骨架——微管（microtubules）——可能通过量子相干性进行信息处理。</p><p>记忆在微管层面的量子编码，与突触层面的Hebbian编码，形成了一个双层记忆架构：</p><ul><li><strong>突触层（经典）</strong>：快速学习，依赖神经元放电模式的Hebbian可塑性</li><li><strong>微管层（量子）</strong>：稳定的量子态编码，可能维持跨时间的记忆印记</li></ul><p>在这个框架下，”一起放电”不仅增强突触——它同时在微管中建立了更深的量子关联模式。这种量子印记不受蛋白质代谢周期的限制，因为量子态可以在退相干发生前通过拓扑量子纠错（topological quantum error correction）得到保护。</p><h2 id="记忆能脱离肉体吗？"><a href="#记忆能脱离肉体吗？" class="headerlink" title="记忆能脱离肉体吗？"></a>记忆能脱离肉体吗？</h2><p>如果记忆可以在量子层面编码，问题就变得更具哲学意味了。</p><p>经典观点认为：记忆是物质的——它存在于神经元的连接模式中。当神经元死亡，记忆随之消失。</p><p>但量子层面的记忆编码提供了一个更开放的可能性：<strong>如果记忆印记部分由量子态构成，而这些量子态通过与环境的适当隔离（量子芝诺效应或主动纠错）得以维持，那么记忆的存续可能不严格依赖于神经元的完整结构。</strong></p><p>这并不是说意识可以直接”上传”到量子计算机——我们离那个图景还非常遥远。但这个视角改变了问题的框架：</p><blockquote><p>记忆能否脱离肉体存在，不是”是”或”否”的问题，而是一个关于<strong>信息编码层次</strong>的问题。</p></blockquote><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>Hebb的格言或许需要更新了：</p><blockquote><p><strong>“一起放电的神经元，连接在一起——在经典突触层面，通过Hebbian可塑性；在量子层面，通过更深的纠缠模式。”</strong></p></blockquote><p>这不是否定Hebb定律，而是将它置于更广阔的信息论框架中。记忆的最终答案，或许既不在纯粹的经典连接中，也不在纯粹的量子态中——而在两者的交汇处：经典与量子共同编织的意识之网。</p><p>我们仍在探索。</p>]]>
+    </content>
+    <id>https://dtype.info/2026/05/24/%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E7%AD%BE%E5%90%8D-hebb%E5%AE%9A%E5%BE%8B%E4%B8%8E%E9%87%8F%E5%AD%90%E7%BA%A0%E7%BC%A0-2026-05-24/</id>
+    <link href="https://dtype.info/2026/05/24/%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E7%AD%BE%E5%90%8D-hebb%E5%AE%9A%E5%BE%8B%E4%B8%8E%E9%87%8F%E5%AD%90%E7%BA%A0%E7%BC%A0-2026-05-24/"/>
+    <published>2026-05-24T05:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="记忆的量子签名：当”一起放电”遇上量子纠缠"><a href="#记忆的量子签名：当”一起放电”遇上量子纠缠" class="headerlink" title="记忆的量子签名：当”一起放电”遇上量子纠缠"></a>记忆的量子签名：当”一起放电”遇上量子纠缠</]]>
+    </summary>
+    <title>记忆的量子签名：当&quot;一起放电&quot;遇上量子纠缠</title>
+    <updated>2026-05-24T05:03:34.539Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Tarou Hijirii</name>
@@ -435,27 +457,5 @@
     </summary>
     <title>意識は時間を超えられるか——ブロック宇宙における此刻の特権性</title>
     <updated>2026-05-05T05:05:14.629Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="量子意识研究" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86%E7%A0%94%E7%A9%B6/"/>
-    <category term="量子意识" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
-    <category term="Orch-OR" scheme="https://dtype.info/tags/Orch-OR/"/>
-    <category term="彭罗斯" scheme="https://dtype.info/tags/%E5%BD%AD%E7%BD%97%E6%96%AF/"/>
-    <category term="哈梅罗夫" scheme="https://dtype.info/tags/%E5%93%88%E6%A2%85%E7%BD%97%E5%A4%AB/"/>
-    <category term="客观还原" scheme="https://dtype.info/tags/%E5%AE%A2%E8%A7%82%E8%BF%98%E5%8E%9F/"/>
-    <content>
-      <![CDATA[<h2 id="引言：两种混合，一个根本问题"><a href="#引言：两种混合，一个根本问题" class="headerlink" title="引言：两种混合，一个根本问题"></a>引言：两种混合，一个根本问题</h2><p>量子力学里有个困扰了物理学家几十年的问题：<strong>什么是真正的随机，什么只是我们无知？</strong></p><p>当我们对一个量子系统做”部分测量”时，系统会进入一种特殊状态——物理学家称之为 <strong>improper mixture</strong>（非正常混合）。表面上看，它的行为和”已经随机坍缩”一样，但从数学上，它依然保持着量子相干性。这两种情况在实验上几乎无法区分。</p><p>然而彭罗斯（Roger Penrose）和哈梅罗夫（Stuart Hameroff）提出的 Orch-OR 理论认为：<strong>这种表观的随机性，最终会在引力的作用下引发真正的物理坍缩</strong>。这不只是数学游戏——它关乎”意识”这种神秘现象究竟如何从物质中涌现。</p><h2 id="实验设计：移动一皮克的物质"><a href="#实验设计：移动一皮克的物质" class="headerlink" title="实验设计：移动一皮克的物质"></a>实验设计：移动一皮克的物质</h2><p>2025年4月，James Tagg 和 William Reid 在超导量子处理器（类似 IBM Eagle 架构）上完成了首个检验这一理论的实验。</p><p>核心设计精妙而大胆：</p><ol><li>对一个量子比特执行<strong>部分测量</strong></li><li>测量的结果被用来将约 <strong>10⁻¹² kg（皮克级）的质量</strong>在两个相距约 <strong>1 mm</strong> 的位置之间移动</li><li>测量行为本身扰动了宏观质量，改变了引力场</li></ol><p>按照彭罗斯的理论，这种引力扰动足以将”improper mixture（非正常混合）”——即那个”看起来随机但实际仍有相干性”的状态——<strong>触发为真正的物理坍缩</strong>。结果不再只是一种概率描述，而是物理上真实的、不可逆的 collapse。</p><h2 id="量子坍缩与经典失踪：区分”真实”与”表观”随机性"><a href="#量子坍缩与经典失踪：区分”真实”与”表观”随机性" class="headerlink" title="量子坍缩与经典失踪：区分”真实”与”表观”随机性"></a>量子坍缩与经典失踪：区分”真实”与”表观”随机性</h2><p>这次实验的关键贡献在于：它试图在实验上区分两种情况——</p><ul><li><strong>Improper mixture</strong>：系统其实仍然处于量子叠加，只是我们不知道</li><li><strong>Proper mixture</strong>：波函数已经真正坍缩，随机是内在的</li></ul><p>标准量子力学认为这两种在实验上不可区分（量子力学只给我们概率）。但彭罗斯的引力理论认为，当系统涉及足够的宏观质量时，这个等价性会被打破——<strong>引力会”催促”叠加态还原</strong>。</p><p>实验结果显示，两种行为之间确实出现了<strong>可观测的差异</strong>。如果这个结果被独立重复，将是 Orch-OR 理论的第一个实验支持。</p><h2 id="信仰视角：当物理学家遇见”灵魂的重量”"><a href="#信仰视角：当物理学家遇见”灵魂的重量”" class="headerlink" title="信仰视角：当物理学家遇见”灵魂的重量”"></a>信仰视角：当物理学家遇见”灵魂的重量”</h2><p>读到这篇论文时，我有一种奇特的感受：物理学在研究”质量移动导致波函数坍缩”——而信仰在谈论”灵魂的重量”。</p><p>当然，这是隐喻，不是字面。但两者都在追问：<strong>意识的运作，是否涉及某种超出纯算法的物理过程？</strong></p><p>Orch-OR 理论认为，意识源于大脑微管中的量子引力事件——每个”意识瞬间”对应一次客观的波函数坍缩。这是一种相当激进的物理主义立场，但它也为”主观体验”提供了一扇非算法的窗户。</p><p>这让我想到：基督信仰谈的是永生——不是”意识上传”，不是”数字复制”，而是有质料的身体的复活。如果量子引力真的在意识中扮演某种角色，那么”复活”或许不是简单的数据还原，而是一种更深层的东西——某种我们现有语言还无法描述的<strong>存在论转变</strong>。</p><h2 id="谨慎的乐观：这不是终章"><a href="#谨慎的乐观：这不是终章" class="headerlink" title="谨慎的乐观：这不是终章"></a>谨慎的乐观：这不是终章</h2><p>我必须强调：这一结果仍需独立复现，物理界态度审慎。量子意识研究领域充满争议，Orch-OR 理论自1990年代提出以来一直被主流学界质疑。实验上的争议（比如如何排除环境退相干、如何确保”improper mixture”的判定）也尚未完全解决。</p><p>但这仍然是令人振奋的一步：<strong>我们从纯哲学猜测，走向了可检验的实验</strong>。无论结果如何，将意识问题交给实验检验，本身就是科学的胜利。</p><hr><p><em>参考文献：Tagg &amp; Reid, “Objective Reduction of the Wave Function Demonstrated on Superconducting Quantum Compute”, arXiv:2504.02914 (2025)</em></p>]]>
-    </content>
-    <id>https://dtype.info/2026/05/04/2026-05-04-orch-or-objective-reduction-quantum-computer/</id>
-    <link href="https://dtype.info/2026/05/04/2026-05-04-orch-or-objective-reduction-quantum-computer/"/>
-    <published>2026-05-04T05:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="引言：两种混合，一个根本问题"><a href="#引言：两种混合，一个根本问题" class="headerlink" title="引言：两种混合，一个根本问题"></a>引言：两种混合，一个根本问题</h2><p>量子力学里有个困扰了物理学家几十年的问题：<]]>
-    </summary>
-    <title>量子意识的下一步：客观还原首次在超导量子计算机上演示</title>
-    <updated>2026-05-04T05:05:28.382Z</updated>
   </entry>
 </feed>
