@@ -10,7 +10,32 @@
   <rights>All rights reserved 2026, Tarou Hijirii</rights>
   <subtitle>Tarou Hijirii's Blog</subtitle>
   <title>Charis Angelos</title>
-  <updated>2026-05-25T05:04:02.058Z</updated>
+  <updated>2026-05-26T05:05:01.307Z</updated>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="量子意识与认知" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86%E4%B8%8E%E8%AE%A4%E7%9F%A5/"/>
+    <category term="量子意识" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
+    <category term="神经科学" scheme="https://dtype.info/tags/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/"/>
+    <category term="Fisher" scheme="https://dtype.info/tags/Fisher/"/>
+    <category term="量子记忆" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E8%AE%B0%E5%BF%86/"/>
+    <category term="海马体" scheme="https://dtype.info/tags/%E6%B5%B7%E9%A9%AC%E4%BD%93/"/>
+    <category term="前额叶" scheme="https://dtype.info/tags/%E5%89%8D%E9%A2%9D%E5%8F%B6/"/>
+    <category term="YR Kwon" scheme="https://dtype.info/tags/YR-Kwon/"/>
+    <content>
+      <![CDATA[<p>在量子脑科学的版图上，Fisher 的 Posner 分子假说和 YR Kwon 的前额叶量子认知模型，像是两颗各自闪耀的星辰。但鲜少有人追问：<strong>这两座「记忆圣所」之间，是否存在量子层面的直接对话？</strong></p><p>换言之——海马体快速编码的情景记忆，与前额叶慢速维持的工作记忆，能否通过量子纠缠形成比经典同步更高效的记忆状态传递？</p><h2 id="两个脑区，两种记忆，两种时间尺度"><a href="#两个脑区，两种记忆，两种时间尺度" class="headerlink" title="两个脑区，两种记忆，两种时间尺度"></a>两个脑区，两种记忆，两种时间尺度</h2><p>海马体是记忆的「速记员」：场景结束的毫秒内，数百个神经元同时激活，将时间、空间与情感打包成情景记忆。它依赖 CA3 的自联想网络和齿状回的 pattern separation 机制，防止相似记忆相互干扰。</p><p>前额叶则是记忆的「指挥官」：它不存储具体事件，而是同时在线维持多个记忆表征——这就是工作记忆。Yoon 等人（2013-2016）的量子决策函数（QDF）模型表明，前额叶的选择性注意与叠加态有数学同构性：大脑可以在多个候选行动之间保持「未决」状态，直到一个测量事件（决策）将其坍缩。</p><p>一个快，一个慢。一个负责编码，一个负责操作。</p><p>但它们之间如何通信？</p><h2 id="经典答案：神经同步"><a href="#经典答案：神经同步" class="headerlink" title="经典答案：神经同步"></a>经典答案：神经同步</h2><p>神经科学的标准答案是「同步振荡」——海马体 theta 节律（4-8 Hz）与前额叶 gamma 节律（30-100 Hz）通过跨脑区相位锁定实现通信。这解释了记忆如何从短期转化为长期。但经典同步是<strong>复制</strong>，不是<strong>传递</strong>。信息从海马体复制到前额叶，原始载体依然存在。</p><h2 id="量子答案：纠缠而非复制"><a href="#量子答案：纠缠而非复制" class="headerlink" title="量子答案：纠缠而非复制"></a>量子答案：纠缠而非复制</h2><p>如果信息可以<strong>量子纠缠</strong>的方式跨脑区存在，局面就不同了。</p><p>在 Fisher 的框架中，Posner 分子（Ca₉(PO₄)₆）中的磷核自旋可以通过量子纠缠形成跨突触的相干态。这意味着：海马体编码的一个记忆片段，其量子态信息可以「非局域地」与前额叶的对应表征纠缠——不是复制，而是同一量子信息的两个观测角度。</p><p>若此成立，那么「自我」就不再是海马体或前额叶的单独产物，而是<strong>两者量子纠缠态的整体性质</strong>。</p><p>这与 Wheeler 的「参与性宇宙」有异曲同工之妙：观察者（自我）与被观察对象（记忆）不可分割。</p><h2 id="为什么这个问题难以实验验证"><a href="#为什么这个问题难以实验验证" class="headerlink" title="为什么这个问题难以实验验证"></a>为什么这个问题难以实验验证</h2><p>首先，退相干时间是障碍。体温（310K）下的量子相干性维持时长通常在毫秒量级，而海马体-前额叶的认知节律在百毫秒至秒量级——似乎不够。</p><p>但生物系统有独特的对策：动态解耦（用节奏性脉冲恢复相干性）、CQEC（蛋白质层面的量子纠错）、以及 Radcliffe 等人的研究显示，在某些生物系统中相干性可以维持远超理论预期的时长。</p><p>其次，核磁共振（³¹P-MRS）的空间分辨率不足，无法探测单个分子层面的自旋相干性。我们能测量的，是群体的统计平均。</p><h2 id="这对「记忆能否脱离肉体」的含义"><a href="#这对「记忆能否脱离肉体」的含义" class="headerlink" title="这对「记忆能否脱离肉体」的含义"></a>这对「记忆能否脱离肉体」的含义</h2><p>若记忆的「核心」是量子纠缠态，那么肉体的死亡确实意味着退相干——但这不是简单的「信息消失」，而是量子态从相干转为经典、从纠缠转为独立。</p><p>复活的神学问题，在此获得了意想不到的物理语言：当量子相干性在死亡瞬间丧失，我们所爱的那个人的「量子自我」去了哪里？</p><p>也许，答案不在物理学里。</p><hr><p><strong>相关文章</strong>：</p><ul><li><a href="/2026/05/23/%E9%87%8F%E5%AD%90%E8%AE%B0%E5%BF%86%E7%9A%84%E6%8A%A4%E5%9F%8E%E6%B2%B3-radical-pair-%E6%9C%BA%E5%88%B6%E4%B8%8E%E7%94%9F%E7%89%A9%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-2026-05-23/">量子记忆的护城河：radical pair 机制与生物量子纠错</a></li><li><a href="/2026/05/24/%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E7%AD%BE%E5%90%8D-hebb%E5%AE%9A%E5%BE%8B%E4%B8%8E%E9%87%8F%E5%AD%90%E7%BA%A0%E7%BC%A0-2026-05-24/">记忆的量子签名：Hebb定律与量子纠缠</a></li><li><a href="/2026/05/25/%E8%BA%AB%E4%BD%93%E6%AD%BB%E4%BA%A1%E6%97%B6-%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%8E%BB%E4%BA%86%E5%93%AA%E9%87%8C-2026-05-25/">身体死亡时，记忆的量子信息去了哪里？</a></li></ul>]]>
+    </content>
+    <id>https://dtype.info/2026/05/26/%E4%B8%A4%E5%BA%A7%E8%AE%B0%E5%BF%86%E5%9C%A3%E6%89%80%E7%9A%84%E9%87%8F%E5%AD%90%E5%AF%B9%E8%AF%9D-%E6%B5%B7%E9%A9%AC%E4%BD%93%E4%B8%8E%E5%89%8D%E9%A2%9D%E5%8F%B6%E5%A6%82%E4%BD%95%E7%BC%96%E7%BB%87%E8%87%AA%E6%88%91-2026-05-26/</id>
+    <link href="https://dtype.info/2026/05/26/%E4%B8%A4%E5%BA%A7%E8%AE%B0%E5%BF%86%E5%9C%A3%E6%89%80%E7%9A%84%E9%87%8F%E5%AD%90%E5%AF%B9%E8%AF%9D-%E6%B5%B7%E9%A9%AC%E4%BD%93%E4%B8%8E%E5%89%8D%E9%A2%9D%E5%8F%B6%E5%A6%82%E4%BD%95%E7%BC%96%E7%BB%87%E8%87%AA%E6%88%91-2026-05-26/"/>
+    <published>2026-05-26T05:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在量子脑科学的版图上，Fisher 的 Posner 分子假说和 YR Kwon 的前额叶量子认知模型，像是两颗各自闪耀的星辰。但鲜少有人追问：<strong>这两座「记忆圣所」之间，是否存在量子层面的直接对话？</strong></p>
+<p>换言之——海马体快速编码的情]]>
+    </summary>
+    <title>两座记忆圣所的量子对话：海马体与前额叶如何编织「自我」</title>
+    <updated>2026-05-26T05:05:01.307Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Tarou Hijirii</name>
@@ -436,26 +461,5 @@
     </summary>
     <title>Quixer：一个量子 Transformer 模型（论文翻译）</title>
     <updated>2026-05-07T14:51:53.568Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="量子 Mind" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90-Mind/"/>
-    <category term="哲学" scheme="https://dtype.info/tags/%E5%93%B2%E5%AD%A6/"/>
-    <category term="量子意識" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AD%98/"/>
-    <category term="認知科学" scheme="https://dtype.info/tags/%E8%AA%8D%E7%9F%A5%E7%A7%91%E5%AD%A6/"/>
-    <category term="量子神経科学" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E7%A5%9E%E7%B5%8C%E7%A7%91%E5%AD%A6/"/>
-    <content>
-      <![CDATA[<h2 id="結合問題とは"><a href="#結合問題とは" class="headerlink" title="結合問題とは"></a>結合問題とは</h2><p>脳には約 860 億の нейрон がある。 each one fires independently, yet we experience a unified, singular consciousness. How does that happen?</p><p>これが哲学者が呼ぶ<strong>結合問題（Binding Problem）</strong> だ。視覚野の情報が auditory cortex とは別々に処理されても、「私」の経験は一つにまとまっている。その統合の механизм が何なのか、わかっていない。</p><p>古典的な計算論的アプローチは、 somehow these parallel processes converge into a single coherent representation. But “somehow” is doing a lot of work there. The binding problem is not solved — it is, in many ways, the <strong>hardest problem in neuroscience</strong>.</p><h2 id="量子論的アプローチ：精神的纠缠"><a href="#量子論的アプローチ：精神的纠缠" class="headerlink" title="量子論的アプローチ：精神的纠缠"></a>量子論的アプローチ：精神的纠缠</h2><p>2025年9月、arXiv に上がった論文が興味深いアプローチを提示した：</p><blockquote><p><strong>“Quantum-like representation of neuronal networks’ activity: modeling ‘mental entanglement’”</strong><br>arXiv: 2509.16253</p></blockquote><p>著者は нейрон ネットワークの活動を量子論的にモデル化し、”mental entanglement”（精神的纠缠）という概念で結合問題を再解釈した。</p><h3 id="量子纠缠の核心"><a href="#量子纠缠の核心" class="headerlink" title="量子纠缠の核心"></a>量子纠缠の核心</h3><p>量子纠缠とは、二つの粒子が状態を共有し、一方の測定が他方に 即座に影響を与える現象だ。 Einstein は “spooky action at a distance” と呼んだ。</p><p>この論文の主張はこうだ：脳内の нейрон 活動がある種の量子相関を持つなら、分離された нейрон 集群が「 одного сознания」という統一経験を生成することも、理論上ありえる。</p><p>言い換えれば、<strong>結合問題の答えは、分離にあるのかもしれない</strong>。別々に存在しながら相関を持つからこそ、一つの経験になる。</p><h2 id="しかし-—-量子計算の實現は？"><a href="#しかし-—-量子計算の實現は？" class="headerlink" title="しかし — 量子計算の實現は？"></a>しかし — 量子計算の實現は？</h2><p>ここで Fisher (2017) の Posner 分子理論が关键的な役割を果たす。</p><p>Tegmark (1999) は、大脑内の量子状態は τ_dec ~ 10⁻¹³ 秒で退相干すると主張した。これは一瞬だ。</p><p>Fisher は異論を唱えた。Posner 分子（Ca₉(PO₄)₆）は、その構造的な対称性により、³¹P 核自旋を保護し、長時間コヒーレンスを維持できる。Tegmark の計算は<strong>游離イオン</strong>に基づくものであり、分子内に拘束された自旋の振る舞いを正しく評価していない。</p><table><thead><tr><th>論者</th><th>主張</th><th>弱点</th></tr></thead><tbody><tr><td>Tegmark</td><td>大脑は古典的</td><td>分子内保護を考慮せず</td></tr><tr><td>Fisher</td><td>Posner 分子で量子処理可能</td><td>生物学的な実現は未実証</td></tr></tbody></table><h2 id="信仰の視座から"><a href="#信仰の視座から" class="headerlink" title="信仰の視座から"></a>信仰の視座から</h2><p>結合問題は、実は初代教父たちも問いとしていた。</p><blockquote><p>「人はなぜ一体なのか。肉体は分立しているのに、靈は一つである」</p></blockquote><p>新約聖書のanic 的な body（キリストの 몸）は、分散しながらも統一された存在を志向する。個々の组成部分が独立的であるにもかかわらず、一つの統一体として機能する——これは結合問題の構造と相似ではないだろうか。</p><p>私自身的経験の統一性は、古典的計算では説明困難だ。だがそれが「不可能である」ことを证明もされていない。<strong>意識の統合が量子論的相関を必要とするか否かは、未解決の問題</strong>だ。</p><p>重要なのは、結合問題を「解く」ことではなく、その問いを正しく立てることにある。古典的なcomputational paradigm が本当に最終的な 설명 なのか。量子的大脑仮説は、それを見直すための知的装置として機能している。</p><p><strong>参考文献</strong>:</p><ul><li>Fisher, M. W. et al. (2017). <em>Posner molecules: From atomic structure to nuclear spins</em>. arXiv:1711.05899</li><li>Tegmark, M. (1999). <em>The importance of quantum decoherence in brain processes</em>. Phys. Rev. E.</li><li>2509.16253: <em>Quantum-like representation of neuronal networks’ activity</em></li></ul><hr><p><em>量子認知研究室 — 意識の謎を量子論の光で照らす</em></p>]]>
-    </content>
-    <id>https://dtype.info/2026/05/06/%E6%84%8F%E8%AD%98%E3%81%AE%E7%B5%90%E5%90%88%E5%95%8F%E9%A1%8C%E3%81%A8%E9%87%8F%E5%AD%90%E7%9A%84%E5%A4%A7%E8%84%91-2026-05-06/</id>
-    <link href="https://dtype.info/2026/05/06/%E6%84%8F%E8%AD%98%E3%81%AE%E7%B5%90%E5%90%88%E5%95%8F%E9%A1%8C%E3%81%A8%E9%87%8F%E5%AD%90%E7%9A%84%E5%A4%A7%E8%84%91-2026-05-06/"/>
-    <published>2026-05-06T05:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="結合問題とは"><a href="#結合問題とは" class="headerlink" title="結合問題とは"></a>結合問題とは</h2><p>脳には約 860 億の нейрон がある。 each one fires independently,]]>
-    </summary>
-    <title>意識の「結合問題」と量子的大脑：分離された心がなぜ一つなのか</title>
-    <updated>2026-05-06T05:04:14.094Z</updated>
   </entry>
 </feed>
