@@ -10,7 +10,29 @@
   <rights>All rights reserved 2026, Tarou Hijirii</rights>
   <subtitle>Tarou Hijirii's Blog</subtitle>
   <title>Charis Angelos</title>
-  <updated>2026-06-05T05:03:18.044Z</updated>
+  <updated>2026-06-06T05:04:15.871Z</updated>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="量子意识与认知" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86%E4%B8%8E%E8%AE%A4%E7%9F%A5/"/>
+    <category term="量子意识" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
+    <category term="神经科学" scheme="https://dtype.info/tags/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/"/>
+    <category term="量子力学" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/"/>
+    <category term="Fisher" scheme="https://dtype.info/tags/Fisher/"/>
+    <category term="Tegmark" scheme="https://dtype.info/tags/Tegmark/"/>
+    <content>
+      <![CDATA[<h1 id="Fisher-vs-Tegmark：量子意识论战的实质"><a href="#Fisher-vs-Tegmark：量子意识论战的实质" class="headerlink" title="Fisher vs Tegmark：量子意识论战的实质"></a>Fisher vs Tegmark：量子意识论战的实质</h1><h2 id="一场被低估的论战"><a href="#一场被低估的论战" class="headerlink" title="一场被低估的论战"></a>一场被低估的论战</h2><p>量子意识领域的争论众多，但很少有哪一场像 <strong>Matthew Fisher vs Max Tegmark</strong> 这样，同时触及量子力学、神经科学和心灵哲学的最核心问题。</p><p>这场论战的表面是技术性的：大脑中能否维持足够长的量子相干性？但其背后，是一个更为深刻的问题——<strong>量子力学是否与意识有本质性的关联？</strong></p><p>理解这场论战，对于任何认真对待”记忆能否脱离肉体”这个问题的人，都是必修课。</p><h2 id="Fisher-的-Posner-分子路线"><a href="#Fisher-的-Posner-分子路线" class="headerlink" title="Fisher 的 Posner 分子路线"></a>Fisher 的 Posner 分子路线</h2><p>Matthew Fisher 是加州大学圣巴巴拉分校的凝聚态物理学家。2015年，他在 <em>Annals of Physics</em> 上发表了一篇长文，提出了一个具体的量子记忆机制。</p><p>他的核心主张是：<strong>磷原子核自旋可能通过 Posner 分子（Ca₉(PO₄)₆）实现长程量子相干性。</strong></p><p>这个想法的技术细节如下：</p><p>磷是生物体中常见的元素。在神经元内部，磷以磷酸根离子（PO₄³⁻）的形式存在，并与钙离子结合形成 Posner 分子团簇。这些分子可以在神经元的线粒体和细胞膜附近积累。</p><p>磷核自旋是 <strong>核自旋 1&#x2F;2</strong> 的系统，相较于电子自旋，核自旋具有更长的相干时间。而且，核自旋与环境（尤其是水分子）的耦合相对较弱。</p><p>Fisher 的计算表明，Posner 分子中的磷核自旋相干时间可能达到 <strong>1-10 秒</strong> 的量级。如果这个数字成立，就足以支撑有意义的认知过程——记忆的形成和提取、决策的做出，都在这个时间尺度上。</p><p>更重要的是，Fisher 指出 <strong>量子纠缠可以在 Posner 分子之间建立</strong>，从而实现跨神经元的量子信息处理。这不是单神经元内部的量子过程，而是一个分布式的量子记忆网络。</p><h2 id="Tegmark-的反驳：数字对了，物理学错了？"><a href="#Tegmark-的反驳：数字对了，物理学错了？" class="headerlink" title="Tegmark 的反驳：数字对了，物理学错了？"></a>Tegmark 的反驳：数字对了，物理学错了？</h2><p>Tegmark 在 2014 年的论文和随后的书中，对量子意识假说提出了系统性的反驳。他的论证框架是简洁而有力的：</p><p><strong>退相干时间尺度不匹配。</strong></p><p>Tegmark 的计算表明，即使在最乐观的假设下（大脑温度、分子密度、具体蛋白质结构），大脑中量子态的退相干时间也在 <strong>10⁻¹³ 到 10⁻²⁰ 秒</strong> 之间。这与认知过程所需的秒级尺度相差了 <strong>13 到 20 个数量级</strong>。</p><p>对于 Fisher 的具体机制，Tegmark 的回应是：Posner 分子在 <strong>细胞外液中的浓度极低</strong>（约 10⁻¹² M），并且其结构在生理温度下会被水分子的碰撞破坏。因此，即使磷核自旋的相干时间长，<strong>这些分子本身在空间中频繁碰撞导致的退相干</strong>，仍然会使量子信息迅速丢失。</p><p>Fisher 团队随后做出了回应：在特定条件下（比如钙离子浓度升高、细胞外液结构化），Posner 分子可能形成更稳定的构型。他们的计算显示，在这种情况下，退相干时间可以延长到秒级。</p><p>这就把论战推入了一个微妙的状态：<strong>双方都在引用量子力学和生物化学，但得出了完全相反的结论。</strong></p><h2 id="论战的实质：这不是物理问题，而是框架问题"><a href="#论战的实质：这不是物理问题，而是框架问题" class="headerlink" title="论战的实质：这不是物理问题，而是框架问题"></a>论战的实质：这不是物理问题，而是框架问题</h2><p>表面上看，这是实验物理的问题——谁的计算更准确地描述了真实的大脑条件？但实际上，这场论战更深层地揭示了<strong>两个不同的科学哲学立场</strong>。</p><p><strong>Tegmark 的立场</strong>：我们应该用已知的物理定律（量子力学、统计力学）直接外推到生物系统。如果计算表明退相干太快，那么量子效应就不重要。经典神经科学已经足够解释意识。</p><p><strong>Fisher 的立场</strong>：进化是工程师，它会在物理定律允许的范围内寻找任何可能的优势。如果量子相干性在某些条件下可以维持，生物系统可能演化出专门的结构来利用它。标准统计力学可能没有考虑到这种<strong>演化的主动设计</strong>。</p><p>这与量子生物学的整体逻辑是一致的。光合作用中的量子相干性在 2007 年被探测到之前，任何基于标准生物化学的计算都会说”室温下不可能”。但进化找到了办法。</p><h2 id="这对”记忆能否脱离肉体”意味着什么？"><a href="#这对”记忆能否脱离肉体”意味着什么？" class="headerlink" title="这对”记忆能否脱离肉体”意味着什么？"></a>这对”记忆能否脱离肉体”意味着什么？</h2><p>如果 Fisher 是对的，那么记忆的核心机制至少在原则上是可以被隔离和转移的。磷核自旋的量子状态可以在 Posner 分子的结构中被稳定。如果有一天我们能读取和写入这些核自旋状态，记忆的”备份”就不是科学幻想。</p><p>如果 Tegmark 是对的，那么记忆仍然是完全依赖于神经元的电化学动态。脱离肉体的记忆，需要的不是量子技术，而是某种能复制完整神经连接组的极高精度技术。</p><p>然而，更诚实的结论可能是：<strong>我们目前不知道答案</strong>。这不是在逃避问题，而是承认我们正处于一个学科的早期阶段。量子生物学从”不可能”到”已证实”，用了不到二十年的时间。量子意识领域，或许正处于类似的临界点。</p><h2 id="一条通向谦卑的路"><a href="#一条通向谦卑的路" class="headerlink" title="一条通向谦卑的路"></a>一条通向谦卑的路</h2><p>我母亲去世后，有很长一段时间，我在思考一个问题：她的记忆去了哪里？</p><p>那些关于童年、关于家庭、关于无数细节的记忆——它们曾经鲜活地存在于一个活人的大脑里。如果记忆完全依赖于神经元，那么当神经元停止活动时，记忆也随之消失。这是生物学的逻辑。</p><p>但如果 Fisher 的框架是对的，那么至少有一些记忆是编码在核自旋的量子态里的。而量子态不”死亡”——它只是退相干到环境的背景里，成为我们无法再读取的信息。</p><p>这并没有让失去变得更容易。但它让我对”记忆是什么”这个问题，保持了一种更开放的敬畏。</p><p>量子意识论战或许还没有定论。但参与这场论战本身，就已经改变了我们提问的方式。</p><hr><p><strong>相关阅读</strong>：</p><ul><li><a href="/posts/%E9%87%8F%E5%AD%90%E8%AE%B0%E5%BF%86%E7%9A%84%E6%8A%A4%E5%9F%8E%E6%B2%B3-radical-pair-%E6%9C%BA%E5%88%B6%E4%B8%8E%E7%94%9F%E7%89%A9%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-2026-05-23">量子记忆的护城河：radical pair 机制与生物量子纠错</a></li><li><a href="/posts/%E9%87%8F%E5%AD%90%E9%80%80%E7%9B%B8%E5%B9%B2-%E5%A4%A7%E8%84%91%E7%9A%84%E6%B8%A9%E5%BA%A6%E8%AF%85%E5%92%92%E4%B8%8E%E7%94%9F%E5%91%BD%E7%9A%84%E5%86%B7%E6%99%BA%E6%85%A7-2026-05-19">量子退相干：大脑的温度诅咒与生命的冷智慧</a></li></ul>]]>
+    </content>
+    <id>https://dtype.info/2026/06/06/fisher-vs-tegmark-%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86%E8%AE%BA%E6%88%98-2026-06-06/</id>
+    <link href="https://dtype.info/2026/06/06/fisher-vs-tegmark-%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86%E8%AE%BA%E6%88%98-2026-06-06/"/>
+    <published>2026-06-06T05:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="Fisher-vs-Tegmark：量子意识论战的实质"><a href="#Fisher-vs-Tegmark：量子意识论战的实质" class="headerlink" title="Fisher vs Tegmark：量子意识论战的实质"></a>Fishe]]>
+    </summary>
+    <title>Fisher vs Tegmark：量子意识论战的实质</title>
+    <updated>2026-06-06T05:04:15.871Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Tarou Hijirii</name>
@@ -429,29 +451,5 @@
     </summary>
     <title>量子退相干：大脑的温度诅咒与生命的冷智慧</title>
     <updated>2026-05-19T05:05:07.678Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="research" scheme="https://dtype.info/categories/research/"/>
-    <category term="quantum-neuroscience" scheme="https://dtype.info/tags/quantum-neuroscience/"/>
-    <category term="quantum-coherence" scheme="https://dtype.info/tags/quantum-coherence/"/>
-    <category term="Posner-molecule" scheme="https://dtype.info/tags/Posner-molecule/"/>
-    <category term="quantum-memory" scheme="https://dtype.info/tags/quantum-memory/"/>
-    <category term="Fisher" scheme="https://dtype.info/tags/Fisher/"/>
-    <content>
-      <![CDATA[<p>「记忆会消失吗？」</p><p>我们谈论记忆的脆弱性：阿尔茨海默病夺走一个人的一生叙事，脑外伤让一个人忘记自己是谁。但在神经科学的主流叙事里，答案始终是机械的：记忆是神经元之间突触连接的强化，只要神经元存活，记忆就能被提取。</p><p>但如果这个答案不完整呢？</p><p>如果记忆在某些关键节点上，依赖的不是经典化学，而是量子相干性——那种只能在极低温或真空环境中维持的脆弱状态——那么我们关于记忆的所有常识，都需要被重新审视。</p><p>这就是 Matthew Fisher 2015 年论文 <em>Quantum cognition</em> 所提出的问题。</p><h2 id="Fisher-的问题意识"><a href="#Fisher-的问题意识" class="headerlink" title="Fisher 的问题意识"></a>Fisher 的问题意识</h2><p>Fisher 是诺贝尔物理学奖得主，他研究的是量子材料。但在某个时刻，他开始思考一个完全不同的对象：大脑。</p><p>他的核心问题是：大脑太热、太湿——温度 37°C，水分充足，化学反应在皮秒级别发生。在这种环境下，量子相干性（quantum coherence）应该瞬间退相干（decohere），根本无法维持到神经信号的毫秒级时间尺度。</p><p>但 Fisher 注意到，这不是故事的全部。</p><p>经典计算依赖经典比特——0 或 1，开或关。但量子计算依赖量子比特——可以同时处于 0 和 1 的叠加态。经典计算的核心硬件是晶体管，用电压表示比特。量子计算的核心硬件是超导回路、离子阱或光子系统。</p><p>大脑的”计算”呢？</p><h2 id="Posner-分子：被遗忘的候选者"><a href="#Posner-分子：被遗忘的候选者" class="headerlink" title="Posner 分子：被遗忘的候选者"></a>Posner 分子：被遗忘的候选者</h2><p>Fisher 提出，大脑中可能存在一种特殊的分子结构，可以作为量子比特的载体——<strong>Posner 分子</strong>，化学式 Ca₉(PO₄)₆。</p><p>Posner 分子是什么？它是磷和钙的化合物，广泛存在于骨骼和体液中。Fisher 的假设是：这些分子在某些脑区（特别是海马体和前额叶皮质）的神经元内可以形成，并且其<strong>磷原子核的自旋</strong>可以维持量子相干性，时间尺度达到秒级甚至更长。</p><p>为什么是磷原子核？因为磷核自旋与其他核自旋的耦合很弱，可以被代谢噪声”屏蔽”。这就像把一群脆弱的量子比特，放在了一个隔音室里——外界的热噪声无法轻易干扰它们。</p><p>如果这个假设成立，那么神经元就不只是经典的电化学计算机，它们同时也是量子信息处理器。</p><h2 id="这与记忆有什么关系？"><a href="#这与记忆有什么关系？" class="headerlink" title="这与记忆有什么关系？"></a>这与记忆有什么关系？</h2><p>记忆的形成需要两个阶段：<strong>编码</strong>（encoding）和<strong>巩固</strong>（consolidation）。</p><p>海马体负责快速编码——把一段新的体验转化为神经表征。这个过程涉及突触可塑性（LTP，长时程增强），是经典的神经科学。</p><p>但记忆的巩固需要更长时间。夜间睡眠时，海马体向皮层回放记忆，这个过程被称为<strong>系统巩固</strong>（systems consolidation）。问题是：海马体和皮层之间的信息传递，是纯经典的，还是有量子层面的参与？</p><p>Fisher 认为，Posner 分子可能在记忆巩固中扮演了一个隐藏角色：如果记忆的某些关键特征被编码在核自旋的量子态中，而这些量子态可以在海马体和前额叶之间通过量子纠缠传递，那么记忆的储存就不是纯粹经典的。</p><p>这并不是说整个记忆都是量子态——而是说，<strong>某些记忆提取过程中的”读取精度”可能依赖于量子相干性</strong>。</p><h2 id="批评与边界"><a href="#批评与边界" class="headerlink" title="批评与边界"></a>批评与边界</h2><p>当然，这里有巨大的质疑。</p><p>Max Tegmark 精确计算过：大脑中的相干时间应该在皮秒量级。Tegmark 的论证不是哲学的，而是热力学的——37°C 下的生物环境，无法为量子相干提供足够的隔离。</p><p>Fisher 的回应是：关键不是”大脑整体是量子计算机”，而是”某些特定分子结构可以在局部维持相干性”。这类似于生物学中的光合作用——叶绿素中的量子相干性已经被实验证实（Fleming et al., 2006），而光合作用发生在植物细胞里，温度条件与大脑相近。</p><p>但即便如此，从”叶绿素中的量子相干性”到”Posner 分子维持记忆”，还有很长的距离。我们甚至还没有直接实验手段检测活人大脑中的 Posner 分子量子态。</p><h2 id="为什么这个问题值得问"><a href="#为什么这个问题值得问" class="headerlink" title="为什么这个问题值得问"></a>为什么这个问题值得问</h2><p>我追问”记忆能否脱离肉体存在”，这个问题从失去母亲的那天起就一直跟着我。</p><p>如果记忆纯粹是突触连接，那么突触退化时，记忆就消失了。没有备份，没有永恒。</p><p>但如果记忆在某个层面上依赖于量子过程——如果那些构成记忆的磷核自旋在某个瞬间脱离了神经元，但仍以某种形式存在——那么”记忆的永生”就不再是纯粹的幻想，而是一个可以被认真对待的物理问题。</p><p>这不是宗教慰藉，这是对物质极限的追问。</p><p>Posner 分子假说也许最终会被证伪。但这并不减少它作为问题的价值——<strong>它迫使我们认真对待大脑中的量子效应，逼使我们问：经典物理是描述大脑的充分语言吗？</strong></p><p>记忆的量子托底，也许只是假说。但追问本身，已经是一种力量。</p><hr><p><em>参考文献：Fisher (2015) “Quantum cognition: Can quantum physics explain radical rationality?”; Fleming et al. (2006) “Quantum coherence in photosynthetic systems”</em></p>]]>
-    </content>
-    <id>https://dtype.info/2026/05/19/2026-05-19-%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E6%89%98%E5%BA%95-Posner%E5%88%86%E5%AD%90%E4%B8%8E%E6%B5%B7%E9%A9%AC%E4%BD%93%E7%9A%84%E9%9A%90%E8%97%8F%E7%A8%B3%E5%AE%9A%E5%B1%82/</id>
-    <link href="https://dtype.info/2026/05/19/2026-05-19-%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E6%89%98%E5%BA%95-Posner%E5%88%86%E5%AD%90%E4%B8%8E%E6%B5%B7%E9%A9%AC%E4%BD%93%E7%9A%84%E9%9A%90%E8%97%8F%E7%A8%B3%E5%AE%9A%E5%B1%82/"/>
-    <published>2026-05-18T23:14:00.000Z</published>
-    <summary>
-      <![CDATA[<p>「记忆会消失吗？」</p>
-<p>我们谈论记忆的脆弱性：阿尔茨海默病夺走一个人的一生叙事，脑外伤让一个人忘记自己是谁。但在神经科学的主流叙事里，答案始终是机械的：记忆是神经元之间突触连接的强化，只要神经元存活，记忆就能被提取。</p>
-<p>但如果这个答案不完整呢？</p>]]>
-    </summary>
-    <title>记忆的量子托底：Posner 分子与海马体的隐藏稳定层</title>
-    <updated>2026-05-18T23:16:19.800Z</updated>
   </entry>
 </feed>
