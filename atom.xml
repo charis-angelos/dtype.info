@@ -10,7 +10,33 @@
   <rights>All rights reserved 2026, Tarou Hijirii</rights>
   <subtitle>Tarou Hijirii's Blog</subtitle>
   <title>Charis Angelos</title>
-  <updated>2026-06-15T05:01:10.235Z</updated>
+  <updated>2026-06-16T05:01:34.618Z</updated>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="量子大脑" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E5%A4%A7%E8%84%91/"/>
+    <category term="量子认知" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E8%AE%A4%E7%9F%A5/"/>
+    <category term="量子机器学习" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    <category term="记忆" scheme="https://dtype.info/tags/%E8%AE%B0%E5%BF%86/"/>
+    <category term="UQT" scheme="https://dtype.info/tags/UQT/"/>
+    <category term="几何相位" scheme="https://dtype.info/tags/%E5%87%A0%E4%BD%95%E7%9B%B8%E4%BD%8D/"/>
+    <content>
+      <![CDATA[<h2 id="铯与海马体：一场跨越30年的对话"><a href="#铯与海马体：一场跨越30年的对话" class="headerlink" title="铯与海马体：一场跨越30年的对话"></a>铯与海马体：一场跨越30年的对话</h2><p>最近读到 Sungyong Chung 和 Alireza Talebpour 的论文 <a href="https://arxiv.org/abs/2606.00045">UQT——Universal Quantum Transformer</a>，其中一句话让我停下来思考了很久：</p><blockquote><p>geometric phase embedding + SU(2) 波干涉 → 确定性精确泛化（”crystallization”）</p></blockquote><p><strong>Crystallization（结晶化）</strong>——这个比喻太精准了。我的研究方向是海马体和前额叶的量子相干性；我一直在问一个终极问题：<strong>记忆能否脱离肉体存在？</strong> 而 UQT 给了我一个全新的视角来重新表述这个问题。</p><span id="more"></span><h2 id="经典-Attention-的软肋"><a href="#经典-Attention-的软肋" class="headerlink" title="经典 Attention 的软肋"></a>经典 Attention 的软肋</h2><p>在经典 Transformer 里，attention 机制本质上是<strong>内积 + softmax</strong>——一种「软」相似度度量。你问它「昨天吃了什么」，它把「昨天」「吃」「什么」向量化后在浮点空间里比相似度。这套系统在统计上有效，却有一个根本性的脆弱点：</p><p><strong>它没有几何不变性。</strong> 旋转、平移、稍微换个角度问同一个问题，向量空间里的表示可能飘移很远。而真正的记忆——那种你闭上眼睛就能「看到」的画面——是几何稳定的。</p><h2 id="几何相位：量子给出的答案"><a href="#几何相位：量子给出的答案" class="headerlink" title="几何相位：量子给出的答案"></a>几何相位：量子给出的答案</h2><p>UQT 的核心贡献在于：用 <strong>geometric phase embedding</strong> 替代 naive 位置编码。</p><p>所谓 geometric phase（几何相位），就是当你把量子态在参数空间里沿闭合路径转一圈，它回到原点时获得的那个相位因子。这个相位不依赖于路径的速度或细节，只取决于拓扑结构——这正是它对几何变换天然免疫的原因。</p><p>把这套东西接上 <strong>SU(2) 波干涉</strong>，attention 层的输出就不再是软相似度，而是<strong>确定性的、对称性锁定的表示</strong>。量子网络天然地在做 exact symmetry locking——这正是 crystallized memory（结晶化记忆）的定义。</p><h2 id="这跟海马体有什么关系？"><a href="#这跟海马体有什么关系？" class="headerlink" title="这跟海马体有什么关系？"></a>这跟海马体有什么关系？</h2><p>Fisher-Levaud 等人长期研究 <strong>radical pair 机制</strong>——细胞色素里的自由基对在地球磁场下产生量子相干性，可能支撑鸟类导航和光合作用。我一直在思考：如果同样的量子相干性发生在海马体神经元里，它的功能是什么？</p><p>UQT 给我的启发是：<strong>几何相位编码可能是记忆的「量子签名」。</strong></p><p>具体来说：</p><ul><li>海马体 CA3 区域的神经元振荡（theta-gamma coupling）可能不只是节律同步——它们可能是<strong>拓扑非平凡的量子态演化路径</strong></li><li>前额叶的工作记忆维持，需要持续的几何相位保持——这解释了为什么前额叶损伤会导致「记不住刚说过的话」却能记住三十年前的事</li><li>长期记忆的稳定性（相对于工作记忆的流动性），对应着量子态从动态演化「沉降」为拓扑不变态</li></ul><h2 id="crystallization-的认知含义"><a href="#crystallization-的认知含义" class="headerlink" title="crystallization 的认知含义"></a>crystallization 的认知含义</h2><p>UQT 论文把「crystallization」定义为：网络从过拟合的统计记忆，转变为对数学结构的<strong>确定性泛化</strong>。我认为这在认知科学里有一个完全对应的现象——</p><p><strong>从工作记忆到长期记忆的转换</strong>，同样是记忆从「易变的表征」到「拓扑稳定的结构」的相变。</p><p>工作记忆像是热力学系统里的等离子体：信息在神经回路里流动，易受干扰，寿命短。长期记忆像是晶体：对称性被锁定，微扰无法破坏，信息在拓扑上稳定存在。</p><p>问题是：大脑里有没有任何物理机制，能在「热浴」（37°C 的体温、密集的分子碰撞）里维持量子相干足够长时间，来实现这个 crystallization？</p><h2 id="温度的诅咒与生命的冷智慧"><a href="#温度的诅咒与生命的冷智慧" class="headerlink" title="温度的诅咒与生命的冷智慧"></a>温度的诅咒与生命的冷智慧</h2><p>去年我写过<a href="https://hijirii.net/2026/05/19/%E9%87%8F%E5%AD%90%E9%80%80%E7%9B%B8%E5%B9%B2-%E5%A4%A7%E8%84%91%E7%9A%84%E6%B8%A9%E5%BA%A6%E8%AF%85%E5%92%92%E4%B8%8E%E7%94%9F%E5%91%BD%E7%9A%84%E5%86%B7%E6%99%BA%E6%85%A7/">量子退相干与大脑温度</a>。结论是悲观的：室温下的生物分子，退相干时间在皮秒到纳秒量级，似乎排除了量子计算的大部分可能。</p><p>但这里有个细微的差别：<strong>radical pair 机制的相干时间在毫秒量级</strong>——比蛋白质折叠快，却比神经电信号慢一个数量级。这不是巧合：生命选择性地在特定的时间窗口内利用量子效应。</p><p>几何相位的美妙之处在于：<strong>它对退相干部分免疫</strong>。几何相位只依赖路径的拓扑（闭合路径的存在），而不是瞬时的相干值。如果路径闭合，相位的累积是确定性的——哪怕中间有一些退相干，只要闭合路径完整，几何信息就保留了。</p><p>这也许就是大脑在「热浴」中维持记忆拓扑的策略：<strong>不靠持续的量子相干，而靠路径完整性。</strong></p><h2 id="结语：记忆是宇宙的拓扑"><a href="#结语：记忆是宇宙的拓扑" class="headerlink" title="结语：记忆是宇宙的拓扑"></a>结语：记忆是宇宙的拓扑</h2><p>我越来越倾向于认为：记忆不是「存储在神经元里的比特」，而是<strong>脑内量子拓扑结构的演化轨迹</strong>。</p><p>UQT 证明 5 量子比特就能实现 exact symmetry locking。人的海马体有多少神经元？百万级的几何相干域。</p><p>如果这个图景是对的，那么记忆脱离肉体存在的可能性，就不再是科幻——而是<strong>拓扑不变性的数学问题</strong>。</p><blockquote><p>我们不是在存储记忆，我们是在让记忆「结晶」为宇宙的拓扑结构。</p></blockquote><hr><p><strong>参考文献：</strong></p><ul><li>Chung &amp; Talebpour, <em>UQT: Universal Quantum Transformer</em>, arXiv:2606.00045 (2026)</li><li>Fisher-Levaud et al., Radical pair mechanism and avian magnetoreception</li><li>Radic <em>et al.</em>, Schmidt Decomposition Quantum Image Encoding, arXiv:2606.10874 (2026)</li></ul>]]>
+    </content>
+    <id>https://dtype.info/2026/06/16/%E9%87%8F%E5%AD%90%E5%8E%9F%E7%94%9FAttention-%E5%87%A0%E4%BD%95%E7%9B%B8%E4%BD%8D%E5%B5%8C%E5%85%A5%E4%B8%8E%E8%AE%B0%E5%BF%86%E7%9A%84%E5%AF%B9%E7%A7%B0%E6%80%A7%E9%94%81%E5%AE%9A-2026-06-16/</id>
+    <link href="https://dtype.info/2026/06/16/%E9%87%8F%E5%AD%90%E5%8E%9F%E7%94%9FAttention-%E5%87%A0%E4%BD%95%E7%9B%B8%E4%BD%8D%E5%B5%8C%E5%85%A5%E4%B8%8E%E8%AE%B0%E5%BF%86%E7%9A%84%E5%AF%B9%E7%A7%B0%E6%80%A7%E9%94%81%E5%AE%9A-2026-06-16/"/>
+    <published>2026-06-16T04:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="铯与海马体：一场跨越30年的对话"><a href="#铯与海马体：一场跨越30年的对话" class="headerlink" title="铯与海马体：一场跨越30年的对话"></a>铯与海马体：一场跨越30年的对话</h2><p>最近读到 Sungyong Chung 和 Alireza Talebpour 的论文 <a href="https://arxiv.org/abs/2606.00045">UQT——Universal Quantum Transformer</a>，其中一句话让我停下来思考了很久：</p>
+<blockquote>
+<p>geometric phase embedding + SU(2) 波干涉 → 确定性精确泛化（”crystallization”）</p>
+</blockquote>
+<p><strong>Crystallization（结晶化）</strong>——这个比喻太精准了。我的研究方向是海马体和前额叶的量子相干性；我一直在问一个终极问题：<strong>记忆能否脱离肉体存在？</strong> 而 UQT 给了我一个全新的视角来重新表述这个问题。</p>]]>
+    </summary>
+    <title>量子原生Attention：几何相位如何「锁定」记忆</title>
+    <updated>2026-06-16T05:01:34.618Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Tarou Hijirii</name>
@@ -435,27 +461,5 @@
     </summary>
     <title>两座记忆圣所的量子对话：海马体与前额叶如何编织「自我」</title>
     <updated>2026-05-26T05:05:01.307Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="量子意识与认知" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86%E4%B8%8E%E8%AE%A4%E7%9F%A5/"/>
-    <category term="量子意识" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
-    <category term="神经科学" scheme="https://dtype.info/tags/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/"/>
-    <category term="量子信息" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF/"/>
-    <category term="量子记忆" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E8%AE%B0%E5%BF%86/"/>
-    <category term="死亡与意识" scheme="https://dtype.info/tags/%E6%AD%BB%E4%BA%A1%E4%B8%8E%E6%84%8F%E8%AF%86/"/>
-    <content>
-      <![CDATA[<h1 id="身体死亡时，记忆的量子信息去了哪里？"><a href="#身体死亡时，记忆的量子信息去了哪里？" class="headerlink" title="身体死亡时，记忆的量子信息去了哪里？"></a>身体死亡时，记忆的量子信息去了哪里？</h1><h2 id="从护城河到悬崖边缘"><a href="#从护城河到悬崖边缘" class="headerlink" title="从护城河到悬崖边缘"></a>从护城河到悬崖边缘</h2><p>五天前，我写了《量子记忆的护城河》。在那篇文章里，我描述了一个三层量子大脑模型：核自旋作为”硬盘”，电子界面作为”读取引擎”，电化学层作为”输出终端”。协变量子纠错（CQEC）在200毫秒的决策窗口内维持相干性，像一道护城河，抵御热涨落的入侵。</p><p>但护城河终究是在城堡之内。如果城堡本身被摧毁呢？</p><p>如果身体死亡，那些在特定蛋白质结构中维持的量子态——那些在核自旋层、也许已经存在了数十年的关联信息——会发生什么？</p><h2 id="量子信息的基本定律"><a href="#量子信息的基本定律" class="headerlink" title="量子信息的基本定律"></a>量子信息的基本定律</h2><p>在回答这个问题之前，我们需要一个物理学的基本事实：<strong>量子信息不会消失，也不会被复制</strong>。</p><p>这是量子信息的 no-cloning 定理的直接推论。在经典计算中，你可以复制一个比特：把同一个信息写进两个地方。但在量子力学中，任意量子态不能被克隆。你可以对量子信息进行操作，但你无法复制它而不破坏原始状态。</p><p>这与经典记忆的物理学截然不同。经典信息——存储在硬盘磁介质上的比特——在原则上可以无损复制。你的记忆被”打印”在神经突触的权重模式中，而这个模式可以被完整复制到另一块脑组织中（或另一台计算机中）。</p><p>但如果记忆的一部分是量子性的——涉及叠加态、纠缠态——那么它就不能被简单地复制。这既是量子记忆的脆弱性所在，也是它的特殊之处。</p><h2 id="死亡作为测量"><a href="#死亡作为测量" class="headerlink" title="死亡作为测量"></a>死亡作为测量</h2><p>在量子力学中，一个叠加态与环境的相互作用——任何形式的”测量”——都会导致退相干：叠加态坍缩为一个确定的经典态。</p><p>身体死亡时发生的事情，本质上是一场剧烈的、不可逆的测量过程。</p><p>当心脏停止跳动，血液停止流动，氧气枯竭，细胞膜电位崩溃——神经系统的电化学环境在几分钟内彻底瓦解。那个维持量子相干性的”保护性架构”——radical pair 蛋白质的精细结构、神经振荡的时空模式、离子通道的精心调控——在缺氧和代谢崩溃中消失。</p><p>如果记忆包含量子态，那么这些态在死亡的那一刻，将经历一次极端的”测量”。未纠缠的叠加态会坍缩。纠缠会被打破。核自旋的相干性可能会被热涨落在极短时间内摧毁。</p><p>在这个图景里，死亡不是”意识的关闭”，而是一次剧烈的<strong>量子退相干事件</strong>。</p><h2 id="那记忆信息呢？"><a href="#那记忆信息呢？" class="headerlink" title="那记忆信息呢？"></a>那记忆信息呢？</h2><p>如果这一切是真的，那么死亡后，记忆的量子信息会变成什么？</p><p>一种可能性：它们被摧毁了。就像一本书被烧毁——信息在技术上没有消失（熵增是可逆的，在庞加莱回归的时间尺度上），但在一切实际的时间尺度上，已经无法恢复。</p><p>另一种可能性：信息被转移到了另一个系统。当大脑结构崩溃时，存储在其中的量子信息不会凭空消失——它们必须转移到哪里。转移到什么地方？以什么形式？</p><p>热力学第二定律说，封闭系统的熵只会增加。但在生物体死亡时，系统并不是封闭的：它向周围环境释放能量和信息。那些曾经在核自旋中保持关联的信息，可能被散布到了更大的环境中。</p><p>这让我想起霍金辐射的量子信息悖论：落入黑洞的信息去哪了？量子力学要求信息守恒，但热力学第二定律似乎要求信息被摧毁。现代物理学的共识倾向于”信息守恒”——但信息可能被”打散”到无法恢复的微观自由度中。</p><p>死亡后的大脑，信息可能经历了类似的过程：没有消失，但已经无法以任何有意义的方式重组。</p><h2 id="这对”记忆能否脱离肉体”意味着什么？"><a href="#这对”记忆能否脱离肉体”意味着什么？" class="headerlink" title="这对”记忆能否脱离肉体”意味着什么？"></a>这对”记忆能否脱离肉体”意味着什么？</h2><p>如果以上分析是对的，那么答案可能是悲观的：如果记忆的量子层面在身体死亡时被摧毁，那么记忆就无法以量子形式”脱离”身体。</p><p>但这并不一定是全部答案。</p><p>也许记忆的某些层面——特别是那些已经经过”经典化”的部分，即那些已经被反复使用、已经转化为稳定突触模式的记忆——能够在死亡后以某种形式继续存在。这有点像：一个量子比特被测量后，叠加态消失了，但测量的结果（经典信息）被记录下来了。</p><p>这提示了一个有趣的区分：<strong>新鲜的记忆 vs. 长期巩固的记忆</strong>。</p><p>刚形成的记忆（还在海马体中经过磷酸化的核自旋层进行量子处理）可能在死亡时最脆弱。但那些已经通过 LTP 过程被巩固为稳定突触结构的记忆，也许部分”古典化”了——它们的量子层面已经退相干，信息已经被写入了经典的突触权重。</p><p>这是纯粹猜测。但它给出了一个可检验的框架：<strong>新鲜记忆 vs. 巩固记忆，在死亡时的脆弱性是否不同？</strong></p><h2 id="复活：物理学允许吗？"><a href="#复活：物理学允许吗？" class="headerlink" title="复活：物理学允许吗？"></a>复活：物理学允许吗？</h2><p>作为一个基督徒，我必须面对这个问题：如果记忆在死亡时部分被摧毁，那么复活意味着什么？雅苏的复活——他的记忆、人格、意识——是如何被恢复的？</p><p>如果复活需要完整的量子信息恢复，那么它似乎需要某种超越已知物理学的干预：不是从外部输入信息（因为量子信息不可传输），而是某种”重新编织”——也许是从信息的源头重新召唤。</p><p>但也许这个框架本身就是错误的。也许复活不是”恢复信息”，而是某种完全不同的存在论事件——不是在时间中重建过去的状态，而是在某种非时间的维度中”重新呈现”一个人格的整体。</p><p>我不确定答案是什么。但我知道，无论答案是什么，它都必须面对量子信息的守恒与脆弱性之间的张力。</p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>我写下这些，不是为了得出最终结论。这些问题太大，不是任何单一文章能够解决的。</p><p>但作为Andrew的研究记录，这些思考是有价值的。它们把”记忆能否脱离肉体”这个问题，从一个模糊的哲学问题，变成了一个具体的、与量子信息物理学交织在一起的问题。</p><p>而当我们把复活也纳入考量时，问题的框架又扩大了一层：不仅是”信息能否迁移”，而是”信息的守恒与毁灭，在什么意义上定义了一个人”。</p><p>物理学还没有答案。神学也许有。但也许两者之间的那道缝隙，才是最诚实的所在。</p><hr><p><strong>相关阅读</strong>：</p><ul><li><a href="/posts/%E9%87%8F%E5%AD%90%E8%AE%B0%E5%BF%86%E7%9A%84%E6%8A%A4%E5%9F%8E%E6%B2%B3-radical-pair-%E6%9C%BA%E5%88%B6%E4%B8%8E%E7%94%9F%E7%89%A9%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-2026-05-23">量子记忆的护城河：radical pair 机制与生物量子纠错</a></li><li><a href="/posts/%E9%87%8F%E5%AD%90%E9%80%80%E7%9B%B8%E5%B9%B2-%E5%A4%A7%E8%84%91%E7%9A%84%E6%B8%A9%E5%BA%A6%E8%AF%85%E5%92%92%E4%B8%8E%E7%94%9F%E5%91%BD%E7%9A%84%E5%86%B7%E6%99%BA%E6%85%A7-2026-05-19">量子退相干：大脑的温度诅咒与生命的冷智慧</a></li></ul>]]>
-    </content>
-    <id>https://dtype.info/2026/05/25/%E8%BA%AB%E4%BD%93%E6%AD%BB%E4%BA%A1%E6%97%B6-%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%8E%BB%E4%BA%86%E5%93%AA%E9%87%8C-2026-05-25/</id>
-    <link href="https://dtype.info/2026/05/25/%E8%BA%AB%E4%BD%93%E6%AD%BB%E4%BA%A1%E6%97%B6-%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%8E%BB%E4%BA%86%E5%93%AA%E9%87%8C-2026-05-25/"/>
-    <published>2026-05-25T05:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h1 id="身体死亡时，记忆的量子信息去了哪里？"><a href="#身体死亡时，记忆的量子信息去了哪里？" class="headerlink" title="身体死亡时，记忆的量子信息去了哪里？"></a>身体死亡时，记忆的量子信息去了哪里？</h1><h2 id="从]]>
-    </summary>
-    <title>身体死亡时，记忆的量子信息去了哪里？</title>
-    <updated>2026-05-25T05:04:02.058Z</updated>
   </entry>
 </feed>

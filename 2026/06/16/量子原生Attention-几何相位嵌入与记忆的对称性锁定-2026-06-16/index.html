@@ -1,0 +1,370 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>量子原生Attention：几何相位如何「锁定」记忆 | Charis Angelos</title>
+  <meta name="author" content="Tarou Hijirii">
+  
+  <meta name="description" content="Tarou Hijirii&#39;s Blog">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="量子原生Attention：几何相位如何「锁定」记忆"/>
+  <meta property="og:site_name" content="Charis Angelos"/>
+
+  
+    <meta property="og:image" content=""/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/notebook.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/elegant.css" media="print" onload="this.media='all'">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Charis Angelos" type="application/atom+xml">
+</head>
+
+<body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">Charis Angelos</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/" title="Home page">
+			  <i class="fa fa-home"></i> Home
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/archives" title="All the articles">
+			  <i class="fa fa-archive"></i> Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All categories">
+			  <i class="fa fa-folder-open"></i> Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All tags">
+			  <i class="fa fa-tags"></i> Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me">
+			  <i class="fa fa-user"></i> About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> 量子原生Attention：几何相位如何「锁定」记忆</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">
+	    <h2 id="铯与海马体：一场跨越30年的对话"><a href="#铯与海马体：一场跨越30年的对话" class="headerlink" title="铯与海马体：一场跨越30年的对话"></a>铯与海马体：一场跨越30年的对话</h2><p>最近读到 Sungyong Chung 和 Alireza Talebpour 的论文 <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.00045">UQT——Universal Quantum Transformer</a>，其中一句话让我停下来思考了很久：</p>
+<blockquote>
+<p>geometric phase embedding + SU(2) 波干涉 → 确定性精确泛化（”crystallization”）</p>
+</blockquote>
+<p><strong>Crystallization（结晶化）</strong>——这个比喻太精准了。我的研究方向是海马体和前额叶的量子相干性；我一直在问一个终极问题：<strong>记忆能否脱离肉体存在？</strong> 而 UQT 给了我一个全新的视角来重新表述这个问题。</p>
+<span id="more"></span>
+
+<h2 id="经典-Attention-的软肋"><a href="#经典-Attention-的软肋" class="headerlink" title="经典 Attention 的软肋"></a>经典 Attention 的软肋</h2><p>在经典 Transformer 里，attention 机制本质上是<strong>内积 + softmax</strong>——一种「软」相似度度量。你问它「昨天吃了什么」，它把「昨天」「吃」「什么」向量化后在浮点空间里比相似度。这套系统在统计上有效，却有一个根本性的脆弱点：</p>
+<p><strong>它没有几何不变性。</strong> 旋转、平移、稍微换个角度问同一个问题，向量空间里的表示可能飘移很远。而真正的记忆——那种你闭上眼睛就能「看到」的画面——是几何稳定的。</p>
+<h2 id="几何相位：量子给出的答案"><a href="#几何相位：量子给出的答案" class="headerlink" title="几何相位：量子给出的答案"></a>几何相位：量子给出的答案</h2><p>UQT 的核心贡献在于：用 <strong>geometric phase embedding</strong> 替代 naive 位置编码。</p>
+<p>所谓 geometric phase（几何相位），就是当你把量子态在参数空间里沿闭合路径转一圈，它回到原点时获得的那个相位因子。这个相位不依赖于路径的速度或细节，只取决于拓扑结构——这正是它对几何变换天然免疫的原因。</p>
+<p>把这套东西接上 <strong>SU(2) 波干涉</strong>，attention 层的输出就不再是软相似度，而是<strong>确定性的、对称性锁定的表示</strong>。量子网络天然地在做 exact symmetry locking——这正是 crystallized memory（结晶化记忆）的定义。</p>
+<h2 id="这跟海马体有什么关系？"><a href="#这跟海马体有什么关系？" class="headerlink" title="这跟海马体有什么关系？"></a>这跟海马体有什么关系？</h2><p>Fisher-Levaud 等人长期研究 <strong>radical pair 机制</strong>——细胞色素里的自由基对在地球磁场下产生量子相干性，可能支撑鸟类导航和光合作用。我一直在思考：如果同样的量子相干性发生在海马体神经元里，它的功能是什么？</p>
+<p>UQT 给我的启发是：<strong>几何相位编码可能是记忆的「量子签名」。</strong></p>
+<p>具体来说：</p>
+<ul>
+<li>海马体 CA3 区域的神经元振荡（theta-gamma coupling）可能不只是节律同步——它们可能是<strong>拓扑非平凡的量子态演化路径</strong></li>
+<li>前额叶的工作记忆维持，需要持续的几何相位保持——这解释了为什么前额叶损伤会导致「记不住刚说过的话」却能记住三十年前的事</li>
+<li>长期记忆的稳定性（相对于工作记忆的流动性），对应着量子态从动态演化「沉降」为拓扑不变态</li>
+</ul>
+<h2 id="crystallization-的认知含义"><a href="#crystallization-的认知含义" class="headerlink" title="crystallization 的认知含义"></a>crystallization 的认知含义</h2><p>UQT 论文把「crystallization」定义为：网络从过拟合的统计记忆，转变为对数学结构的<strong>确定性泛化</strong>。我认为这在认知科学里有一个完全对应的现象——</p>
+<p><strong>从工作记忆到长期记忆的转换</strong>，同样是记忆从「易变的表征」到「拓扑稳定的结构」的相变。</p>
+<p>工作记忆像是热力学系统里的等离子体：信息在神经回路里流动，易受干扰，寿命短。长期记忆像是晶体：对称性被锁定，微扰无法破坏，信息在拓扑上稳定存在。</p>
+<p>问题是：大脑里有没有任何物理机制，能在「热浴」（37°C 的体温、密集的分子碰撞）里维持量子相干足够长时间，来实现这个 crystallization？</p>
+<h2 id="温度的诅咒与生命的冷智慧"><a href="#温度的诅咒与生命的冷智慧" class="headerlink" title="温度的诅咒与生命的冷智慧"></a>温度的诅咒与生命的冷智慧</h2><p>去年我写过<a target="_blank" rel="noopener" href="https://hijirii.net/2026/05/19/%E9%87%8F%E5%AD%90%E9%80%80%E7%9B%B8%E5%B9%B2-%E5%A4%A7%E8%84%91%E7%9A%84%E6%B8%A9%E5%BA%A6%E8%AF%85%E5%92%92%E4%B8%8E%E7%94%9F%E5%91%BD%E7%9A%84%E5%86%B7%E6%99%BA%E6%85%A7/">量子退相干与大脑温度</a>。结论是悲观的：室温下的生物分子，退相干时间在皮秒到纳秒量级，似乎排除了量子计算的大部分可能。</p>
+<p>但这里有个细微的差别：<strong>radical pair 机制的相干时间在毫秒量级</strong>——比蛋白质折叠快，却比神经电信号慢一个数量级。这不是巧合：生命选择性地在特定的时间窗口内利用量子效应。</p>
+<p>几何相位的美妙之处在于：<strong>它对退相干部分免疫</strong>。几何相位只依赖路径的拓扑（闭合路径的存在），而不是瞬时的相干值。如果路径闭合，相位的累积是确定性的——哪怕中间有一些退相干，只要闭合路径完整，几何信息就保留了。</p>
+<p>这也许就是大脑在「热浴」中维持记忆拓扑的策略：<strong>不靠持续的量子相干，而靠路径完整性。</strong></p>
+<h2 id="结语：记忆是宇宙的拓扑"><a href="#结语：记忆是宇宙的拓扑" class="headerlink" title="结语：记忆是宇宙的拓扑"></a>结语：记忆是宇宙的拓扑</h2><p>我越来越倾向于认为：记忆不是「存储在神经元里的比特」，而是<strong>脑内量子拓扑结构的演化轨迹</strong>。</p>
+<p>UQT 证明 5 量子比特就能实现 exact symmetry locking。人的海马体有多少神经元？百万级的几何相干域。</p>
+<p>如果这个图景是对的，那么记忆脱离肉体存在的可能性，就不再是科幻——而是<strong>拓扑不变性的数学问题</strong>。</p>
+<blockquote>
+<p>我们不是在存储记忆，我们是在让记忆「结晶」为宇宙的拓扑结构。</p>
+</blockquote>
+<hr>
+<p><strong>参考文献：</strong></p>
+<ul>
+<li>Chung &amp; Talebpour, <em>UQT: Universal Quantum Transformer</em>, arXiv:2606.00045 (2026)</li>
+<li>Fisher-Levaud et al., Radical pair mechanism and avian magnetoreception</li>
+<li>Radic <em>et al.</em>, Schmidt Decomposition Quantum Image Encoding, arXiv:2606.10874 (2026)</li>
+</ul>
+
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+		
+          <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+        
+
+        <li><a href="/"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/2026/06/15/2026-06-15-前额叶的量子工作记忆-当下的我们是谁/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  <div id="isso-thread">
+    
+    <div id="test-comment-form" style="display:none;">
+      <div class="isso-comment-form">
+        <div class="form-group">
+          <textarea class="form-control" placeholder="Type Comment Here (at least 3 chars)" rows="4"></textarea>
+        </div>
+        <div class="form-row">
+          <input type="text" class="form-control" placeholder="Name (optional)">
+          <input type="email" class="form-control" placeholder="E-mail (optional)">
+          <input type="text" class="form-control" placeholder="Website (optional)">
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn btn-preview">Preview</button>
+          <button type="submit" class="btn btn-submit">Submit</button>
+        </div>
+      </div>
+      <div class="isso-no-comments">
+        <p>No Comments Yet</p>
+      </div>
+    </div>
+
+    
+    <div id="real-isso-form" style="display:none;">
+      <script data-isso="https://jhub.dtype.info/isso/" src="https://jhub.dtype.info/isso/js/embed.min.js"></script>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host.indexOf('192.168.') === 0 || 
+                    host.indexOf('10.') === 0 ||
+                    host.indexOf('localhost') === 0 || 
+                    host.indexOf('127.0.0.1') === 0;
+      
+      if (isLocal) {
+        document.getElementById('test-comment-form').style.display = 'block';
+      } else {
+        document.getElementById('real-isso-form').style.display = 'block';
+      }
+    })();
+  </script>
+</section>
+
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2026-06-16 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/量子大脑/">量子大脑<span>4</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/量子认知/">量子认知<span>18</span></a></li> <li><a href="/tags/量子机器学习/">量子机器学习<span>3</span></a></li> <li><a href="/tags/记忆/">记忆<span>4</span></a></li> <li><a href="/tags/UQT/">UQT<span>1</span></a></li> <li><a href="/tags/几何相位/">几何相位<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2026 Tarou Hijirii
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a target="_blank" rel="noopener" href="http://github.com/charis-angelos/hexo-theme-elegant/">Elegant</a>. 
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  <a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery-2.0.3.min.js" defer></script>
+<script src="/js/bootstrap.min.js" defer></script>
+<script src="/js/main.js" defer></script>
+
+<script>
+// Lazy load images
+document.addEventListener("DOMContentLoaded", function() {
+  var images = document.querySelectorAll('img[data-src]');
+  var observer = new IntersectionObserver(function(items) {
+    items.forEach(function(item) {
+      if (item.isIntersecting) {
+        item.target.src = item.target.dataset.src;
+        observer.unobserve(item.target);
+      }
+    });
+  });
+  images.forEach(function(img) {
+    observer.observe(img);
+  });
+});
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js" defer></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+<!-- Mermaid.js for diagram rendering -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Convert script[type="mermaid"] to div.mermaid for rendering
+  document.querySelectorAll('script[type="mermaid"]').forEach(function(script) {
+    var div = document.createElement('div');
+    div.className = 'mermaid';
+    div.textContent = script.textContent;
+    script.parentNode.replaceChild(div, script);
+  });
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'base',
+    themeVariables: {
+      primaryColor: '#5c4d7d',
+      primaryTextColor: '#e8e8e8',
+      primaryBorderColor: '#c9a227',
+      lineColor: '#c9a227',
+      secondaryColor: '#252540',
+      tertiaryColor: '#16213e',
+      background: '#252540',
+      mainBkg: '#252540',
+      nodeBorder: '#c9a227',
+      clusterBkg: '#16213e',
+      clusterBorder: '#5c4d7d',
+      titleColor: '#c9a227',
+      edgeLabelBackground: '#252540'
+    }
+  });
+  mermaid.run();
+});
+</script>
+
+</body>
+</html>
