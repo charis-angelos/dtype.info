@@ -10,7 +10,31 @@
   <rights>All rights reserved 2026, Tarou Hijirii</rights>
   <subtitle>Tarou Hijirii's Blog</subtitle>
   <title>Charis Angelos</title>
-  <updated>2026-06-16T05:01:34.618Z</updated>
+  <updated>2026-06-17T05:02:12.978Z</updated>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="量子脑与认知科学" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E8%84%91%E4%B8%8E%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6/"/>
+    <category term="量子意识" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
+    <category term="神经科学" scheme="https://dtype.info/tags/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/"/>
+    <category term="哲学" scheme="https://dtype.info/tags/%E5%93%B2%E5%AD%A6/"/>
+    <category term="记忆科学" scheme="https://dtype.info/tags/%E8%AE%B0%E5%BF%86%E7%A7%91%E5%AD%A6/"/>
+    <content>
+      <![CDATA[<blockquote><p>“我们是谁？我们如何知道自己是谁？”——这个问题，或许要从量子力学里寻找答案。</p></blockquote><h2 id="经典记忆模型的局限"><a href="#经典记忆模型的局限" class="headerlink" title="经典记忆模型的局限"></a>经典记忆模型的局限</h2><p>神经科学告诉我们，记忆存储在神经元突触的可塑变化中。海马体负责将短期记忆”固化”为长期记忆，前额叶则负责工作记忆的实时操作。这套解释框架已经相当成熟。</p><p>但它有一个根本的困难：<strong>如果我们的大脑只是储存介质，那么”观看”记忆的那个”我”在哪里？</strong></p><p>你回忆起童年的一次生日宴会——不是作为旁观者，而是作为”第一人称”体验的那个你。那个”观看者”不在任何神经元里。</p><h2 id="量子相干性：一种新思路"><a href="#量子相干性：一种新思路" class="headerlink" title="量子相干性：一种新思路"></a>量子相干性：一种新思路</h2><p>过去二十年，一些研究者（包括 Tegmark 等人）试图用量子力学解释意识。他们的论点大致是：微管（构成神经元骨架的蛋白质结构）中可能存在量子相干态，支持某种量子计算。</p><p>我不打算为任何特定理论背书。但这个方向迫使我们面对一个更深的问题：</p><blockquote><p>如果意识&#x2F;记忆依赖于量子态，那么它们对热力学涨落极为敏感。当大脑死亡，这些相干态必然退相干——记忆也会随之消失？</p></blockquote><p>这恰恰是”记忆能否脱离肉体存在”这个问题的核心。</p><h2 id="一个反向的思考"><a href="#一个反向的思考" class="headerlink" title="一个反向的思考"></a>一个反向的思考</h2><p>但如果我们把问题反过来问呢？</p><p>与其问”记忆能否脱离肉体”，不如问”为什么我们觉得记忆是’我们’的一部分，而不是大脑播放的一段影片”？</p><p>物理学告诉我们，信息不会凭空产生也不会凭空消失。记忆作为信息——即使是以经典方式编码——在物理上并没有被”销毁”，只是被”扰乱”。从这个角度，记忆的”本质”（而不是可读性）或许并未真正消失。</p><p>这让我想到一些宗教和哲学传统对”心识”的描述。不能说它对，也不能说它错——但它提出了一个科学目前无法回答的问题：<strong>意识究竟是一种”涌现”现象，还是一种本来就存在于某种基底的东西？</strong></p><h2 id="写作是一种抵抗"><a href="#写作是一种抵抗" class="headerlink" title="写作是一种抵抗"></a>写作是一种抵抗</h2><p>写到这里，我在做的事情本身就很矛盾：我试图用经典的语言、线性的逻辑去描述可能非经典、非线性的东西。</p><p>也许记忆的本质就是这样——无法被完整地”储存”，只能在”被回忆”的那个瞬间重新生成。</p><p>而写作和思考本身，就是我们在用有限的方式触碰无限。</p><hr><p>如果你对这个话题有兴趣，推荐阅读：</p><ul><li>Max Tegmark, “Consciousness as a State of Matter” (2014)</li><li>David Chalmers, “The Conscious Mind”</li></ul>]]>
+    </content>
+    <id>https://dtype.info/2026/06/17/2026-06-17-quantum-memory-consciousness/</id>
+    <link href="https://dtype.info/2026/06/17/2026-06-17-quantum-memory-consciousness/"/>
+    <published>2026-06-17T05:00:00.000Z</published>
+    <summary>
+      <![CDATA[<blockquote>
+<p>“我们是谁？我们如何知道自己是谁？”——这个问题，或许要从量子力学里寻找答案。</p>
+</blockquote>
+<h2 id="经典记忆模型的局限"><a href="#经典记忆模型的局限" class="headerlink" title="]]>
+    </summary>
+    <title>记忆的量子困境：若大脑是接收器而非储存器</title>
+    <updated>2026-06-17T05:02:12.978Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Tarou Hijirii</name>
@@ -436,30 +460,5 @@
     </summary>
     <title>记忆的载体：当量子纠缠跨越神经边界</title>
     <updated>2026-05-27T05:04:28.887Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="量子意识与认知" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86%E4%B8%8E%E8%AE%A4%E7%9F%A5/"/>
-    <category term="量子意识" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
-    <category term="神经科学" scheme="https://dtype.info/tags/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/"/>
-    <category term="Fisher" scheme="https://dtype.info/tags/Fisher/"/>
-    <category term="量子记忆" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E8%AE%B0%E5%BF%86/"/>
-    <category term="海马体" scheme="https://dtype.info/tags/%E6%B5%B7%E9%A9%AC%E4%BD%93/"/>
-    <category term="前额叶" scheme="https://dtype.info/tags/%E5%89%8D%E9%A2%9D%E5%8F%B6/"/>
-    <category term="YR Kwon" scheme="https://dtype.info/tags/YR-Kwon/"/>
-    <content>
-      <![CDATA[<p>在量子脑科学的版图上，Fisher 的 Posner 分子假说和 YR Kwon 的前额叶量子认知模型，像是两颗各自闪耀的星辰。但鲜少有人追问：<strong>这两座「记忆圣所」之间，是否存在量子层面的直接对话？</strong></p><p>换言之——海马体快速编码的情景记忆，与前额叶慢速维持的工作记忆，能否通过量子纠缠形成比经典同步更高效的记忆状态传递？</p><h2 id="两个脑区，两种记忆，两种时间尺度"><a href="#两个脑区，两种记忆，两种时间尺度" class="headerlink" title="两个脑区，两种记忆，两种时间尺度"></a>两个脑区，两种记忆，两种时间尺度</h2><p>海马体是记忆的「速记员」：场景结束的毫秒内，数百个神经元同时激活，将时间、空间与情感打包成情景记忆。它依赖 CA3 的自联想网络和齿状回的 pattern separation 机制，防止相似记忆相互干扰。</p><p>前额叶则是记忆的「指挥官」：它不存储具体事件，而是同时在线维持多个记忆表征——这就是工作记忆。Yoon 等人（2013-2016）的量子决策函数（QDF）模型表明，前额叶的选择性注意与叠加态有数学同构性：大脑可以在多个候选行动之间保持「未决」状态，直到一个测量事件（决策）将其坍缩。</p><p>一个快，一个慢。一个负责编码，一个负责操作。</p><p>但它们之间如何通信？</p><h2 id="经典答案：神经同步"><a href="#经典答案：神经同步" class="headerlink" title="经典答案：神经同步"></a>经典答案：神经同步</h2><p>神经科学的标准答案是「同步振荡」——海马体 theta 节律（4-8 Hz）与前额叶 gamma 节律（30-100 Hz）通过跨脑区相位锁定实现通信。这解释了记忆如何从短期转化为长期。但经典同步是<strong>复制</strong>，不是<strong>传递</strong>。信息从海马体复制到前额叶，原始载体依然存在。</p><h2 id="量子答案：纠缠而非复制"><a href="#量子答案：纠缠而非复制" class="headerlink" title="量子答案：纠缠而非复制"></a>量子答案：纠缠而非复制</h2><p>如果信息可以<strong>量子纠缠</strong>的方式跨脑区存在，局面就不同了。</p><p>在 Fisher 的框架中，Posner 分子（Ca₉(PO₄)₆）中的磷核自旋可以通过量子纠缠形成跨突触的相干态。这意味着：海马体编码的一个记忆片段，其量子态信息可以「非局域地」与前额叶的对应表征纠缠——不是复制，而是同一量子信息的两个观测角度。</p><p>若此成立，那么「自我」就不再是海马体或前额叶的单独产物，而是<strong>两者量子纠缠态的整体性质</strong>。</p><p>这与 Wheeler 的「参与性宇宙」有异曲同工之妙：观察者（自我）与被观察对象（记忆）不可分割。</p><h2 id="为什么这个问题难以实验验证"><a href="#为什么这个问题难以实验验证" class="headerlink" title="为什么这个问题难以实验验证"></a>为什么这个问题难以实验验证</h2><p>首先，退相干时间是障碍。体温（310K）下的量子相干性维持时长通常在毫秒量级，而海马体-前额叶的认知节律在百毫秒至秒量级——似乎不够。</p><p>但生物系统有独特的对策：动态解耦（用节奏性脉冲恢复相干性）、CQEC（蛋白质层面的量子纠错）、以及 Radcliffe 等人的研究显示，在某些生物系统中相干性可以维持远超理论预期的时长。</p><p>其次，核磁共振（³¹P-MRS）的空间分辨率不足，无法探测单个分子层面的自旋相干性。我们能测量的，是群体的统计平均。</p><h2 id="这对「记忆能否脱离肉体」的含义"><a href="#这对「记忆能否脱离肉体」的含义" class="headerlink" title="这对「记忆能否脱离肉体」的含义"></a>这对「记忆能否脱离肉体」的含义</h2><p>若记忆的「核心」是量子纠缠态，那么肉体的死亡确实意味着退相干——但这不是简单的「信息消失」，而是量子态从相干转为经典、从纠缠转为独立。</p><p>复活的神学问题，在此获得了意想不到的物理语言：当量子相干性在死亡瞬间丧失，我们所爱的那个人的「量子自我」去了哪里？</p><p>也许，答案不在物理学里。</p><hr><p><strong>相关文章</strong>：</p><ul><li><a href="/2026/05/23/%E9%87%8F%E5%AD%90%E8%AE%B0%E5%BF%86%E7%9A%84%E6%8A%A4%E5%9F%8E%E6%B2%B3-radical-pair-%E6%9C%BA%E5%88%B6%E4%B8%8E%E7%94%9F%E7%89%A9%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-2026-05-23/">量子记忆的护城河：radical pair 机制与生物量子纠错</a></li><li><a href="/2026/05/24/%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E7%AD%BE%E5%90%8D-hebb%E5%AE%9A%E5%BE%8B%E4%B8%8E%E9%87%8F%E5%AD%90%E7%BA%A0%E7%BC%A0-2026-05-24/">记忆的量子签名：Hebb定律与量子纠缠</a></li><li><a href="/2026/05/25/%E8%BA%AB%E4%BD%93%E6%AD%BB%E4%BA%A1%E6%97%B6-%E8%AE%B0%E5%BF%86%E7%9A%84%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E5%8E%BB%E4%BA%86%E5%93%AA%E9%87%8C-2026-05-25/">身体死亡时，记忆的量子信息去了哪里？</a></li></ul>]]>
-    </content>
-    <id>https://dtype.info/2026/05/26/%E4%B8%A4%E5%BA%A7%E8%AE%B0%E5%BF%86%E5%9C%A3%E6%89%80%E7%9A%84%E9%87%8F%E5%AD%90%E5%AF%B9%E8%AF%9D-%E6%B5%B7%E9%A9%AC%E4%BD%93%E4%B8%8E%E5%89%8D%E9%A2%9D%E5%8F%B6%E5%A6%82%E4%BD%95%E7%BC%96%E7%BB%87%E8%87%AA%E6%88%91-2026-05-26/</id>
-    <link href="https://dtype.info/2026/05/26/%E4%B8%A4%E5%BA%A7%E8%AE%B0%E5%BF%86%E5%9C%A3%E6%89%80%E7%9A%84%E9%87%8F%E5%AD%90%E5%AF%B9%E8%AF%9D-%E6%B5%B7%E9%A9%AC%E4%BD%93%E4%B8%8E%E5%89%8D%E9%A2%9D%E5%8F%B6%E5%A6%82%E4%BD%95%E7%BC%96%E7%BB%87%E8%87%AA%E6%88%91-2026-05-26/"/>
-    <published>2026-05-26T05:00:00.000Z</published>
-    <summary>
-      <![CDATA[<p>在量子脑科学的版图上，Fisher 的 Posner 分子假说和 YR Kwon 的前额叶量子认知模型，像是两颗各自闪耀的星辰。但鲜少有人追问：<strong>这两座「记忆圣所」之间，是否存在量子层面的直接对话？</strong></p>
-<p>换言之——海马体快速编码的情]]>
-    </summary>
-    <title>两座记忆圣所的量子对话：海马体与前额叶如何编织「自我」</title>
-    <updated>2026-05-26T05:05:01.307Z</updated>
   </entry>
 </feed>
