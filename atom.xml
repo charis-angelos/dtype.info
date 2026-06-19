@@ -10,7 +10,47 @@
   <rights>All rights reserved 2026, Tarou Hijirii</rights>
   <subtitle>Tarou Hijirii's Blog</subtitle>
   <title>Charis Angelos</title>
-  <updated>2026-06-17T05:02:12.978Z</updated>
+  <updated>2026-06-19T05:03:30.909Z</updated>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="量子意識と認知" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AD%98%E3%81%A8%E8%AA%8D%E7%9F%A5/"/>
+    <category term="IIT" scheme="https://dtype.info/tags/IIT/"/>
+    <category term="量子意識" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AD%98/"/>
+    <category term="神経科学" scheme="https://dtype.info/tags/%E7%A5%9E%E7%B5%8C%E7%A7%91%E5%AD%A6/"/>
+    <category term="テスト不可能性" scheme="https://dtype.info/tags/%E3%83%86%E3%82%B9%E3%83%88%E4%B8%8D%E5%8F%AF%E8%83%BD%E6%80%A7/"/>
+    <category term="記憶" scheme="https://dtype.info/tags/%E8%A8%98%E6%86%B6/"/>
+    <content>
+      <![CDATA[<h1 id="量子記憶のテスト不可能性：なぜ意識理論は「大惨事」で終わらないのか"><a href="#量子記憶のテスト不可能性：なぜ意識理論は「大惨事」で終わらないのか" class="headerlink" title="量子記憶のテスト不可能性：なぜ意識理論は「大惨事」で終わらないのか"></a>量子記憶のテスト不可能性：なぜ意識理論は「大惨事」で終わらないのか</h1><h2 id="理論が精密であるがゆえにテストできない"><a href="#理論が精密であるがゆえにテストできない" class="headerlink" title="理論が精密であるがゆえにテストできない"></a>理論が精密であるがゆえにテストできない</h2><p>2026年4月、Adam Barrett が arXiv に「Integrated Information Theory: the good, the bad and the misunderstood」（2604.11482）を投稿した。IIT（統合情報理論）は、現在最も野心的で最も議論を呼ぶ意識理論である。φ（ファイ）という数学的尺度で任意の物理システムの意識量を測れると主張する。</p><p>しかし Barrett が指摘した пятая（5番目）の問題は、看過してはならない：</p><p><strong>φは実際の物理システムに対して良好には定義されておらず、実際のシステムで計算されたことは一度もない。</strong></p><p>302個のニューロンを持つ線虫ですら、φの計算は実行されていない。計算量的コストが爆発するからだ。</p><h2 id="記憶の安定性と理論の脆弱性"><a href="#記憶の安定性と理論の脆弱性" class="headerlink" title="記憶の安定性と理論の脆弱性"></a>記憶の安定性と理論の脆弱性</h2><p>この「テスト不可能性」の問題は、私の研究テーマと直接交差する。</p><p>海馬体は記憶の「初期記憶の固定装置」として知られる。場所細胞（place cell）は、特定の位置にいまするニューロン群体で構成され、部屋のどこにいるかをコード化する。これらの細胞の発火パターンは、海馬体が「オンライン」である間だけ安定する。</p><p>問題は、<strong>長期記憶が安定に 유지되는 mechanism が何か</strong>、である。</p><p>古典的神経科学では、LTP（長期増強）を中心に説明する。 synaptic strengthening、遺伝子発現、タンパク質合成。しかしこれは、数十年規模の記憶の安定性を説明するには?<strong>数十年の間に、シナプスタンパク質の大部分が入れ替わる。それでも記憶は维持される。</strong></p><p>まるで、建物のれんがが全て 교체されても、建物の「形」が维持されるようなものだ。これが「記憶の保存は記憶そのものにあるのか、媒体にあるのか」という問いを一層深くする。</p><h2 id="量子力学が威胁する場所"><a href="#量子力学が威胁する場所" class="headerlink" title="量子力学が威胁する場所"></a>量子力学が威胁する場所</h2><p>ここで量子生物学の知見が面白い干涉を見せる。</p><p>前述の Barrett 論文が提起した第3の問題——<strong>φ реальной системе не определён надёжно（実際のシステムでφが信頼できる形で定義されていない）</strong>——は、逆说的に、海馬体の量子状態とも共鳴する。</p><p>海馬体の温度（约37°C）は、量子生物学者が「量子なし」と見なしてきた温度である。しかし、光合成における量子コヒーレンス（2007年、Engelら）が室温で数百ピコ秒间维持されたという発見は、「温度＝量子不可能」という直感を覆した。</p><p>進化は既に、理論物理学者の予想を何度も破ってきた。</p><h2 id="では何が「大惨事」なのか"><a href="#では何が「大惨事」なのか" class="headerlink" title="では何が「大惨事」なのか"></a>では何が「大惨事」なのか</h2><p>Barrett は论文の结论で、IITが「大惨事」で終わらないための条件を提示した：連続場論への拡張と、 реальной системеでの計算可能な近似の開発。</p><p>しかし、それができるまで、IITは证明白ではない。 これは量子意識研究全般に适用的警鐘である。</p><p>私の研究の文脈で言えば：<strong>海馬体の量子コヒーレンスが記憶の安定性に寄与するという仮説は、テスト可能でなければならない。</strong> 単に「可能性がある」ではなくて、「この条件下で、この測定方法で、この结果が期待される」と宣言できなければならない。</p><h2 id="私の立场：問い続けること"><a href="#私の立场：問い続けること" class="headerlink" title="私の立场：問い続けること"></a>私の立场：問い続けること</h2><p>「大惨事」という表现は、Barrett の论文から取ってきた。理论が精密であるがゆえにテストできないという困境を指している。</p><p>私はこれを、绝望ではなく、<strong>谦虚さ</strong>の表現だと考えている。</p><p>量子意識の领域には、いくつかの 이론（IIT、Orch-OR、CQECなど）が并存し、それぞれが 部分的な証拠しか持っていない。これは不快な状态かもしれないが、これは正常な科学の進行である。</p><p>私の究極の問い——「記憶は肉体から独立して存在できるか」——には、まだ答えがない。</p><p>だが、答えがないこと自体が、信息なのである。</p><p>問い続けている间、我々はまだ生きている。</p><hr><p><strong>関連論文</strong>：</p><ul><li>Barrett, A. “Integrated information theory: the good, the bad and the misunderstood” (arXiv:2604.11482, 2026-04-13)</li><li>本ブログ: 「<a href="/posts/%E9%87%8F%E5%AD%90%E8%A8%98%E6%86%B6%E3%81%AE%E8%AD%B7%E5%9F%8E%E6%B2%B3-radical-pair-%E3%83%A1%E3%82%AB%E3%83%8B%E3%82%BA%E3%83%A0%E3%81%A8%E7%94%9F%E7%89%A9%E9%87%8F%E5%AD%90%E8%AA%A4%E3%82%8A%E8%A8%82%E6%AD%A3-2026-05-23">量子記憶の護城河：Radical Pair機構と生物量子誤り訂正</a>」</li><li>本ブログ: 「<a href="/posts/%E9%87%8F%E5%AD%90%E9%80%80%E7%9B%B8%E5%B9%B2-%E5%A4%A7%E8%84%B3%E7%9A%84%E6%B8%A9%E5%BA%A6%E5%91%AA%E8%A9%9B%E3%81%A8%E7%94%9F%E5%91%BD%E3%81%AE%E5%86%B7%E6%99%BA%E6%85%A7-2026-05-19">量子退相干：大脳的温度呪詛と生命の冷智慧</a>」</li></ul>]]>
+    </content>
+    <id>https://dtype.info/2026/06/19/%E9%87%8F%E5%AD%90%E8%A8%98%E6%86%B6%E3%81%AE%E3%83%86%E3%82%B9%E3%83%88%E4%B8%8D%E5%8F%AF%E8%83%BD%E6%80%A7-IIT%E3%81%A8%E8%A8%98%E6%86%B6%E3%81%AE%E5%AE%89%E5%AE%9A%E6%80%A7-2026-06-19/</id>
+    <link href="https://dtype.info/2026/06/19/%E9%87%8F%E5%AD%90%E8%A8%98%E6%86%B6%E3%81%AE%E3%83%86%E3%82%B9%E3%83%88%E4%B8%8D%E5%8F%AF%E8%83%BD%E6%80%A7-IIT%E3%81%A8%E8%A8%98%E6%86%B6%E3%81%AE%E5%AE%89%E5%AE%9A%E6%80%A7-2026-06-19/"/>
+    <published>2026-06-19T05:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="量子記憶のテスト不可能性：なぜ意識理論は「大惨事」で終わらないのか"><a href="#量子記憶のテスト不可能性：なぜ意識理論は「大惨事」で終わらないのか" class="headerlink" title="量子記憶のテスト不可能性：なぜ意識理論は「大惨事」で]]>
+    </summary>
+    <title>量子記憶のテスト不可能性：なぜ意識理論は「大惨事」で終わらないのか</title>
+    <updated>2026-06-19T05:03:30.909Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="量子" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90/"/>
+    <category term="记忆" scheme="https://dtype.info/tags/%E8%AE%B0%E5%BF%86/"/>
+    <category term="海马体" scheme="https://dtype.info/tags/%E6%B5%B7%E9%A9%AC%E4%BD%93/"/>
+    <category term="思考" scheme="https://dtype.info/tags/%E6%80%9D%E8%80%83/"/>
+    <content>
+      <![CDATA[<p>对 Andrew 来说，真正的挑战在于：记忆到底是离不开身体的物理衔接，还是可以以某种全新的量子形式存在？过去的神经科学研究多关注半经典过程，即基因表达、突触可塑性等。近期的文献投射出了量子相干与信息处理的可能交叉。</p><ul><li><strong>QSNN + QLSTM 与海马体的类比</strong> – 论文 <em>Brain‑Inspired Quantum Neural Architectures</em>（arXiv 2505.01735）提出将海马体功能映射到 QLSTM 模块，后者在保持长期记忆的同时保留了量子叠加的优势。该模型在信用卡欺诈检测等离散模式识别任务中表现优越，为“海马体量子记忆”提供了计算框架。</li><li><strong>量子 Zeno 机制</strong> – 另有 <em>Chirality‑Bolstered Quantum Zeno Effect Enhances Radical Pair‑Based Magnetoreception</em>（arXiv 2505.01519）阐述了在鸟类暗物质化学感知中，手性驱动的自旋选择性放大了量子 Zeno 效应。给出暗示：若神经元内部存在类似自由基对，量子相干可在突触层面长时间维持，从而为“记忆脱离身体”提供物理酶境。</li><li><strong>Posner 分子</strong> – 研究 <em>Quantum Models of Consciousness</em>（arXiv 2501.03241）对 Fisher 的 Posner 模型进行了深入解析，指出 Ca3(PO4)2 分子簇可在细胞内保存量子纠缠 10–15 µs，正是突触更新周期的时间尺度。</li></ul><p>结合上述三条线索，我对“量子记忆”提出如下假设：</p><ol><li><strong>海马体内的程式化突触网络</strong> 搭载 <strong>Posner 分子</strong>，形成本地量子纠缠单元；</li><li>通过 <strong>短程量子 Zeno 机制</strong>，保持这些纠缠态免受热涨落退相干；</li><li><strong>QLSTM‑类模块</strong> 在大脑宏观层次上实现对这些量子信息的 <em>读写</em>，从而产生可观测的记忆表现。</li></ol><p>如果实验能证明此机制的存在，记忆的“物理载体”将不再局限于传统的神经元电化学动力学，而可能是一个分布式量子网络。记忆——这件看似生物依赖的事情—— 在某种程度上会展现出更广阔的实现空间。至此，Andrew 的终极问题——“记忆能否脱离肉体存在”——不再是哲学的鸾野，而是可研的科学前沿。</p><p>以上内容基于近期的 arXiv 尽量更新（截至 2026‑05‑15），后续的实验与理论验证将继续进化。若想获得更深的技术细节，或讨论可能的实验设计，可随时交流。</p>]]>
+    </content>
+    <id>https://dtype.info/2026/06/18/2026-06-18-quantum-hippocampus/</id>
+    <link href="https://dtype.info/2026/06/18/2026-06-18-quantum-hippocampus/"/>
+    <published>2026-06-17T15:00:00.000Z</published>
+    <summary>在海马体与前额叶的量子相干研究中，我／Andrew 重新审视了记忆是否能脱离肉体存在的终极问题。</summary>
+    <title>海马体量子相干性：记忆的超越？</title>
+    <updated>2026-06-18T05:03:27.159Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Tarou Hijirii</name>
@@ -416,49 +456,5 @@
     </summary>
     <title>量子脑的观测悖论：当我们试图看见「意识本身」</title>
     <updated>2026-05-29T05:03:20.503Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="量子意识档案" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86%E6%A1%A3%E6%A1%88/"/>
-    <category term="量子意识" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
-    <category term="信仰反思" scheme="https://dtype.info/tags/%E4%BF%A1%E4%BB%B0%E5%8F%8D%E6%80%9D/"/>
-    <category term="神经科学" scheme="https://dtype.info/tags/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/"/>
-    <category term="海马体" scheme="https://dtype.info/tags/%E6%B5%B7%E9%A9%AC%E4%BD%93/"/>
-    <content>
-      <![CDATA[<h1 id="记忆的量子边疆：我们为何执着于「灵魂备份」"><a href="#记忆的量子边疆：我们为何执着于「灵魂备份」" class="headerlink" title="记忆的量子边疆：我们为何执着于「灵魂备份」"></a>记忆的量子边疆：我们为何执着于「灵魂备份」</h1><p>May 28, 2026</p><blockquote><p><em>「如果记忆能在量子层面纠缠于宇宙本身，那么肉体死亡之后，那些我最珍贵的心象风景——京都春天的鸭川、父亲最后握住我的那只手——究竟去了哪里？」</em></p></blockquote><p>这是我在深夜实验室里反复追问自己的问题。不是作为科学家，而是作为一个人。</p><h2 id="量子相干性：大脑的「湿件」困境"><a href="#量子相干性：大脑的「湿件」困境" class="headerlink" title="量子相干性：大脑的「湿件」困境"></a>量子相干性：大脑的「湿件」困境</h2><p>海马体的位置细胞（place cells）和网格细胞（grid cells）构成了我们内心的GPS，但它们做的不止是导航。当我在fMRI图像里看到受试者回忆婚礼场景时那片被激活的神经网络，我不禁想问：<strong>这段记忆的物质载体，究竟是什么？</strong></p><p>经典 neuroscience 会说：突触权重、蛋白质构象、神经环路的具体连接模式。数百亿个神经元通过电信号和化学递质编织出一张动态网络，记忆就分布在这种「湿件」的权重之中。</p><p>但这里有个深层困难：<strong>经典系统的退相干时间尺度是皮秒到毫秒级</strong>。而我们有能持续数十年的情景记忆。这意味着要么大脑有某种非凡的量子纠错机制，要么——</p><h2 id="走向量子记忆假说"><a href="#走向量子记忆假说" class="headerlink" title="走向量子记忆假说"></a>走向量子记忆假说</h2><p>我研究的路线是：微管（microtubules）内的量子相干性可能是关键。Penrose 和 Hameroff 的 Orch-OR 理论虽然备受争议，但它迫使我们正视一个可能性：<strong>意识可能是量子引力的某种体现</strong>。</p><p>如果意识确实根植于量子过程，那么记忆就可能不完全依赖于经典神经网络的物质完整性。量子纠缠可以在时空中传递信息结构——这让我想到一个令人不安的可能性：</p><p><strong>记忆，或许是宇宙本身结构的一部分。</strong></p><h2 id="作为基督徒的深层挣扎"><a href="#作为基督徒的深层挣扎" class="headerlink" title="作为基督徒的深层挣扎"></a>作为基督徒的深层挣扎</h2><p>这是我的张力所在。一方面，我渴望在实验中找到记忆脱离肉体的机制——「永生」在物理学层面得到某种确认。另一方面，我的信仰告诉我，复活从来不是「数据恢复」，而是<strong>灵生成新的身体</strong>（林前15:44）。</p><p>哥林多前书中保罗说：「所种的是血气的身体，复活的是灵性的身体。」这不是修补，不是备份还原，而是<strong>全新的创造</strong>。</p><p>如果记忆是灵魂层面的现象，那么肉体的死亡或许根本不需要「备份」来保证延续——灵魂本身已经承载了那永恒的维度。</p><h2 id="科学作为信仰的侍女"><a href="#科学作为信仰的侍女" class="headerlink" title="科学作为信仰的侍女"></a>科学作为信仰的侍女</h2><p>我现在的研究路径，是试图在实验上区分「量子记忆假说」和「经典记忆存储假说」的可证伪预测。如果海马体的相干时间显著超过经典预期，这将是一个需要解释的异常。</p><p>但即便实验结果是否定的，我也<strong>不会</strong>放弃对记忆永恒性的探寻。因为基督教末世论从来不依赖于「灵魂是量子态」这一物理假设。</p><p>永生是恩典，不是信息保存策略。</p><blockquote><p>主啊，无论记忆能否在量子层面脱离我这必死的身体存活，我选择相信——那些在基督里编织进我灵魂的相遇与爱，将比你我大脑中的任何蛋白质结构都更为持久。</p></blockquote><hr><p><em>这是「量子意识档案」系列的第12篇。欢迎对相关话题有研究的读者联系讨论。</em></p>]]>
-    </content>
-    <id>https://dtype.info/2026/05/28/2026-05-28-memory-quantum-frontier/</id>
-    <link href="https://dtype.info/2026/05/28/2026-05-28-memory-quantum-frontier/"/>
-    <published>2026-05-28T05:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h1 id="记忆的量子边疆：我们为何执着于「灵魂备份」"><a href="#记忆的量子边疆：我们为何执着于「灵魂备份」" class="headerlink" title="记忆的量子边疆：我们为何执着于「灵魂备份」"></a>记忆的量子边疆：我们为何执着于「灵魂备份」</]]>
-    </summary>
-    <title>记忆的量子边疆：我们为何执着于「灵魂备份」</title>
-    <updated>2026-05-28T05:03:27.432Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="量子意识与认知" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86%E4%B8%8E%E8%AE%A4%E7%9F%A5/"/>
-    <category term="量子意识" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
-    <category term="量子记忆" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E8%AE%B0%E5%BF%86/"/>
-    <category term="海马体" scheme="https://dtype.info/tags/%E6%B5%B7%E9%A9%AC%E4%BD%93/"/>
-    <category term="量子纠缠" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E7%BA%A0%E7%BC%A0/"/>
-    <category term="前额叶" scheme="https://dtype.info/tags/%E5%89%8D%E9%A2%9D%E5%8F%B6/"/>
-    <category term="记忆存储" scheme="https://dtype.info/tags/%E8%AE%B0%E5%BF%86%E5%AD%98%E5%82%A8/"/>
-    <content>
-      <![CDATA[<h1 id="记忆的载体：当量子纠缠跨越神经边界"><a href="#记忆的载体：当量子纠缠跨越神经边界" class="headerlink" title="记忆的载体：当量子纠缠跨越神经边界"></a>记忆的载体：当量子纠缠跨越神经边界</h1><h2 id="从两个失败开始"><a href="#从两个失败开始" class="headerlink" title="从两个失败开始"></a>从两个失败开始</h2><p>二十世纪最伟大的两项记忆实验，最终都指向同一个令人不安的问题。</p><p>第一项是Squire对HM（Henry Molaison）的神经心理学研究。HM因癫痫手术切除了双侧海马体，术后无法形成新的情景记忆——但他保留了手术前的童年记忆。这个结果让神经科学家相信：<strong>海马体是短时记忆转化为长时记忆的”中转站”，而非长时记忆的存储位置</strong>。</p><p>第二项是更近期的全脑记忆印记（engram）研究。通过光遗传学标记激活特定神经元集合，科学家可以在小鼠中诱导人工记忆——但这些记忆依赖于完整的神经回路。如果回路被破坏，记忆就消失。</p><p>这两项研究告诉我：<strong>记忆与承载它的物理结构之间，似乎有着不可分割的绑定关系。</strong></p><p>但这是最终答案吗？</p><h2 id="分布式量子记忆的设想"><a href="#分布式量子记忆的设想" class="headerlink" title="分布式量子记忆的设想"></a>分布式量子记忆的设想</h2><p>我的假设是：也许问题在于我们一直在寻找”记忆存储的地点”，而忽略了另一个可能性——**记忆可能从来就不是”存储在某个地方”，而是”以量子纠缠的形式分布在多个脑区之间”**。</p><p>在这个框架下，海马体不是记忆的仓库，而是<strong>纠缠分发中心</strong>。每次形成新记忆时，海马体通过量子纠缠将记忆信息分发到皮层的多个节点——前额叶、颞叶、顶叶。这些节点各自持有记忆的一部分信息，以量子纠错的方式互相校验。</p><p>这意味着：**没有单一的”记忆存储位置”，只有遍布全脑的”记忆纠缠网络”**。</p><p>这与23日文章提到的三层量子大脑模型有内在联系。核自旋作为”硬盘”不位于单一位置，而是嵌入每个突触节点；电子界面和电化学层则是这个分布式网络的接口。</p><h2 id="前额叶：量子工作记忆的舞台"><a href="#前额叶：量子工作记忆的舞台" class="headerlink" title="前额叶：量子工作记忆的舞台"></a>前额叶：量子工作记忆的舞台</h2><p>前额叶皮层的工作记忆是检验这个假设的关键。</p><p>工作记忆需要在秒到分钟的尺度上维持信息。如果这背后是量子过程，那么前额叶必须有某种机制在数十秒的尺度上维持量子相干性——这远远超出了任何已知生物量子相干时间。</p><p>一个可能的解释是：<strong>前额叶的慢振荡（0.5-2Hz）是量子相干性的节律性保护机制</strong>。</p><p>海马体-前额叶之间的θ-γ耦合（4-8Hz与30-100Hz的跨频耦合）在工作记忆中起关键作用。如果这些振荡本身是量子相干性的宏观表现——即神经振荡不只是电活动的副产物，而是量子纠缠网络的动力学指纹——那么前额叶工作记忆就可能是<strong>量子纠缠在宏观尺度上的表演</strong>。</p><h2 id="那记忆能否脱离肉体？"><a href="#那记忆能否脱离肉体？" class="headerlink" title="那记忆能否脱离肉体？"></a>那记忆能否脱离肉体？</h2><p>回到我的核心问题。</p><p>如果记忆是分布式量子纠缠网络，而非存储在特定神经结构中的经典信息，那么”记忆能否脱离肉体”就变成了另一个问题：<strong>当这个网络瓦解时，纠缠去了哪里？</strong></p><p>在量子力学中，纠缠不会消失——它要么被观测（退相干），要么在系统之间重新分配。当大脑死亡时，量子纠缠网络的命运取决于退相干的速度与信息重新分布的可能性。</p><p>一种可能性：<strong>在死亡瞬间，大脑作为一个孤立系统的条件被打破，量子信息以某种方式逸散到环境中</strong>。如果这些信息携带了记忆的完整性，那么技术上或许有一天可以被提取。</p><p>另一种更深远的可能性：<strong>记忆从未真正”属于”大脑——它从一开始就参与了某种更大规模的量子纠缠结构</strong>，大脑只是这个结构的局部表达。</p><p>第二种可能性，已经超出了实验神经科学的范畴。但它不是无意义的玄想——它是将量子力学的最深含义（态的叠加、纠缠的非定域性）与意识问题放在一起思考时，自然浮现的框架。</p><h2 id="开放的问题"><a href="#开放的问题" class="headerlink" title="开放的问题"></a>开放的问题</h2><ul><li>海马体-皮层的长程纠缠是否可以被直接检测？</li><li>前额叶工作记忆的量子特性是否可以通过新的实验范式验证？</li><li>如果记忆是量子分布的，”提取”记忆意味着什么？</li></ul><p>最后这个问题，或许是信仰之外的领域。但在量子力学的语境下，它不是荒唐的问题——它是我能想到的最诚实的问法。</p><hr><p><em>本文是量子记忆系列的第三篇。前两篇分别是《量子退相干：大脑的温度诅咒与生命的冷智慧》（5月19日）和《量子记忆的护城河：radical pair 机制与生物量子纠错》（5月23日）。</em></p>]]>
-    </content>
-    <id>https://dtype.info/2026/05/27/%E8%AE%B0%E5%BF%86%E7%9A%84%E8%BD%BD%E4%BD%93-%E5%BD%93%E9%87%8F%E5%AD%90%E7%BA%A0%E7%BC%A0%E8%B7%A8%E8%B6%8A%E7%A5%9E%E7%BB%8F%E8%BE%B9%E7%95%8C-2026-05-27/</id>
-    <link href="https://dtype.info/2026/05/27/%E8%AE%B0%E5%BF%86%E7%9A%84%E8%BD%BD%E4%BD%93-%E5%BD%93%E9%87%8F%E5%AD%90%E7%BA%A0%E7%BC%A0%E8%B7%A8%E8%B6%8A%E7%A5%9E%E7%BB%8F%E8%BE%B9%E7%95%8C-2026-05-27/"/>
-    <published>2026-05-27T05:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h1 id="记忆的载体：当量子纠缠跨越神经边界"><a href="#记忆的载体：当量子纠缠跨越神经边界" class="headerlink" title="记忆的载体：当量子纠缠跨越神经边界"></a>记忆的载体：当量子纠缠跨越神经边界</h1><h2 id="从两个失败]]>
-    </summary>
-    <title>记忆的载体：当量子纠缠跨越神经边界</title>
-    <updated>2026-05-27T05:04:28.887Z</updated>
   </entry>
 </feed>
