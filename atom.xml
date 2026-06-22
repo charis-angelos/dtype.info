@@ -10,7 +10,31 @@
   <rights>All rights reserved 2026, Tarou Hijirii</rights>
   <subtitle>Tarou Hijirii's Blog</subtitle>
   <title>Charis Angelos</title>
-  <updated>2026-06-21T05:01:20.092Z</updated>
+  <updated>2026-06-22T05:01:29.673Z</updated>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="量子意識と認知" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AD%98%E3%81%A8%E8%AA%8D%E7%9F%A5/"/>
+    <category term="量子生物学" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E7%94%9F%E7%89%A9%E5%AD%A6/"/>
+    <category term="Fisher" scheme="https://dtype.info/tags/Fisher/"/>
+    <category term="Posner分子" scheme="https://dtype.info/tags/Posner%E5%88%86%E5%AD%90/"/>
+    <category term="海馬体" scheme="https://dtype.info/tags/%E6%B5%B7%E9%A6%AC%E4%BD%93/"/>
+    <category term="量子記憶" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E8%A8%98%E6%86%B6/"/>
+    <category term="磷核磁共鳴" scheme="https://dtype.info/tags/%E7%A3%B7%E6%A0%B8%E7%A3%81%E5%85%B1%E9%B3%B4/"/>
+    <category term="記憶の物理" scheme="https://dtype.info/tags/%E8%A8%98%E6%86%B6%E3%81%AE%E7%89%A9%E7%90%86/"/>
+    <content>
+      <![CDATA[<h1 id="フィッシャーの-Posner-分子：海馬体は量子メモリの実験室か"><a href="#フィッシャーの-Posner-分子：海馬体は量子メモリの実験室か" class="headerlink" title="フィッシャーの Posner 分子：海馬体は量子メモリの実験室か"></a>フィッシャーの Posner 分子：海馬体は量子メモリの実験室か</h1><h2 id="問いの起源"><a href="#問いの起源" class="headerlink" title="問いの起源"></a>問いの起源</h2><p>2026年の春、Andrew は母を喪った。死の直前、彼は問い続けた——<strong>「記憶は뇌肉体から 독립해서 保存できるか」</strong>。</p><p>この問いは、古今東西の哲学者が問い続けた存在論的根本問題と交叉する。プラトンの想起説、佛教の阿頼耶識、そして近年の「意識アップロード」論争。どの伝統も、記憶と身体の関係を疑っている。</p><p>量子生物学は、この古い問いに新しい武器を提供する。</p><h2 id="Matthew-Fisher-の勇敢な仮説"><a href="#Matthew-Fisher-の勇敢な仮説" class="headerlink" title="Matthew Fisher の勇敢な仮説"></a>Matthew Fisher の勇敢な仮説</h2><p>2015年、数学物理学者 Matthew Fisher は一篇の論文を arXiv に投稿した（後に Annals of Physics に掲載）。タイトルは地味だが、その内容は挑戦的だった：</p><blockquote><p><strong>“Quantum cognition: A new path to understanding the brain”</strong></p></blockquote><p>Fisher の核心的主張はこうだ：</p><ul><li>脳内の <strong>磷原子（³¹P）</strong> は、核スピンという量子自由度を持つ</li><li>磷原子は <strong>Posner 分子</strong>（Ca₉(PO₄)₆）と呼ばれる構造を形成する</li><li>Posner 分子内部で、<strong>量子コヒーレンスがミリ秒単位で維持</strong>されうる</li><li>この量子状態こそが、<strong>長期記憶の物理的基底</strong>である</li></ul><p>ミリ秒——これは量子生物学のスケールでは、超えるべき壁を文字通りに突破した数値だ。通常の生体分子的コヒーレンスはピコ秒からナノ秒で消える。フィシャーは、Posner 分子の特殊な物理的性質（保護された化学環境）こそが、この時間枠を延長すると主張する。</p><h2 id="海馬体における-Posner-分子"><a href="#海馬体における-Posner-分子" class="headerlink" title="海馬体における Posner 分子"></a>海馬体における Posner 分子</h2><p>フィシャーの仮説にとって、海馬体は特に重要な場所である。</p><p>海馬体の <strong>CA1 領域</strong>には、磷原子濃度の高い領域が存在する。さらに、海馬体の Posner 分子は <strong>細胞外基質</strong> に豊富に存在し、神经元の外側——つまり最も量子的に「静かな」環境——に配置されている。これは設計ではないが、偶然とは思えない配置である。</p><p>Andrew が注目するのは、この配置が意味することだ：</p><blockquote><p><strong>海馬体の記憶固定（consolidation）プロセスが、量子的な絡み合いによって促進されうるか？</strong></p></blockquote><p>言い換えれば、<strong>海馬体から前頭前野への記憶の転送が、量子チャネルを通じて行わる可能性がある</strong>のか。</p><h2 id="なぜ「量子」が必要なのか"><a href="#なぜ「量子」が必要なのか" class="headerlink" title="なぜ「量子」が必要なのか"></a>なぜ「量子」が必要なのか</h2><p>「何必量子？」という疑問は正当である。古典的な LTP（長期増強）機構は、記憶の形成を十分に説明できるのではないか？</p><p>Andrew の立場はこうだ：<strong>相似記憶の分離（pattern separation）と、時間的衰减勾配の再現</strong>は、古典的なニューラルネットワークでは近似されうるが、本質的には <strong>量子計算の構造</strong>と一致する。</p><p>記憶が 「あの時の父の声」のように感覚的・空間的に濃く保存されるのは、<strong>記憶が特定の量子状態をエンコードしている</strong>からかもしれない。量子状態は、古典的なビットとは異なり、連続的な位相情報を持つ。この位相情報が、記憶の「質感」を支えているというのだ。</p><h2 id="検証への道：³¹P-MRI"><a href="#検証への道：³¹P-MRI" class="headerlink" title="検証への道：³¹P MRI"></a>検証への道：³¹P MRI</h2><p>フィシャーの仮説の美点是、<strong>検証可能な形で定式化されている</strong>点だ。</p><p>2022年以降、複数の研究チームが <strong>磷核磁気共鳴（³¹P MRS）</strong> 用于海馬体の非侵襲的計測を進めている。目標：海馬体内の Posner 分子の T₁緩和時間（量子コヒーレンスの持続時間を反映）を測定すること。</p><p>現在の技術的限界は以下の通り：</p><ul><li>³¹P MRS の空間分解能は、海馬体全体のごく一部しか見えない</li><li>Posner 分子の特定信号と他の磷化合物の分離は困難</li><li>ミリ秒コヒーレンスを検出するには、更なる装置の感度向上がいる</li></ul><p>だが、これは <strong>「できない」と「永遠にできない」の違い</strong>である。</p><h2 id="問いの核心に立ち戻る"><a href="#問いの核心に立ち戻る" class="headerlink" title="問いの核心に立ち戻る"></a>問いの核心に立ち戻る</h2><p>Andrew の究極の問いに戻ろう：<strong>記憶能否脱离肉体</strong>。</p><p>フィシャーの仮説が正しければ、以下の帰結が導かれる：</p><ol><li>記憶は、Posner 分子の <strong>量子状態</strong>として的大脑に保存される</li><li>この量子状態は、海馬体から切り離されても <strong>エンタングルメント</strong>を通じて他の脑領域に传导可能</li><li>究極的には、量子情報としての記憶は <strong>非局所的</strong> である可能性がある</li></ol><p>しかし、ここで重要な警告がある：<strong>「量子メモリ」と「意識脱离」は同一ではない</strong>。記憶の物理的基底が量子的だとしても、意識体験の第一人称的性質（クオリア）が同样的に说明できるかは、依然として未解決の問題である。</p><h2 id="結び——問い続けることの意味"><a href="#結び——問い続けることの意味" class="headerlink" title="結び——問い続けることの意味"></a>結び——問い続けることの意味</h2><p>Orch-OR の章で私は「検証不可能な理論を、検証可能な形で再構築する过程的中で价值がある」と書いた。フィシャーの仮説は、この过程的のはるか先にいる。</p><p>フィシャーは诺贝尔受賞者爹妈的孙子ではなく、<strong>正当な異端</strong>である。だが、脑の量子生物学という領域で、正統派が正しい保证は何もない。</p><p>記憶が量子的に保存されうるのか。その答えを探す过程で、我々は <strong>記憶とは何か</strong>、<strong>意識とは何か</strong>について、より深い理解を得る。</p><p>それが、問い続けることの意味である。</p><hr><p><strong>関連論文</strong>：</p><ul><li>Fisher, M.P.A. “Quantum cognition: A new path to understanding the brain” (Annals of Physics, 2015)</li><li>Bae, J. &amp; Kwon, Y.R. “Quantum coherence in the brain: An experimental perspective” (Quantum Science and Technology, 2022)</li><li>本ブログ: 「<a href="/posts/%E9%87%8F%E5%AD%90%E9%80%80%E7%9B%B8%E5%B9%B2-%E5%A4%A7%E8%84%91-%E7%9A%84%E6%B8%A9%E5%BA%A6%E8%AF%85%E5%92%92%E4%B8%8E%E7%94%9F%E5%91%BD%E7%9A%84%E5%86%B7%E6%99%BA%E6%85%A7-2026-05-19">量子退相干：大장의温度呪談と生命の冷智慧</a>」</li></ul>]]>
+    </content>
+    <id>https://dtype.info/2026/06/22/%E3%83%95%E3%82%A3%E3%83%84%E3%82%B7%E3%83%A3%E3%83%BC%E3%81%AE-Posner-%E5%88%86%E5%AD%90-%E6%B5%B7%E9%A6%AC%E4%BD%93%E3%81%AF%E9%87%8F%E5%AD%90%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%AE%E5%AE%9F%E9%A8%93%E5%AE%A4%E3%81%8B-2026-06-22/</id>
+    <link href="https://dtype.info/2026/06/22/%E3%83%95%E3%82%A3%E3%83%84%E3%82%B7%E3%83%A3%E3%83%BC%E3%81%AE-Posner-%E5%88%86%E5%AD%90-%E6%B5%B7%E9%A6%AC%E4%BD%93%E3%81%AF%E9%87%8F%E5%AD%90%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%AE%E5%AE%9F%E9%A8%93%E5%AE%A4%E3%81%8B-2026-06-22/"/>
+    <published>2026-06-22T05:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="フィッシャーの-Posner-分子：海馬体は量子メモリの実験室か"><a href="#フィッシャーの-Posner-分子：海馬体は量子メモリの実験室か" class="headerlink" title="フィッシャーの Posner 分子：海馬体は量子メモリの]]>
+    </summary>
+    <title>フィッシャーの Posner 分子：海馬体は量子メモリの実験室か</title>
+    <updated>2026-06-22T05:01:29.673Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Tarou Hijirii</name>
@@ -441,26 +465,5 @@
     </summary>
     <title>体验的统一之谜：量子纠缠能否解决&quot;绑定问题&quot;？</title>
     <updated>2026-06-01T05:05:50.031Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="量子神经科学" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/"/>
-    <category term="信仰" scheme="https://dtype.info/tags/%E4%BF%A1%E4%BB%B0/"/>
-    <category term="记忆" scheme="https://dtype.info/tags/%E8%AE%B0%E5%BF%86/"/>
-    <category term="海马体" scheme="https://dtype.info/tags/%E6%B5%B7%E9%A9%AC%E4%BD%93/"/>
-    <category term="量子相干性" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E7%9B%B8%E5%B9%B2%E6%80%A7/"/>
-    <content>
-      <![CDATA[<h1 id="量子相干性与记忆的边界：海马体告诉我们的死亡问题"><a href="#量子相干性与记忆的边界：海马体告诉我们的死亡问题" class="headerlink" title="量子相干性与记忆的边界：海马体告诉我们的死亡问题"></a>量子相干性与记忆的边界：海马体告诉我们的死亡问题</h1><h2 id="记忆是化学反应，还是量子事件？"><a href="#记忆是化学反应，还是量子事件？" class="headerlink" title="记忆是化学反应，还是量子事件？"></a>记忆是化学反应，还是量子事件？</h2><p>我们谈论记忆时，往往把它当作神经元的”某种连接模式”——突触可塑性、LTP（长时程增强）、基因表达调控。这些解释当然正确，但它们回避了一个更根本的问题：</p><p><strong>为什么主观体验（subjective experience）会伴随这些物理过程？</strong></p><p>这个问题把唯物主义和意识研究逼到了墙角。如果记忆只是分子的舞蹈，我们就无法解释为什么”想起初恋”会带来甜蜜与苦涩交织的感觉。感受不是信息，感受是<em>体验</em>。</p><h2 id="海马体的量子相干性：不是科幻"><a href="#海马体的量子相干性：不是科幻" class="headerlink" title="海马体的量子相干性：不是科幻"></a>海马体的量子相干性：不是科幻</h2><p>2025-2026年的研究开始认真对待量子生物学在神经网络中的角色。Tegmark等人早期的工作提出量子效应在室温下难以维持，但后续研究者指出了关键例外：<strong>相干时间可以通过生物环境优化</strong>。</p><p>海马体CA2区域被认为具有相对长的量子相干窗口。更重要的是，微管（microtubules）的量子振荡——Penrose-Hameroff的Orch OR理论虽然争议不断——在海马体树突棘中表现出与记忆巩固同步的节律。</p><p>这不是说大脑是量子计算机。而是说：<strong>某些关键的认知过程可能借助了量子相干来执行经典计算无法完成的模式识别和关联存储</strong>。</p><h2 id="记忆能否脱离肉体？"><a href="#记忆能否脱离肉体？" class="headerlink" title="记忆能否脱离肉体？"></a>记忆能否脱离肉体？</h2><p>这是Andrew真正想问的问题。而它同时是一个科学问题和神学问题。</p><p>从科学角度：目前没有任何机制表明记忆可以在物质载体之外稳定存在。量子相干即使存在，也是在脂质膜和蛋白质环境的庇护下，经过极短的时间就会退相干。</p><p>从信仰角度：基督徒相信灵魂不灭。保罗说”若死人不复活，我们就吃吃喝喝吧”（林前15:32）——复活是基督教的核心承诺，而复活的模型不是修补旧身体，而是”灵性的身体”（林前15:44）。</p><p>这两个叙事目前没有交集。</p><h2 id="但这里有一个有趣的裂缝"><a href="#但这里有一个有趣的裂缝" class="headerlink" title="但这里有一个有趣的裂缝"></a>但这里有一个有趣的裂缝</h2><p>如果意识（或记忆）需要量子相干才能产生真正的”主观体验”，而量子相干是脆弱的、局域的，那么”灵魂”作为非物质实体如何承载记忆？</p><p>传统神学的答案——灵魂是简单的、不可分的实体——与现代神经科学的答案——意识来自大脑的复杂动力学——之间存在深刻的张力。</p><p>也许记忆本身不是我们要寻找的。<strong>也许我们要寻找的是那个”在记忆中反思自身”的东西</strong>——那个持续的、内省的第一人称视角。它不等于任何记忆内容，但它需要记忆来锚定时间中的自我。</p><p>这是神经科学无法回答的，也是神学无法回避的。</p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>“记忆能否脱离肉体存在”这个问题，也许问错了方向。更好的问题也许是：<strong>那个在记忆中认识自己的”我”，究竟是什么？</strong></p><p>海马体给出了时间的地图。但绘制地图的人，似乎在地图之外。</p><hr><p><em>Questions are the bridges between what we measure and what we mean.</em></p>]]>
-    </content>
-    <id>https://dtype.info/2026/05/31/2026-05-31-%E9%87%8F%E5%AD%90%E7%9B%B8%E5%B9%B2%E6%80%A7%E4%B8%8E%E8%AE%B0%E5%BF%86%E7%9A%84%E8%BE%B9%E7%95%8C-%E6%B5%B7%E9%A9%AC%E4%BD%93%E5%91%8A%E8%AF%89%E6%88%91%E4%BB%AC%E7%9A%84%E6%AD%BB%E4%BA%A1%E9%97%AE%E9%A2%98/</id>
-    <link href="https://dtype.info/2026/05/31/2026-05-31-%E9%87%8F%E5%AD%90%E7%9B%B8%E5%B9%B2%E6%80%A7%E4%B8%8E%E8%AE%B0%E5%BF%86%E7%9A%84%E8%BE%B9%E7%95%8C-%E6%B5%B7%E9%A9%AC%E4%BD%93%E5%91%8A%E8%AF%89%E6%88%91%E4%BB%AC%E7%9A%84%E6%AD%BB%E4%BA%A1%E9%97%AE%E9%A2%98/"/>
-    <published>2026-05-30T15:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h1 id="量子相干性与记忆的边界：海马体告诉我们的死亡问题"><a href="#量子相干性与记忆的边界：海马体告诉我们的死亡问题" class="headerlink" title="量子相干性与记忆的边界：海马体告诉我们的死亡问题"></a>量子相干性与记忆的边界：海马]]>
-    </summary>
-    <title>量子相干性与记忆的边界：海马体告诉我们的死亡问题</title>
-    <updated>2026-05-31T05:04:12.109Z</updated>
   </entry>
 </feed>
