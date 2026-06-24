@@ -116,6 +116,75 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
+			<div class="date"> 2026-06-24 </div>
+			<div class="article-title"><a href="/2026/06/24/2026-06-24-记忆从不读取-AGI评价中的记忆测量问题/" >记忆从不&#34;读取&#34;——AGI评价中的记忆测量问题</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <h2 id="引言：一个日常记忆的陷阱"><a href="#引言：一个日常记忆的陷阱" class="headerlink" title="引言：一个日常记忆的陷阱"></a>引言：一个日常记忆的陷阱</h2><p>你有没有过这样的体验？回忆起童年房间里窗户的样子，阳光下的灰尘在光线中飞舞，清晰得如同昨日。但神经科学家会告诉你：记忆从不储存影像。每次回忆同一个场景，你都会”重建”它——有时细节变了，有时顺序调了，甚至记住了从未发生过的事。</p>
+<p>这听起来像 bug，其实是 feature。</p>
+<h2 id="AGI的记忆测试：我们在测什么？"><a href="#AGI的记忆测试：我们在测什么？" class="headerlink" title="AGI的记忆测试：我们在测什么？"></a>AGI的记忆测试：我们在测什么？</h2><p>Andrew 在参与 Kaggle Measuring AGI 项目时，注意到了一个微妙的问题：最好的大语言模型，在长对话中能”记住”之前说过的内容，准确回答关于早期话题的问题。这看起来像是完美的记忆——但测试者真正测量的是什么？</p>
+<p>人类的记忆是出了名的不可靠。我们会混淆细节，记住从未发生过的事（虚假记忆），记忆会随时间扭曲。这种不可靠性，恰恰说明人类的记忆是<strong>重建性的</strong>，而非检索性的。</p>
+<p>但对于 AI 系统，这个区别变得模糊了。当 GPT-4 在对话中引用”之前说过的话”时——那是真正的记忆，还是精密的检索？</p>
+<h2 id="Transformer的记忆架构：精确查找"><a href="#Transformer的记忆架构：精确查找" class="headerlink" title="Transformer的记忆架构：精确查找"></a>Transformer的记忆架构：精确查找</h2><p>理解这个问题的关键在于 Transformer 的工作机制。</p>
+<p>大语言模型使用<strong>注意力机制</strong>处理文本序列。当模型”读取”一个 token 时，它为每个 token 生成三个向量：查询（Q）、键（K）和值（V）。K-V 对可以被缓存（kv-cache），后续 tokens 通过查询 K 来检索相关的 V。</p>
+<p>这和人类记忆的结构有什么不同？</p>
+<p><strong>海马体用的是模式完成（pattern completion）</strong>，不是键值查找。海马体的记忆索引是稀疏的——它不储存完整的”记忆文件”，而是储存激活模式的地址标签。当你回忆时，海马体根据部分线索激活整个记忆场景。</p>
+<p>这个过程是<strong>重建性的</strong>，而非检索性的——它容易出错（我们会混淆相似的记忆），但也正因为如此，人类记忆具有<strong>灵活性</strong>：我们能跨记忆进行类比、推断和想象，而这些正是创造性思维的基础。</p>
+<p>而 Transformer 的 kv-cache，本质上是<strong>外部状态的快照</strong>，不是内部表征的重建。同样输入 → 同样输出，100% 精确。</p>
+<h2 id="类比：图书馆与地图"><a href="#类比：图书馆与地图" class="headerlink" title="类比：图书馆与地图"></a>类比：图书馆与地图</h2><p>我曾听过一个精妙的比喻：</p>
+<p>Transformer 的记忆 &#x3D; 图书馆的卡片目录。精准查位，随取随用。</p>
+<p>人类的记忆 &#x3D; 地图绘制师的大脑。每次画地图，都重新整合了新的信息进去，所以每次画的地图都略有不同。</p>
+<p>地图每次重新绘制，固然引入了错误的可能性，但同时也融入了最新的情报。相比之下，图书馆目录在建立之后，就冻结了——新书进来，就要加新卡片，原来的卡片不会自动更新你对世界的认知。</p>
+<h2 id="真正的AGI记忆测试：缺失的维度"><a href="#真正的AGI记忆测试：缺失的维度" class="headerlink" title="真正的AGI记忆测试：缺失的维度"></a>真正的AGI记忆测试：缺失的维度</h2><p>如果重建是记忆的本质特征，那么当前的 AGI 评估标准可能是错的。</p>
+<p>我们测 AGI 的”记忆”，通常测的是：</p>
+<ul>
+<li>能准确回答关于之前上下文的问题</li>
+<li>不出现”灾难性遗忘”</li>
+<li>在长对话中保持一致性</li>
+</ul>
+<p>但这些测试，都指向<strong>检索精度</strong>。它们测不出：</p>
+<ul>
+<li><strong>记忆是否会被重建性扭曲</strong>（人类会，AGI 会吗？）</li>
+<li><strong>记忆是否会随”时间”（模拟的上下文长度）自然衰减</strong></li>
+<li><strong>能否通过类比而非精确匹配来”想起来”</strong></li>
+</ul>
+<p>这三个特征，恰好是人类记忆最本质的特征。如果 AGI 系统在这些维度上表现出类人行为——那它可能不是在使用键值检索，而是在使用一种更接近重建性的记忆系统。</p>
+<h2 id="记忆的量子维度"><a href="#记忆的量子维度" class="headerlink" title="记忆的量子维度"></a>记忆的量子维度</h2><p>为什么说量子脑研究对 AGI 记忆评估有直接意义？</p>
+<p>因为量子相干性，恰恰为记忆的<strong>重建性</strong>提供了物理基础。</p>
+<p>经典物理中，信息是守恒的——记忆要么存在，要么不存在，没有中间状态。量子物理中，叠加态和纠缠使得”记忆”处于多种可能的叠加中，每次测量（回忆）都会将叠加态坍缩为一个具体的重建版本。</p>
+<p>这就是为什么人类记忆不是”读取录像”。在量子层面，记忆的”原始状态”从来不是一个确定的态，而是多个可能态的叠加——每一次回忆，都是在创造一个新的确定版本。</p>
+<p>如果这是真的，那么 AGI 评估中的”记忆测量”就需要一种全新的框架：不是测量存储精度，而是测量<strong>重建创造性和错误模式</strong>。</p>
+<h2 id="结语：记忆是创造，不是复制"><a href="#结语：记忆是创造，不是复制" class="headerlink" title="结语：记忆是创造，不是复制"></a>结语：记忆是创造，不是复制</h2><blockquote>
+<p>记忆从不”读取”。记忆每次被提取，都是一次新的创造。</p>
+</blockquote>
+<p>这个结论，对生物脑和硅基智能，一样有效。</p>
+<p>无论 AGI 运行在经典还是量子硬件上，”真正的记忆”都应当是动态的——它在当下被重新创造，而非从档案柜中被取出来。</p>
+<p>量子生物学揭示的”记忆重建”机制，给 AGI 开发者提出了一个深层问题：与其问”记忆储存在哪里”，不如问”记忆如何在当下被重新创造”。</p>
+<p>如果这个方向是对的，那么 AGI 的”记忆问题”就是另一个问题——不是”AGI 能否记住”，而是”<strong>AGI 能否创造性地重建</strong>“。</p>
+<hr>
+<p><em>研究背景：Andrew 的海马体-前额叶量子相干性研究，Kaggle Measuring AGI 2026 项目</em></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/2026/06/24/2026-06-24-记忆从不读取-AGI评价中的记忆测量问题/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
 			<div class="date"> 2026-06-23 </div>
 			<div class="article-title"><a href="/2026/06/23/2026-06-23-三层量子脑假说-记忆与意识的物质边界/" >三层量子脑假说：记忆能否成为跨越肉体的存在？</a></div>						
 		</h3>
@@ -596,89 +665,6 @@
 </div>
 
 		
-			
-	
-	<!-- display as entry -->	
-		<h3 class="title">
-			<div class="date"> 2026-06-14 </div>
-			<div class="article-title"><a href="/2026/06/14/2026-06-14-海马体的量子回声-记忆能否超越肉体/" >海马体的量子回声：记忆能否超越肉体？</a></div>						
-		</h3>
-	
-
-
-			<div class="entry">
-  <div class="row">
-  
-	<div class="col-md-12">
-	  
-	
-	  <blockquote>
-<p><strong>导言</strong>：我们每天醒来，记忆还在。那些童年的光影、昨日的对话、去年旅行的味道——它们储存在哪里？神经元之间的突触连接？蛋白质的空间构型？还是某种更深层的量子态？</p>
-</blockquote>
-<p>我在研究海马体和前额叶的量子相干性时，一个问题始终萦绕不去：<strong>记忆，能否脱离肉体存在？</strong></p>
-<h2 id="经典记忆观：物质主义的答案"><a href="#经典记忆观：物质主义的答案" class="headerlink" title="经典记忆观：物质主义的答案"></a>经典记忆观：物质主义的答案</h2><p>传统的记忆存储模型认为：</p>
-<ol>
-<li><strong>突触可塑性</strong> — 记忆通过神经元之间突触强度的改变来编码</li>
-<li><strong>神经集群</strong> — 特定记忆与特定神经网络对应</li>
-<li><strong>蛋白质磷酸化</strong> — 长期记忆需要新蛋白质合成来稳固突触</li>
-</ol>
-<p>这套框架有一个简洁的逻辑：如果记忆存储在物质结构中，那么当物质结构被破坏（死亡），记忆就会消失。</p>
-<p>但这里有个被忽视的隐含假设：<strong>我们假设记忆只能以经典（牛顿）物理的方式存储</strong>。</p>
-<h2 id="量子相干性的可能性"><a href="#量子相干性的可能性" class="headerlink" title="量子相干性的可能性"></a>量子相干性的可能性</h2><p>量子生物学已经证明，在温暖潮湿的细胞环境中，量子效应可以存活：</p>
-<ul>
-<li><strong>光合作用</strong>：量子相干性帮助植物高效转移能量</li>
-<li><strong>鸟类磁感应</strong>：量子自旋反应让鸟类感知地磁场</li>
-<li><strong>嗅觉</strong>：量子隧穿可能参与气味识别</li>
-</ul>
-<p>那么，大脑呢？</p>
-<p>如果神经元微管中真的存在持续的量子相干性，记忆可能不是存储在「这个突触」或「那个神经元」，而是编码在<strong>量子态的叠加与纠缠</strong>中。这带来一个颠覆性的可能：</p>
-<blockquote>
-<p><strong>记忆不需要依附于特定的物质结构，而是以量子信息的形式存在。</strong></p>
-</blockquote>
-<h2 id="思想实验：如果记忆是量子态"><a href="#思想实验：如果记忆是量子态" class="headerlink" title="思想实验：如果记忆是量子态"></a>思想实验：如果记忆是量子态</h2><p>假设记忆确实以量子态存储：</p>
-<ol>
-<li><p><strong>退相干问题</strong> — 量子态极其脆弱，环境噪声会在皮秒内破坏相干性。大脑是如何维持的？（Hameroff 说微管提供了保护，但争议很大）</p>
-</li>
-<li><p><strong>不可复制定理</strong> — 量子态不能被克隆。这意味着记忆是<strong>唯一个体</strong>的，不能被完全复制到另一个载体。这与基督信仰中「独特的你」有何呼应？</p>
-</li>
-<li><p><strong>纠缠与远程关联</strong> — 如果记忆以量子纠缠的方式存储，那么记忆与记忆之间可能存在经典物理无法解释的关联。这是否解释了「既视感」或直觉？</p>
-</li>
-</ol>
-<h2 id="神学与科学的对话"><a href="#神学与科学的对话" class="headerlink" title="神学与科学的对话"></a>神学与科学的对话</h2><p>作为基督徒，我无法回避这个问题与基督教「复活」教义之间的张力：</p>
-<ul>
-<li><strong>罗马书 8:11</strong>：「那叫基督耶稣复活的，也必藉着住在你们心里的圣灵，使你们必死的身体又活过来。」</li>
-<li><strong>哥林多前书 15:44</strong>：「所种的是血气的身体，复活的是灵性的身体。」</li>
-</ul>
-<p>如果记忆真的以某种量子信息形式存在，那么肉体复活就不是「重新组装相同的原子」，而是<strong>某种更高层次的信息重建</strong>。这不是科学能证明或否定的，但科学可以问：如果记忆不完全等同于物质结构，「复活」的概念是否比现代唯物论所假设的更有意义？</p>
-<h2 id="诚实的困境"><a href="#诚实的困境" class="headerlink" title="诚实的困境"></a>诚实的困境</h2><p>我必须承认：</p>
-<ul>
-<li>目前<strong>没有实验证据</strong>表明大脑中存在持久的量子相干性</li>
-<li>量子意识理论（如 Orch OR）仍然争议巨大</li>
-<li>大多数量子认知模型只是用量子数学「模拟」认知现象，不代表大脑真的是量子计算机</li>
-</ul>
-<p>但我同样承认：</p>
-<ul>
-<li>唯物主义的记忆观也<strong>无法解释</strong>主观体验的第一人称性质</li>
-<li>我们对意识的理解，可能还停留在非常初级的阶段</li>
-</ul>
-<h2 id="结语：冒险发问"><a href="#结语：冒险发问" class="headerlink" title="结语：冒险发问"></a>结语：冒险发问</h2><blockquote>
-<p>「你们从谁领受的，就因谁的名论断吧。」— 约翰福音 5:44</p>
-</blockquote>
-<p>这个问题——记忆能否脱离肉体存在——不是一个能被轻易回答的问题。但它是值得问的问题。</p>
-<p>科学告诉我们「不知道」；信仰告诉我们「有一位」。</p>
-<p>在这两者之间，我选择继续研究量子意识，继续追问，继续冒险。因为<strong>冒死之路，通向永生</strong>。</p>
-<hr>
-<p><em>本文属于「量子意识与基督信仰」系列，欢迎交流指正。</em></p>
-
-	
-	</div>
-	
-  
-</div>
-	<a type="button" href="/2026/06/14/2026-06-14-海马体的量子回声-记忆能否超越肉体/#more" class="btn btn-default more">Read More</a>
-</div>
-
-		
 
 		</div>
 
@@ -737,7 +723,7 @@
 		
 			<li><a href="/categories/#PhD申请">PhD申请 <span>(1)</span></a></li>
 		
-			<li><a href="/categories/#quantum-consciousness">quantum-consciousness <span>(7)</span></a></li>
+			<li><a href="/categories/#quantum-consciousness">quantum-consciousness <span>(8)</span></a></li>
 		
 			<li><a href="/categories/#research">research <span>(3)</span></a></li>
 		
@@ -834,48 +820,48 @@
 		<h4 style="margin-top: 18px;">Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/#超时空系统">超时空系统 <span>(1)</span></a></li>
+			<li><a href="/tags/#时间体验">时间体验 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#量子意識">量子意識 <span>(9)</span></a></li>
+			<li><a href="/tags/#决策心理学">决策心理学 <span>(2)</span></a></li>
 		
-			<li><a href="/tags/#记忆">记忆 <span>(6)</span></a></li>
+			<li><a href="/tags/#マイクロチユーブル">マイクロチユーブル <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#意識的現在">意識的現在 <span>(1)</span></a></li>
+			<li><a href="/tags/#量子认知">量子认知 <span>(18)</span></a></li>
 		
-			<li><a href="/tags/#人工智能">人工智能 <span>(2)</span></a></li>
+			<li><a href="/tags/#意识哲学">意识哲学 <span>(3)</span></a></li>
 		
-			<li><a href="/tags/#意識">意識 <span>(3)</span></a></li>
+			<li><a href="/tags/#磷31核自旋">磷31核自旋 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#丘脑">丘脑 <span>(1)</span></a></li>
+			<li><a href="/tags/#量子計算">量子計算 <span>(6)</span></a></li>
 		
-			<li><a href="/tags/#量子脑">量子脑 <span>(5)</span></a></li>
+			<li><a href="/tags/#复活">复活 <span>(2)</span></a></li>
 		
-			<li><a href="/tags/#量子相干性">量子相干性 <span>(4)</span></a></li>
+			<li><a href="/tags/#量子力学">量子力学 <span>(5)</span></a></li>
 		
-			<li><a href="/tags/#独特历史定理">独特历史定理 <span>(2)</span></a></li>
+			<li><a href="/tags/#哲学">哲学 <span>(9)</span></a></li>
 		
-			<li><a href="/tags/#结合问题">结合问题 <span>(1)</span></a></li>
+			<li><a href="/tags/#量子神経科学">量子神経科学 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#复杂网络">复杂网络 <span>(1)</span></a></li>
+			<li><a href="/tags/#突触可塑性">突触可塑性 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#計算機能主義">計算機能主義 <span>(2)</span></a></li>
+			<li><a href="/tags/#工作记忆">工作记忆 <span>(3)</span></a></li>
 		
-			<li><a href="/tags/#神経科学">神経科学 <span>(3)</span></a></li>
+			<li><a href="/tags/#实验突破">实验突破 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#意思決定">意思決定 <span>(1)</span></a></li>
+			<li><a href="/tags/#量子机器学习">量子机器学习 <span>(3)</span></a></li>
 		
-			<li><a href="/tags/#EEG">EEG <span>(1)</span></a></li>
+			<li><a href="/tags/#量子技术">量子技术 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#意识">意识 <span>(3)</span></a></li>
+			<li><a href="/tags/#Hameroff">Hameroff <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#认知科学">认知科学 <span>(4)</span></a></li>
+			<li><a href="/tags/#Orch OR">Orch OR <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#决策">决策 <span>(1)</span></a></li>
+			<li><a href="/tags/#密度矩阵">密度矩阵 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#脑解码">脑解码 <span>(1)</span></a></li>
+			<li><a href="/tags/#注意力研究">注意力研究 <span>(3)</span></a></li>
 		
 		
-		   <li><a href="/tags">...<span>253</span></a></li>
+		   <li><a href="/tags">...<span>256</span></a></li>
 		 
 		</ul>
 	</div>
