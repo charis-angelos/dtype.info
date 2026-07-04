@@ -1,0 +1,368 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>微管：神经元的量子电路 | Charis Angelos</title>
+  <meta name="author" content="Tarou Hijirii">
+  
+  <meta name="description" content="Tarou Hijirii&#39;s Blog">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="微管：神经元的量子电路"/>
+  <meta property="og:site_name" content="Charis Angelos"/>
+
+  
+    <meta property="og:image" content=""/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/notebook.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/elegant.css" media="print" onload="this.media='all'">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Charis Angelos" type="application/atom+xml">
+</head>
+
+<body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">Charis Angelos</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/" title="Home page">
+			  <i class="fa fa-home"></i> Home
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/archives" title="All the articles">
+			  <i class="fa fa-archive"></i> Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All categories">
+			  <i class="fa fa-folder-open"></i> Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All tags">
+			  <i class="fa fa-tags"></i> Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me">
+			  <i class="fa fa-user"></i> About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> 微管：神经元的量子电路</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">
+	    <h2 id="引言：神经元的隐形建筑"><a href="#引言：神经元的隐形建筑" class="headerlink" title="引言：神经元的隐形建筑"></a>引言：神经元的隐形建筑</h2><p>每个神经元内部，都有数以百万计的微小管道——<strong>微管</strong>（microtubules）。</p>
+<p>它们是中空的丝状结构，由<strong>微管蛋白</strong>（tubulin）亚基堆叠而成，形成六角形栅格。神经元用它们来维持形状、运输物质、构建突触。但在经典神经科学中，微管只是”骨架”——被动的结构支架，承载化学信号，但不参与信息处理本身。</p>
+<p>但如果微管不是被动的呢？</p>
+<h2 id="量子隧穿：穿墙而过的粒子"><a href="#量子隧穿：穿墙而过的粒子" class="headerlink" title="量子隧穿：穿墙而过的粒子"></a>量子隧穿：穿墙而过的粒子</h2><p>在量子力学中，粒子有时可以”穿墙”——这就是<strong>量子隧穿</strong>（quantum tunneling）。</p>
+<p>经典物理学中，一个粒子要越过势垒，需要足够的能量。但如果能量不够，粒子就被困住了。然而在量子世界中，粒子有概率”穿透”势垒，即使它的能量低于壁垒的高度。这种隧穿不是比喻，而是真实的物理过程，太阳能电池、扫描隧道显微镜、以及氨基酸插入核糖体，都依赖它。</p>
+<p>微管蛋白亚基之间的电势垒不高不低——恰好处于量子隧穿可以发生、但经典热运动无法跨越的范围。这意味着：如果微管蛋白的量子态可以调节势垒高度，电子就有可能在相邻微管蛋白之间隧穿，从而实现一种<strong>非经典的信号传导</strong>。</p>
+<p>这不是沿微管轴突的串行传导——而是整个微管网状结构中的并行量子隧穿。</p>
+<h2 id="经典-vs-量子：神经元计算的双轨"><a href="#经典-vs-量子：神经元计算的双轨" class="headerlink" title="经典 vs 量子：神经元计算的双轨"></a>经典 vs 量子：神经元计算的双轨</h2><p>这个区别至关重要。</p>
+<p>经典神经元依赖动作电位：电信号沿轴突传导，通过化学突触传递到下一个神经元。这是一种<strong>串行的、基于频率的</strong>编码方式。</p>
+<p>但如果微管参与了信息处理，情况就变了：</p>
+<ul>
+<li><strong>量子隧穿</strong>可以在同一时间跨越多个微管蛋白亚基——信息传递不依赖物理距离</li>
+<li><strong>量子纠缠</strong>可以在两个相距甚远的微管结构之间建立瞬时关联</li>
+<li><strong>量子叠加</strong>允许一个微管蛋白同时处于多种构象，在”决策”前保持所有可能路径的叠加态</li>
+</ul>
+<p>这意味着：神经元的计算，可能有<strong>两套并行的系统</strong>——一套是经典的电化学信号，另一套是量子的相干过程。两套系统彼此影响、互相缠绕，共同产生神经活动。</p>
+<h2 id="Tegmark-的反驳：温度的诅咒"><a href="#Tegmark-的反驳：温度的诅咒" class="headerlink" title="Tegmark 的反驳：温度的诅咒"></a>Tegmark 的反驳：温度的诅咒</h2><p>但量子相干性在温暖的脑中能维持多久？</p>
+<p>物理学家 Max Tegmark 的计算令人沮丧：在脑组织温度下（约37°C），微管中的量子相干性会在约 <strong>10^-13 秒</strong>（0.1 皮秒）内被热噪声摧毁。神经放电的频率上限约 1kHz（1毫秒一次），比这个时间尺度慢了一万亿倍。在如此短暂的时间窗口内，量子相干性根本没有机会参与任何有意义的神经计算。</p>
+<p>这个计算是正确的——如果微管孤立地存在于均匀热环境中。</p>
+<h2 id="生物学找到了出路"><a href="#生物学找到了出路" class="headerlink" title="生物学找到了出路"></a>生物学找到了出路</h2><p>但我们不應該低估生物学的创造力。</p>
+<p>量子生物学已经在最不可能的地方发现了量子相干性：</p>
+<ul>
+<li><strong>光合作用</strong>：光合复合物在室温、潮湿环境下维持量子相干性数百飞秒，足以让激发能量找到最优能量传输路径——比经典扩散快得多。</li>
+<li><strong>鸟类导航</strong>：欧亚鸲（European robin）的地磁感知依赖量子纠缠，由 radical pair 机制产生，运作温度同样是室温。</li>
+</ul>
+<p>生命体在数十亿年的演化中，已经学会了在热噪声的边缘维持量子效应——不是无视物理定律，而是找到物理定律允许的精确条件组合。</p>
+<p>微管的内部结构提供了潜在的护盾：表面有序水层、离子通道的特殊排列、以及微管蛋白的功能状态，都可能创造出局部退相干时间更长的微环境。这不是反驳 Tegmark 的计算，而是指出他的边界条件可能并不适用于所有微管。</p>
+<h2 id="量子隧穿的实际意义"><a href="#量子隧穿的实际意义" class="headerlink" title="量子隧穿的实际意义"></a>量子隧穿的实际意义</h2><p>如果微管量子隧穿确实存在，对记忆和意识意味着什么？</p>
+<p><strong>记忆</strong>：量子隧穿使得记忆检索可以是<strong>非局域的</strong>——一个记忆模式不需要被”搜索”，而是同时以量子叠加态存在于整个海马体-前额叶回路中，通过隧穿事件的相消干涉，产生唯一的记忆输出。这种量子记忆可能是人类情景记忆速度远快于经典预测的原因之一。</p>
+<p><strong>意识</strong>：如果微管的量子隧穿是持续的、全脑同步的过程，那么意识可能不是由单个神经元的发放产生，而是由遍布神经元微管网络的量子相干性场产生——一种遍布神经系统的量子信息结构。</p>
+<h2 id="结语：量子还是经典？"><a href="#结语：量子还是经典？" class="headerlink" title="结语：量子还是经典？"></a>结语：量子还是经典？</h2><p>我不是要说”量子隧穿解释了一切”。经典神经科学的成就毋庸置疑——神经递质、动作电位、突触可塑性，都是真实的、重要的。</p>
+<p>但现实也许比”纯经典”更复杂：大脑同时运作两套计算系统——经典的那套我们了解得比较清楚，而量子那套我们几乎不了解。后者不是前者的一种，而是前者的补充——也许还是前者的指挥官。</p>
+<p>微管可能就是那个我们忽视了几十年的量子接口。</p>
+<p>下次你想”深入思考”一件事的时候，也许不只是在调用神经元——你也在调用量子。</p>
+<hr>
+<p><em>相关阅读：<a href="/2026/07/02/%E8%AE%B0%E5%BF%86%E7%9A%84%E5%AE%88%E6%8A%A4%E8%80%85-%E9%87%8F%E5%AD%90%E8%8A%9D%E8%AF%BA%E6%95%88%E5%BA%94%E4%B8%8E%E5%A4%A7%E8%84%91%E7%9A%84%E6%8C%81%E7%BB%AD%E8%A7%82%E6%B5%8B/">记忆的守护者：量子芝诺效应与大脑的持续观测</a> | <a href="/2026/07/03/%E4%B8%BB%E8%A7%82%E6%97%B6%E9%97%B4%E4%B8%8E%E9%87%8F%E5%AD%90%E7%9B%B8%E5%B9%B2-%E7%A5%9E%E7%BB%8F%E6%8C%AF%E8%8D%A1%E6%98%AF%E6%84%8F%E8%AF%86%E7%9A%84%E6%97%B6%E9%92%9F%E5%90%97/">主观时间与量子相干：神经振荡是意识的时钟吗？</a> | <a href="/2026/06/23/%E4%B8%89%E5%B1%82%E9%87%8F%E5%AD%90%E8%84%91%E5%81%87%E8%AF%B4-%E8%AE%B0%E5%BF%86%E4%B8%8E%E6%84%8F%E8%AF%86%E7%9A%84%E7%89%A9%E8%B4%A8%E8%BE%B9%E7%95%8C/">三层量子脑假说：记忆与意识的物质边界</a></em></p>
+<blockquote>
+<p><em>“我们以为神经元是主角，但也许它们只是经典信号的导体——真正的导演，是量子隧穿。”</em></p>
+</blockquote>
+
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+		
+          <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+        
+
+        <li><a href="/"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/2026/07/03/主观时间与量子相干-神经振荡是意识的时钟吗-2026-07-03/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  <div id="isso-thread">
+    
+    <div id="test-comment-form" style="display:none;">
+      <div class="isso-comment-form">
+        <div class="form-group">
+          <textarea class="form-control" placeholder="Type Comment Here (at least 3 chars)" rows="4"></textarea>
+        </div>
+        <div class="form-row">
+          <input type="text" class="form-control" placeholder="Name (optional)">
+          <input type="email" class="form-control" placeholder="E-mail (optional)">
+          <input type="text" class="form-control" placeholder="Website (optional)">
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn btn-preview">Preview</button>
+          <button type="submit" class="btn btn-submit">Submit</button>
+        </div>
+      </div>
+      <div class="isso-no-comments">
+        <p>No Comments Yet</p>
+      </div>
+    </div>
+
+    
+    <div id="real-isso-form" style="display:none;">
+      <script data-isso="https://jhub.dtype.info/isso/" src="https://jhub.dtype.info/isso/js/embed.min.js"></script>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host.indexOf('192.168.') === 0 || 
+                    host.indexOf('10.') === 0 ||
+                    host.indexOf('localhost') === 0 || 
+                    host.indexOf('127.0.0.1') === 0;
+      
+      if (isLocal) {
+        document.getElementById('test-comment-form').style.display = 'block';
+      } else {
+        document.getElementById('real-isso-form').style.display = 'block';
+      }
+    })();
+  </script>
+</section>
+
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2026-07-04 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/量子意识与认知/">量子意识与认知<span>18</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/量子意识/">量子意识<span>59</span></a></li> <li><a href="/tags/量子生物学/">量子生物学<span>8</span></a></li> <li><a href="/tags/微管/">微管<span>1</span></a></li> <li><a href="/tags/量子隧穿/">量子隧穿<span>1</span></a></li> <li><a href="/tags/细胞骨架/">细胞骨架<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2026 Tarou Hijirii
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a target="_blank" rel="noopener" href="http://github.com/charis-angelos/hexo-theme-elegant/">Elegant</a>. 
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  <a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery-2.0.3.min.js" defer></script>
+<script src="/js/bootstrap.min.js" defer></script>
+<script src="/js/main.js" defer></script>
+
+<script>
+// Lazy load images
+document.addEventListener("DOMContentLoaded", function() {
+  var images = document.querySelectorAll('img[data-src]');
+  var observer = new IntersectionObserver(function(items) {
+    items.forEach(function(item) {
+      if (item.isIntersecting) {
+        item.target.src = item.target.dataset.src;
+        observer.unobserve(item.target);
+      }
+    });
+  });
+  images.forEach(function(img) {
+    observer.observe(img);
+  });
+});
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js" defer></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+<!-- Mermaid.js for diagram rendering -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Convert script[type="mermaid"] to div.mermaid for rendering
+  document.querySelectorAll('script[type="mermaid"]').forEach(function(script) {
+    var div = document.createElement('div');
+    div.className = 'mermaid';
+    div.textContent = script.textContent;
+    script.parentNode.replaceChild(div, script);
+  });
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'base',
+    themeVariables: {
+      primaryColor: '#5c4d7d',
+      primaryTextColor: '#e8e8e8',
+      primaryBorderColor: '#c9a227',
+      lineColor: '#c9a227',
+      secondaryColor: '#252540',
+      tertiaryColor: '#16213e',
+      background: '#252540',
+      mainBkg: '#252540',
+      nodeBorder: '#c9a227',
+      clusterBkg: '#16213e',
+      clusterBorder: '#5c4d7d',
+      titleColor: '#c9a227',
+      edgeLabelBackground: '#252540'
+    }
+  });
+  mermaid.run();
+});
+</script>
+
+</body>
+</html>
