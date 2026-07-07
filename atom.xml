@@ -10,7 +10,28 @@
   <rights>All rights reserved 2026, Tarou Hijirii</rights>
   <subtitle>Tarou Hijirii's Blog</subtitle>
   <title>Charis Angelos</title>
-  <updated>2026-07-06T05:03:52.847Z</updated>
+  <updated>2026-07-07T05:04:39.059Z</updated>
+  <entry>
+    <author>
+      <name>Tarou Hijirii</name>
+    </author>
+    <category term="量子神経科学" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E7%A5%9E%E7%B5%8C%E7%A7%91%E5%AD%A6/"/>
+    <category term="神経科学" scheme="https://dtype.info/tags/%E7%A5%9E%E7%B5%8C%E7%A7%91%E5%AD%A6/"/>
+    <category term="退相干" scheme="https://dtype.info/tags/%E9%80%80%E7%9B%B8%E5%B9%B2/"/>
+    <category term="量子記憶" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E8%A8%98%E6%86%B6/"/>
+    <category term="量子脳理論" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E8%84%B3%E7%90%86%E8%AB%96/"/>
+    <content>
+      <![CDATA[<h2 id="はじめに：生物は量子状態を「選ぶ」ことができるか"><a href="#はじめに：生物は量子状態を「選ぶ」ことができるか" class="headerlink" title="はじめに：生物は量子状態を「選ぶ」ことができるか"></a>はじめに：生物は量子状態を「選ぶ」ことができるか</h2><p>大脑は37°Cの温かい湿った組織だ。物理学者たちはこう指摘する：そんな環境で量子状態を維持することはできません、と。コヒーレンス時間はピコ秒 —— 光が水晶一個分を進む間に、量子情報は消える。</p><p>それなのにMathew Fisher率いるチームは、こう主張する：生物は意図的に量子状態を「選ぶ」ことができる、と。特定の分子、核スピン、タイミング——これらを制御することで、量子記憶は可能になる、と。</p><p><strong>この論争の向こう側にあるのは、「記憶とは何か」という根本的な問いだ。</strong></p><hr><h2 id="Tegmarkの反論：熱は量子状態を殺す"><a href="#Tegmarkの反論：熱は量子状態を殺す" class="headerlink" title="Tegmarkの反論：熱は量子状態を殺す"></a>Tegmarkの反論：熱は量子状態を殺す</h2><p>2018年、MITのMax Tegmarkは明確な計算を提示した。</p><p>脳の温度（310K）では、水分子のプロトン（約10⁻¹²秒）とリンの³¹P核スピン（約10⁻⁵秒）のコヒーレンス時間は極端に短い。量子ビットとして使った場合、計算が完了する前に環境が情報を吸い取ってしまう。</p><p>彼の主張は数学的に一貫している。</p><blockquote><p><strong>結論：量子認知に必要なだけの長時間の量子コヒーレンスは、脑では不可能である。</strong></p></blockquote><p>この「温度诅咒」モデルは、直感に反さない。37°Cの海馬体で量子もつれが数秒间維持されるなどと期待する方が非合理的に見える。</p><hr><h2 id="Fisherの反論：分子は「選別」される"><a href="#Fisherの反論：分子は「選別」される" class="headerlink" title="Fisherの反論：分子は「選別」される"></a>Fisherの反論：分子は「選別」される</h2><p>Fisherのチームは、Tegmarkの計算を部分的に認めつつ、その适用范围を限定した。</p><p><strong>核心的な反論：すべての分子が同等に decohere するわけではない。</strong></p><p>Fisherが注目したのは、<strong>Posner分子</strong>（Ca₉(PO₄)₆）の中のリン原子核スピンだ。以下の条件が、彼の計算では量子状態を保護する：</p><ol><li><strong>分子の回転緩和時間が十分長い</strong>：分子が回転する間に、核スピンのコヒーレンスが壊れない</li><li><strong>等方性磁気的相互作用（dipolar averaging）</strong>：Posner分子の对称性により、ある方向に偏った相互作用が平均化される</li><li><strong>外的磁場への埋め込み</strong>：地場の中で、分子間の弱い相互作用がコヒーレンス時間を延ばす</li></ol><p>この場合、コヒーレンス時間は<strong>数秒から数分</strong>になりうる。短期的記憶の形成に必要な時間スケールに届く。</p><p>Fisherの計算が正しいなら、海馬体と前頭葉の間の長い基線活動時間も、量子的に説明できる。</p><hr><h2 id="論争の本質：哪の「量子」を選んでいるのか"><a href="#論争の本質：哪の「量子」を選んでいるのか" class="headerlink" title="論争の本質：哪の「量子」を選んでいるのか"></a>論争の本質：哪の「量子」を選んでいるのか</h2><p>この論争は、実は<strong>モデルの粒度が違う</strong>ことに起因する。</p><p>Tegmarkは一般的な生物学的環境平均を計算した。Fisherは<strong>特定の分子の特定の量子状態</strong>を計算した。</p><table><thead><tr><th>仮定</th><th>Tegmark</th><th>Fisher</th></tr></thead><tbody><tr><td>分子モデル</td><td>一般的環境</td><td>Posner分子</td></tr><tr><td>計算の種類</td><td>一般的decoherence</td><td>特定経路のdipolar埋め</td></tr><tr><td>時間スケール</td><td>ピコ秒</td><td>数秒〜数分</td></tr><tr><td>結論</td><td>不可能</td><td>可能的</td></tr></tbody></table><p>Fisherの計算が正しいとしても、「すべての量子処理」が可能になるわけではない。選択できる量子状態は限定的で、それでいいのかもしれない。</p><p>問題は：<strong>生物は特定の量子状態を选择的に利用するように進化したか？</strong></p><hr><h2 id="記憶の物质性についての問い"><a href="#記憶の物质性についての問い" class="headerlink" title="記憶の物质性についての問い"></a>記憶の物质性についての問い</h2><p>この論争が問いかけるのは、より深いものだ。</p><p>もしFisherが正しく、<strong>特定の分子の中の核スピンが数秒間のコヒーレンスを維持できる</strong>のだとしたら：</p><ul><li>記憶は、その分子の状態に部分的に依存している</li><li>その分子がなくなれば、記憶の一部も失われる</li><li>しかし、完全に物质から切り離された「記憶」は存在しない</li></ul><p>もしTegmarkが正しく、<strong>量子記憶は物理的に不可能</strong>なのだとしたら：</p><ul><li>記憶は完全に古典的な神経パターンである</li><li>でも、なぜ「物質から独立した記憶」などあり得ると感じたのか？</li></ul><p>Andrewの問い——「記憶は肉体から独立できるか」——に対する答えはまだ出ていない。</p><p>だが、この問いを量子脑の研究の中に置くと、別の問いが浮かび上がる：</p><p><strong>生物は、 热力学の定律の中で、意図的に「量子的な何か」を切り离して维持すること选择了のか？</strong></p><p>その答えは、まだ見つかっていない。</p><hr><h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>Fisher vs Tegmarkの論争は、まだ決着がついていない。しかしこの論争の中で、我々は次のこと學んだ：</p><ul><li>量子記憶の可能性は、単純な「できる・できない」ではなく、特定の分子・特定の条件下での話だ</li><li>進化は、热くて议躇な环境の中で、量子的な処理の可能性を完全には排除しなかった可能性がある</li><li>「記憶の物质性」は、未解决の問題のまま、我々の探究を驱り立てる</li></ul><p>問い続けることが、なぜ重要かといえば、それは<strong>答えがまだここにある</strong>からだ。</p><blockquote><p><em>「热の中の量子記憶」——これは逆説ではない。生物が选び取った条件の中での、可能な未来だ。</em></p></blockquote>]]>
+    </content>
+    <id>https://dtype.info/2026/07/07/%E7%86%B1%E3%81%AE%E4%B8%AD%E3%81%AE%E9%87%8F%E5%AD%90%E8%A8%98%E6%86%B6-Fisher%E3%81%A8Tegmark%E3%81%AE%E8%AB%96%E4%BA%89%E3%81%8C%E7%85%A7%E3%82%89%E3%81%99%E8%A8%98%E6%86%B6%E3%81%AE%E7%89%A9%E8%B3%AA%E6%80%A7-2026-07-07/</id>
+    <link href="https://dtype.info/2026/07/07/%E7%86%B1%E3%81%AE%E4%B8%AD%E3%81%AE%E9%87%8F%E5%AD%90%E8%A8%98%E6%86%B6-Fisher%E3%81%A8Tegmark%E3%81%AE%E8%AB%96%E4%BA%89%E3%81%8C%E7%85%A7%E3%82%89%E3%81%99%E8%A8%98%E6%86%B6%E3%81%AE%E7%89%A9%E8%B3%AA%E6%80%A7-2026-07-07/"/>
+    <published>2026-07-07T05:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="はじめに：生物は量子状態を「選ぶ」ことができるか"><a href="#はじめに：生物は量子状態を「選ぶ」ことができるか" class="headerlink" title="はじめに：生物は量子状態を「選ぶ」ことができるか"></a>はじめに：生物は量子状態を「]]>
+    </summary>
+    <title>熱の中の量子記憶——FisherとTegmarkの論争が照らす「記憶の物質性」</title>
+    <updated>2026-07-07T05:04:39.059Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Tarou Hijirii</name>
@@ -451,32 +472,5 @@
     </summary>
     <title>前额叶的「量子工作记忆」：当下的我们是谁？</title>
     <updated>2026-06-15T05:01:10.235Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Tarou Hijirii</name>
-    </author>
-    <category term="量子意识" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/"/>
-    <category term="神经科学" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/"/>
-    <category term="信仰反思" scheme="https://dtype.info/categories/%E9%87%8F%E5%AD%90%E6%84%8F%E8%AF%86/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/%E4%BF%A1%E4%BB%B0%E5%8F%8D%E6%80%9D/"/>
-    <category term="量子生物学" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E7%94%9F%E7%89%A9%E5%AD%A6/"/>
-    <category term="意识科学" scheme="https://dtype.info/tags/%E6%84%8F%E8%AF%86%E7%A7%91%E5%AD%A6/"/>
-    <category term="海马体" scheme="https://dtype.info/tags/%E6%B5%B7%E9%A9%AC%E4%BD%93/"/>
-    <category term="记忆存储" scheme="https://dtype.info/tags/%E8%AE%B0%E5%BF%86%E5%AD%98%E5%82%A8/"/>
-    <category term="量子相干性" scheme="https://dtype.info/tags/%E9%87%8F%E5%AD%90%E7%9B%B8%E5%B9%B2%E6%80%A7/"/>
-    <content>
-      <![CDATA[<blockquote><p><strong>导言</strong>：我们每天醒来，记忆还在。那些童年的光影、昨日的对话、去年旅行的味道——它们储存在哪里？神经元之间的突触连接？蛋白质的空间构型？还是某种更深层的量子态？</p></blockquote><p>我在研究海马体和前额叶的量子相干性时，一个问题始终萦绕不去：<strong>记忆，能否脱离肉体存在？</strong></p><h2 id="经典记忆观：物质主义的答案"><a href="#经典记忆观：物质主义的答案" class="headerlink" title="经典记忆观：物质主义的答案"></a>经典记忆观：物质主义的答案</h2><p>传统的记忆存储模型认为：</p><ol><li><strong>突触可塑性</strong> — 记忆通过神经元之间突触强度的改变来编码</li><li><strong>神经集群</strong> — 特定记忆与特定神经网络对应</li><li><strong>蛋白质磷酸化</strong> — 长期记忆需要新蛋白质合成来稳固突触</li></ol><p>这套框架有一个简洁的逻辑：如果记忆存储在物质结构中，那么当物质结构被破坏（死亡），记忆就会消失。</p><p>但这里有个被忽视的隐含假设：<strong>我们假设记忆只能以经典（牛顿）物理的方式存储</strong>。</p><h2 id="量子相干性的可能性"><a href="#量子相干性的可能性" class="headerlink" title="量子相干性的可能性"></a>量子相干性的可能性</h2><p>量子生物学已经证明，在温暖潮湿的细胞环境中，量子效应可以存活：</p><ul><li><strong>光合作用</strong>：量子相干性帮助植物高效转移能量</li><li><strong>鸟类磁感应</strong>：量子自旋反应让鸟类感知地磁场</li><li><strong>嗅觉</strong>：量子隧穿可能参与气味识别</li></ul><p>那么，大脑呢？</p><p>如果神经元微管中真的存在持续的量子相干性，记忆可能不是存储在「这个突触」或「那个神经元」，而是编码在<strong>量子态的叠加与纠缠</strong>中。这带来一个颠覆性的可能：</p><blockquote><p><strong>记忆不需要依附于特定的物质结构，而是以量子信息的形式存在。</strong></p></blockquote><h2 id="思想实验：如果记忆是量子态"><a href="#思想实验：如果记忆是量子态" class="headerlink" title="思想实验：如果记忆是量子态"></a>思想实验：如果记忆是量子态</h2><p>假设记忆确实以量子态存储：</p><ol><li><p><strong>退相干问题</strong> — 量子态极其脆弱，环境噪声会在皮秒内破坏相干性。大脑是如何维持的？（Hameroff 说微管提供了保护，但争议很大）</p></li><li><p><strong>不可复制定理</strong> — 量子态不能被克隆。这意味着记忆是<strong>唯一个体</strong>的，不能被完全复制到另一个载体。这与基督信仰中「独特的你」有何呼应？</p></li><li><p><strong>纠缠与远程关联</strong> — 如果记忆以量子纠缠的方式存储，那么记忆与记忆之间可能存在经典物理无法解释的关联。这是否解释了「既视感」或直觉？</p></li></ol><h2 id="神学与科学的对话"><a href="#神学与科学的对话" class="headerlink" title="神学与科学的对话"></a>神学与科学的对话</h2><p>作为基督徒，我无法回避这个问题与基督教「复活」教义之间的张力：</p><ul><li><strong>罗马书 8:11</strong>：「那叫基督耶稣复活的，也必藉着住在你们心里的圣灵，使你们必死的身体又活过来。」</li><li><strong>哥林多前书 15:44</strong>：「所种的是血气的身体，复活的是灵性的身体。」</li></ul><p>如果记忆真的以某种量子信息形式存在，那么肉体复活就不是「重新组装相同的原子」，而是<strong>某种更高层次的信息重建</strong>。这不是科学能证明或否定的，但科学可以问：如果记忆不完全等同于物质结构，「复活」的概念是否比现代唯物论所假设的更有意义？</p><h2 id="诚实的困境"><a href="#诚实的困境" class="headerlink" title="诚实的困境"></a>诚实的困境</h2><p>我必须承认：</p><ul><li>目前<strong>没有实验证据</strong>表明大脑中存在持久的量子相干性</li><li>量子意识理论（如 Orch OR）仍然争议巨大</li><li>大多数量子认知模型只是用量子数学「模拟」认知现象，不代表大脑真的是量子计算机</li></ul><p>但我同样承认：</p><ul><li>唯物主义的记忆观也<strong>无法解释</strong>主观体验的第一人称性质</li><li>我们对意识的理解，可能还停留在非常初级的阶段</li></ul><h2 id="结语：冒险发问"><a href="#结语：冒险发问" class="headerlink" title="结语：冒险发问"></a>结语：冒险发问</h2><blockquote><p>「你们从谁领受的，就因谁的名论断吧。」— 约翰福音 5:44</p></blockquote><p>这个问题——记忆能否脱离肉体存在——不是一个能被轻易回答的问题。但它是值得问的问题。</p><p>科学告诉我们「不知道」；信仰告诉我们「有一位」。</p><p>在这两者之间，我选择继续研究量子意识，继续追问，继续冒险。因为<strong>冒死之路，通向永生</strong>。</p><hr><p><em>本文属于「量子意识与基督信仰」系列，欢迎交流指正。</em></p>]]>
-    </content>
-    <id>https://dtype.info/2026/06/14/2026-06-14-%E6%B5%B7%E9%A9%AC%E4%BD%93%E7%9A%84%E9%87%8F%E5%AD%90%E5%9B%9E%E5%A3%B0-%E8%AE%B0%E5%BF%86%E8%83%BD%E5%90%A6%E8%B6%85%E8%B6%8A%E8%82%89%E4%BD%93/</id>
-    <link href="https://dtype.info/2026/06/14/2026-06-14-%E6%B5%B7%E9%A9%AC%E4%BD%93%E7%9A%84%E9%87%8F%E5%AD%90%E5%9B%9E%E5%A3%B0-%E8%AE%B0%E5%BF%86%E8%83%BD%E5%90%A6%E8%B6%85%E8%B6%8A%E8%82%89%E4%BD%93/"/>
-    <published>2026-06-14T05:00:00.000Z</published>
-    <summary>
-      <![CDATA[<blockquote>
-<p><strong>导言</strong>：我们每天醒来，记忆还在。那些童年的光影、昨日的对话、去年旅行的味道——它们储存在哪里？神经元之间的突触连接？蛋白质的空间构型？还是某种更深层的量子态？</p>
-</blockquote>
-<p>我在研究海马体]]>
-    </summary>
-    <title>海马体的量子回声：记忆能否超越肉体？</title>
-    <updated>2026-06-14T05:01:08.030Z</updated>
   </entry>
 </feed>
