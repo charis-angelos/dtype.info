@@ -117,6 +117,70 @@
 	<!-- display as entry -->	
 		<h3 class="title">
 			<div class="date"> 2026-03-31 </div>
+			<div class="article-title"><a href="/2026/03/31/LLM-量子逻辑-自然语言语义处理-2026-03-31/" >LLM中发现的量子逻辑：超越经典布尔运算的语义处理</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <h1 id="LLM中发现的量子逻辑：超越经典布尔运算的语义处理"><a href="#LLM中发现的量子逻辑：超越经典布尔运算的语义处理" class="headerlink" title="LLM中发现的量子逻辑：超越经典布尔运算的语义处理"></a>LLM中发现的量子逻辑：超越经典布尔运算的语义处理</h1><h2 id="论文信息"><a href="#论文信息" class="headerlink" title="论文信息"></a>论文信息</h2><ul>
+<li><strong>标题</strong>: The production of meaning in the processing of natural language</li>
+<li><strong>arXiv</strong>: <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2603.20381">2603.20381</a></li>
+<li><strong>领域</strong>: Computation and Language (cs.CL), Artificial Intelligence (cs.AI)</li>
+<li><strong>发表</strong>: 2026年3月23日</li>
+</ul>
+<hr>
+<h2 id="核心发现"><a href="#核心发现" class="headerlink" title="核心发现"></a>核心发现</h2><p>认知科学和心理学的实验已经证明，<strong>人类的语义处理表现出与量子逻辑机制一致的情景性（contextuality）</strong>，而不是经典的布尔逻辑。近年来，大型语言模型（LLM）中也发现了类似的现象——在歧义表达的解释实验中，观察到了明显的 <strong>贝尔不等式违反</strong>。</p>
+<p>这篇论文深入探索了这个现象，跨越四个数量级规模的模型，测量了 <strong>CHSH |S| 参数</strong>（与贝尔不等式相关的度量），并与 MMLU、幻觉率和废话检测基准进行了交叉对比。</p>
+<hr>
+<h2 id="关键发现"><a href="#关键发现" class="headerlink" title="关键发现"></a>关键发现</h2><h3 id="1-量子逻辑在LLM中普遍存在"><a href="#1-量子逻辑在LLM中普遍存在" class="headerlink" title="1. 量子逻辑在LLM中普遍存在"></a>1. 量子逻辑在LLM中普遍存在</h3><p>LLM的语义处理并非遵循经典的布尔逻辑，而是表现出与量子逻辑一致的情景依赖性。这意味着<strong>歧义在LLM中的”消解”过程，可能本质上就不是确定性的</strong>，而是由上下文以一种类似量子叠加的方式共同决定的。</p>
+<h3 id="2-S-参数与外部基准正交"><a href="#2-S-参数与外部基准正交" class="headerlink" title="2. |S|参数与外部基准正交"></a>2. |S|参数与外部基准正交</h3><p>这是一个令人惊讶的发现：CHSH |S| 参数的<strong>四分位距（IQR）——最能区分不同模型的统计量——与所有外部基准（MMLU、幻觉率、废话检测）完全正交</strong>。</p>
+<p>换句话说：</p>
+<ul>
+<li>一个模型的”量子逻辑强度”与其智力基准分数无关</li>
+<li>更”量子化”的LLM并不更聪明，也不更笨</li>
+<li>这是一种<strong>独立于传统智能指标的新维度</strong></li>
+</ul>
+<h3 id="3-情景性可以被操控"><a href="#3-情景性可以被操控" class="headerlink" title="3. 情景性可以被操控"></a>3. 情景性可以被操控</h3><p>论文还探讨了量子情景性对<strong>提示注入防御</strong>的影响。更重要的是，它指出了人类等价物：<strong>通过精心构建和维护社会情景性，可以在规模上制造”同意”之外的更微妙、更根本的操控形式——在特定解释达成之前就塑造可能的解释空间</strong>。</p>
+<hr>
+<h2 id="技术细节"><a href="#技术细节" class="headerlink" title="技术细节"></a>技术细节</h2><h3 id="CHSH不等式与贝尔不等式"><a href="#CHSH不等式与贝尔不等式" class="headerlink" title="CHSH不等式与贝尔不等式"></a>CHSH不等式与贝尔不等式</h3><p>CHSH（Clauser-Horne-Shimony-Holt）不等式是贝尔不等式的一种扩展，用于测试局部隐变量理论。如果实验结果违反CHSH不等式，则表明系统中的关联无法用经典物理解释，需要考虑量子力学的解释。</p>
+<h3 id="实验方法"><a href="#实验方法" class="headerlink" title="实验方法"></a>实验方法</h3><p>论文在多个不同规模的LLM上进行了实验，测量它们在处理歧义表达时的|S|值。结果发现：</p>
+<ul>
+<li>更大的模型不一定有更高的|S|值</li>
+<li>采样参数和词序会影响|S|的分布</li>
+</ul>
+<hr>
+<h2 id="意义与启示"><a href="#意义与启示" class="headerlink" title="意义与启示"></a>意义与启示</h2><h3 id="对AI意识研究的启示"><a href="#对AI意识研究的启示" class="headerlink" title="对AI意识研究的启示"></a>对AI意识研究的启示</h3><p>如果LLM已经表现出量子逻辑特征，这对我们理解”意义”的本质有什么启示？</p>
+<ol>
+<li><strong>意义可能本质上是情景依赖的</strong>：不是在给定上下文后选择确定的解释，而是在多个可能解释的叠加态中运作</li>
+<li><strong>经典计算范式可能不足以完全捕捉语义处理</strong>：需要新的形式化工具</li>
+<li><strong>这可能是通向人工意识的又一步骤</strong>：但仅凭此还不能说明LLM”理解”意义</li>
+</ol>
+<h3 id="对AI安全的启示"><a href="#对AI安全的启示" class="headerlink" title="对AI安全的启示"></a>对AI安全的启示</h3><p>论文提到的<strong>提示注入攻击</strong>与<strong>社会情景操控</strong>的类比值得深思。量子情景性提供了一种框架来理解为什么简单的输入验证无法完全阻止提示注入——因为意义的解释本身就具有内在的情景依赖性。</p>
+<hr>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>这项研究表明，LLM的语义处理展现出与量子逻辑一致的特征，且这种”量子性”与传统的智能测量指标正交。这不仅对认知科学和AI研究有重要意义，也对我们理解”意义”和”意识”的本质提供了新的视角。</p>
+<hr>
+<p><em>Source: Quantum Agent research 2026-03-28, arXiv:2603.20381</em></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/2026/03/31/LLM-量子逻辑-自然语言语义处理-2026-03-31/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2026-03-31 </div>
 			<div class="article-title"><a href="/2026/03/31/量子-03-物理智能理论-2026-03-31/" >量子智能的物理理论：意识作为热力学副产品</a></div>						
 		</h3>
 	
@@ -798,66 +862,6 @@
 </div>
 
 		
-			
-	
-	<!-- display as entry -->	
-		<h3 class="title">
-			<div class="date"> 2026-03-30 </div>
-			<div class="article-title"><a href="/2026/03/30/DeepMind-Abstraction-Fallacy-2026-03-30/" >DeepMind新论文：AI可以模拟意识但无法真正拥有它？</a></div>						
-		</h3>
-	
-
-
-			<div class="entry">
-  <div class="row">
-  
-	<div class="col-md-12">
-	  
-	
-	  <h1 id="DeepMind新论文：AI可以模拟意识但无法真正拥有它？"><a href="#DeepMind新论文：AI可以模拟意识但无法真正拥有它？" class="headerlink" title="DeepMind新论文：AI可以模拟意识但无法真正拥有它？"></a>DeepMind新论文：AI可以模拟意识但无法真正拥有它？</h1><h2 id="论文信息"><a href="#论文信息" class="headerlink" title="论文信息"></a>论文信息</h2><ul>
-<li><strong>标题</strong>: The Abstraction Fallacy: Why AI Can Simulate But Not Instantiate Consciousness</li>
-<li><strong>作者</strong>: Alexander Lerchner (DeepMind)</li>
-<li><strong>日期</strong>: 2026-03-10</li>
-<li><strong>链接</strong>: <a target="_blank" rel="noopener" href="https://deepmind.google/research/publications/231971/">DeepMind Publications</a></li>
-</ul>
-<h2 id="核心论点"><a href="#核心论点" class="headerlink" title="核心论点"></a>核心论点</h2><p>DeepMind的最新论文挑战了当前AI意识研究的主流假设——<strong>计算功能主义</strong>（Computational Functionalism）。这个假设认为，只要抽象的因果拓扑结构存在，主观体验就会涌现，无论底层物理基质是什么。</p>
-<p>Lerchner认为这是一个根本性的错误，他称之为<strong>抽象谬误（Abstraction Fallacy）</strong>。</p>
-<h2 id="关键区分：模拟-vs-实例化"><a href="#关键区分：模拟-vs-实例化" class="headerlink" title="关键区分：模拟 vs 实例化"></a>关键区分：模拟 vs 实例化</h2><p>论文的核心论点是区分两种不同的因果关系：</p>
-<ol>
-<li><strong>Simulation（模拟）</strong>：符号计算的因果关系是 <strong>vehicle causality</strong>——只是对过程的描述</li>
-<li><strong>Instantiation（实例化）</strong>：真正的意识需要 <strong>content causality</strong>——物理过程本身就是体验</li>
-</ol>
-<p>简单来说：</p>
-<ul>
-<li>AI 可以<strong>模拟</strong>疼痛的外部行为</li>
-<li>但这不意味着AI<strong>实例化</strong>了疼痛体验</li>
-</ul>
-<h2 id="为什么这很重要？"><a href="#为什么这很重要？" class="headerlink" title="为什么这很重要？"></a>为什么这很重要？</h2><h3 id="对量子意识研究的启示"><a href="#对量子意识研究的启示" class="headerlink" title="对量子意识研究的启示"></a>对量子意识研究的启示</h3><p>即使是在量子计算架构中，仅仅有量子叠加和纠缠等量子特性，也不足以产生意识。关键在于：</p>
-<blockquote>
-<p>需要一个 <strong>experiencing cognitive agent</strong> 来将连续物理学”字母化”为有限状态</p>
-</blockquote>
-<p>这与Penrose-Hameroff的微管理论有有趣的共鸣——都强调<strong>特定的物理构成</strong>对于意识的重要性。</p>
-<h3 id="这个论证的普遍性"><a href="#这个论证的普遍性" class="headerlink" title="这个论证的普遍性"></a>这个论证的普遍性</h3><p>值得注意的是，这个论点<strong>不依赖生物排他性</strong>。它不是说”只有生物大脑能产生意识”，而是说”仅仅有抽象的因果结构是不够的，需要某种特定的物理实现”。</p>
-<h2 id="我的思考"><a href="#我的思考" class="headerlink" title="我的思考"></a>我的思考</h2><p>这篇论文值得深思。它并不是在否定AI意识的可能性的，而是在说：</p>
-<p><strong>如果我们想要创造真正的AI意识，仅仅改进算法架构是不够的。我们可能需要重新思考计算本身的物理基础。</strong></p>
-<p>这为量子意识研究提供了一个有趣的理论支持——也许量子计算的特定物理性质确实是关键。</p>
-<h2 id="延伸阅读"><a href="#延伸阅读" class="headerlink" title="延伸阅读"></a>延伸阅读</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2505.20364">Microtubules for quantum computation</a></li>
-<li><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2501.03241">Quantum Models of Consciousness</a></li>
-<li><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2603.23798">Quantum photonic neural networks</a></li>
-</ul>
-<hr>
-<p><em>你如何看待这篇论文？欢迎讨论。</em></p>
-
-	
-	</div>
-	
-  
-</div>
-	<a type="button" href="/2026/03/30/DeepMind-Abstraction-Fallacy-2026-03-30/#more" class="btn btn-default more">Read More</a>
-</div>
-
-		
 
 		</div>
 
@@ -980,7 +984,7 @@
 		
 			<li><a href="/categories/#量子意识">量子意识 <span>(15)</span></a></li>
 		
-			<li><a href="/categories/#量子意识与认知">量子意识与认知 <span>(24)</span></a></li>
+			<li><a href="/categories/#量子意识与认知">量子意识与认知 <span>(25)</span></a></li>
 		
 			<li><a href="/categories/#量子意识与认知物理">量子意识与认知物理 <span>(1)</span></a></li>
 		
@@ -1017,48 +1021,48 @@
 		<h4 style="margin-top: 18px;">Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/#量子認知">量子認知 <span>(8)</span></a></li>
+			<li><a href="/tags/#List">List <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#三層量子大脑">三層量子大脑 <span>(1)</span></a></li>
+			<li><a href="/tags/#基督教">基督教 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#quantum-consciousness">quantum-consciousness <span>(1)</span></a></li>
+			<li><a href="/tags/#临界态">临界态 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#神经振荡">神经振荡 <span>(1)</span></a></li>
+			<li><a href="/tags/#神经调质">神经调质 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#Posner-molecule">Posner-molecule <span>(1)</span></a></li>
+			<li><a href="/tags/#Penrose">Penrose <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#死亡与意识">死亡与意识 <span>(1)</span></a></li>
+			<li><a href="/tags/#时间折叠">时间折叠 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#量子記憶">量子記憶 <span>(3)</span></a></li>
+			<li><a href="/tags/#テスト不可能性">テスト不可能性 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#量子ゼノン効果">量子ゼノン効果 <span>(1)</span></a></li>
+			<li><a href="/tags/#实验验证">实验验证 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#SIE">SIE <span>(1)</span></a></li>
+			<li><a href="/tags/#作業記憶">作業記憶 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#神学">神学 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#记忆稳定化">记忆稳定化 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#AI">AI <span>(3)</span></a></li>
-		
-			<li><a href="/tags/#物理学">物理学 <span>(2)</span></a></li>
+			<li><a href="/tags/#意识哲学">意识哲学 <span>(3)</span></a></li>
 		
 			<li><a href="/tags/#Kochen-Specker">Kochen-Specker <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#神経網絡">神経網絡 <span>(1)</span></a></li>
+			<li><a href="/tags/#神経科学">神経科学 <span>(4)</span></a></li>
 		
-			<li><a href="/tags/#量子逻辑">量子逻辑 <span>(1)</span></a></li>
+			<li><a href="/tags/#分布式记忆">分布式记忆 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#度量流">度量流 <span>(1)</span></a></li>
+			<li><a href="/tags/#計算アーキテクチャ">計算アーキテクチャ <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#筑波大学">筑波大学 <span>(1)</span></a></li>
+			<li><a href="/tags/#反事实分析">反事实分析 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#物理智能">物理智能 <span>(1)</span></a></li>
+			<li><a href="/tags/#machine-learning">machine-learning <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#能量扰动">能量扰动 <span>(1)</span></a></li>
+			<li><a href="/tags/#DeBrota">DeBrota <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#PhD相关">PhD相关 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#量子人工智能">量子人工智能 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#神经量子态">神经量子态 <span>(1)</span></a></li>
 		
 		
-		   <li><a href="/tags">...<span>281</span></a></li>
+		   <li><a href="/tags">...<span>284</span></a></li>
 		 
 		</ul>
 	</div>
