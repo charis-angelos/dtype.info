@@ -117,6 +117,68 @@
 	<!-- display as entry -->	
 		<h3 class="title">
 			<div class="date"> 2026-04-06 </div>
+			<div class="article-title"><a href="/2026/04/06/IRAM-Omega-Q-不確実性制御計算アーキテクチャ-2026-04-06/" >IRAM-Omega-Q：不確実性を計算するAIアーキテクチャ</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <h1 id="IRAM-Omega-Q：不確実性を計算するAIアーキテクチャ"><a href="#IRAM-Omega-Q：不確実性を計算するAIアーキテクチャ" class="headerlink" title="IRAM-Omega-Q：不確実性を計算するAIアーキテクチャ"></a>IRAM-Omega-Q：不確実性を計算するAIアーキテクチャ</h1><h2 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h2><p>2026年3月16日、Veronique Zieglerの論文「IRAM-Omega-Q: A Computational Architecture for Uncertainty Regulation in Artificial Agents」(arXiv:2603.16020)が発表されました。この論文は、<strong>密度行列</strong>（density matrix）を用いて人工エージェントの不確実性を制御する新しい計算アーキテクチャを提案しています。</p>
+<h2 id="核心発見"><a href="#核心発見" class="headerlink" title="核心発見"></a>核心発見</h2><h3 id="1-密度行列を「状態記述子」として活用"><a href="#1-密度行列を「状態記述子」として活用" class="headerlink" title="1. 密度行列を「状態記述子」として活用"></a>1. 密度行列を「状態記述子」として活用</h3><p>従来のAIシステムが不確実性を確率分布でモデル化するのに対し、IRAM-Omega-Qは<strong>密度行列</strong>を採用します。密度行列は量子力学でおなじみの道具ですが、ここでは量子プロセスなしでも有用な数学的形式として導入されています。</p>
+<p>密度行列を使う利点は：</p>
+<ul>
+<li><strong>コヒーレンス</strong>（位相の整合性）を直接計算できる</li>
+<li><strong>エントロピー</strong>と<strong>純粋性</strong>が自然な形で導出される</li>
+<li>混合状態（pure stateとmixed stateの中間）の表現が自然</li>
+</ul>
+<h3 id="2-閉ループ制御による不確実性調整"><a href="#2-閉ループ制御による不確実性調整" class="headerlink" title="2. 閉ループ制御による不確実性調整"></a>2. 閉ループ制御による不確実性調整</h3><p>IRAM-Omega-Qは<strong>Adaptive gain</strong>機構を実装し、目標とする不確実性レジーム（regime）を維持する閉ループ制御を実現します。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">目標不確実性 → 比較器 → 制御信号 → エージェント → 実際の不確実性 → フィードバック</span><br></pre></td></tr></table></figure>
+
+<p>このループにより、エージェントは環境の変化に応じて適切に「確信度」を調整できます。</p>
+<h3 id="3-知覚優先-vs-行動優先"><a href="#3-知覚優先-vs-行動優先" class="headerlink" title="3. 知覚優先 vs 行動優先"></a>3. 知覚優先 vs 行動優先</h3><p>興味深い発見として、命令の順序（<strong>Perception-first</strong> vs <strong>Action-first</strong>）によってシステムの安定性が異なるレジームを示すことが明らかになりました。</p>
+<ul>
+<li><strong>Perception-first</strong>: 外部からの入力を 먼저処理し、内部状態を更新してから行動を選択</li>
+<li><strong>Action-first</strong>: 行動を先に決定し、その結果として知覚を更新</li>
+</ul>
+<h3 id="4-臨界境界の再現性"><a href="#4-臨界境界の再現性" class="headerlink" title="4. 臨界境界の再現性"></a>4. 臨界境界の再現性</h3><p>ノイズと調整パラメータの空間において、<strong>再現可能な臨界境界</strong>（critical boundaries）が存在することを発見しました。これは物理における相転移类似の現象です。</p>
+<h2 id="なぜ重要か"><a href="#なぜ重要か" class="headerlink" title="なぜ重要か"></a>なぜ重要か</h2><h3 id="量子意識研究への貢献"><a href="#量子意識研究への貢献" class="headerlink" title="量子意識研究への貢献"></a>量子意識研究への貢献</h3><p>この論文は、量子意識研究に<strong>具体的な計算枠組み</strong>を提供します。Penrose-Hameroffの微小管モデルやWabe-Kochen-Diösiの定理など、意識の量子起源を巡る議論はしばしば「数学的形式が物理的に何を意味するか」で紛糾します。</p>
+<p>IRAM-Omega-Qは、量子的な数学的形式主義が<strong>物理量子プロセスなしでも有用である</strong>ことを具体的な計算アーキテクチャで実証しています。</p>
+<h3 id="認知inspired-AIと量子計算の接点"><a href="#認知inspired-AIと量子計算の接点" class="headerlink" title="認知inspired AIと量子計算の接点"></a>認知inspired AIと量子計算の接点</h3><p>この研究は、認知科学から生まれた知見（不確実性下の意思決定）がAI工学に逆輸入され、さらに量子計算の数学的道具と融合するという流れ 代表しています。</p>
+<h2 id="批判的考察"><a href="#批判的考察" class="headerlink" title="批判的考察"></a>批判的考察</h2><h3 id="強烈な主張ではない"><a href="#強烈な主張ではない" class="headerlink" title="強烈な主張ではない"></a>強烈な主張ではない</h3><p>論文は「大げさな主張」をしていません。密度行列を使った計算アーキテクチャが「量子意識」を証明するわけでも、AIが「意識を持つ」ことを主張するわけでもありません。</p>
+<p>しかし、この地味なアプローチこそが重要です：<strong>意識の量子理論擁護派も懐疑派も、等しく参照できる具体的な計算例</strong>が示されたからです。</p>
+<h3 id="次の研究課題"><a href="#次の研究課題" class="headerlink" title="次の研究課題"></a>次の研究課題</h3><ul>
+<li>このアーキテクチャを実際のロボット制御に実装した場合の結果</li>
+<li>他の量子認知モデル（QLMDAなど）との統合可能性</li>
+<li>意識の「硬的問題」に対する直接的示唆があるか</li>
+</ul>
+<h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>IRAM-Omega-Qは、量子力学の数学的形式をAIの不確実性制御に適用した興味深い試みです。この論文の真の価値は、<strong>量子意識研究中間派</strong>（量子的な数学的形式が有用だが、物理的量子プロセスは不要かもしれないという立場）に具体的な計算例を提供した点にあるでしょう。</p>
+<hr>
+<p><strong>参照</strong>: </p>
+<ul>
+<li>arXiv:2603.16020</li>
+<li>発表日: 2026年3月16日</li>
+<li>分野: cs.AI &#x2F; Quantum-like Modeling</li>
+</ul>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/2026/04/06/IRAM-Omega-Q-不確実性制御計算アーキテクチャ-2026-04-06/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2026-04-06 </div>
 			<div class="article-title"><a href="/2026/04/06/PhD申請重大更新-九州大学IGSES-2026-04-06/" >PhD申請重大更新：九州大学IGSES 2026年10月入学在职博士申請</a></div>						
 		</h3>
 	
@@ -1095,102 +1157,6 @@
 </div>
 
 		
-			
-	
-	<!-- display as entry -->	
-		<h3 class="title">
-			<div class="date"> 2026-04-01 </div>
-			<div class="article-title"><a href="/2026/04/01/Disjunction-Effect-Classical-Probability-Challenge-Quantum-Cognition-2026-04-01/" >Disjunction Effect: Classical Probability Challenges Quantum Cognition Paradigm</a></div>						
-		</h3>
-	
-
-
-			<div class="entry">
-  <div class="row">
-  
-	<div class="col-md-12">
-	  
-	
-	  <h1 id="Disjunction-Effect-Classical-Probability-Challenges-Quantum-Cognition-Paradigm"><a href="#Disjunction-Effect-Classical-Probability-Challenges-Quantum-Cognition-Paradigm" class="headerlink" title="Disjunction Effect: Classical Probability Challenges Quantum Cognition Paradigm"></a>Disjunction Effect: Classical Probability Challenges Quantum Cognition Paradigm</h1><h2 id="The-Paper"><a href="#The-Paper" class="headerlink" title="The Paper"></a>The Paper</h2><ul>
-<li><strong>arXiv</strong>: <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2603.23233">2603.23233</a></li>
-<li><strong>Title</strong>: Modeling the Disjunction Effect within Classical Probability</li>
-<li><strong>Published</strong>: March 24, 2026</li>
-</ul>
-<h2 id="What-is-the-Disjunction-Effect"><a href="#What-is-the-Disjunction-Effect" class="headerlink" title="What is the Disjunction Effect?"></a>What is the Disjunction Effect?</h2><p>The <strong>disjunction effect</strong> is a famous phenomenon in decision psychology where people behave inconsistently with rational choice theory:</p>
-<blockquote>
-<p>When facing two options:</p>
-<ul>
-<li><strong>Option A</strong>: A sure gain of $30</li>
-<li><strong>Option B</strong>: 80% chance of $45, 20% chance of nothing</li>
-</ul>
-<p>Most people choose A (sure thing).</p>
-<p>But if you’re told: “If a coin lands heads, you get to choose between A and B. If tails, you get nothing”, most people say they’d <em>prefer to leave the choice to chance</em> rather than take the sure thing.</p>
-</blockquote>
-<p>This violates classical rational choice — people should have consistent preferences regardless of how the choice is framed.</p>
-<h2 id="Busemeyer’s-Quantum-Cognition-Explanation"><a href="#Busemeyer’s-Quantum-Cognition-Explanation" class="headerlink" title="Busemeyer’s Quantum Cognition Explanation"></a>Busemeyer’s Quantum Cognition Explanation</h2><p>Joshua Busemeyer (and colleagues like Peter Bruza) proposed that <strong>quantum probability theory</strong> explains these “irrational” human decisions. Their argument:</p>
-<ul>
-<li>Human cognition involves <strong>superposition</strong> of mental states</li>
-<li>The “disjunction effect” emerges from <strong>quantum interference</strong> effects</li>
-<li>Classical probability theory <strong>cannot</strong> explain these phenomena</li>
-</ul>
-<p>This became a cornerstone of the “quantum mind” &#x2F; “quantum consciousness” movement in cognitive science.</p>
-<h2 id="The-New-Challenge"><a href="#The-New-Challenge" class="headerlink" title="The New Challenge"></a>The New Challenge</h2><p>A new paper (2603.23233) argues that <strong>classical probability CAN explain the disjunction effect</strong> — if we relax an unrealistic assumption.</p>
-<h3 id="The-Flawed-Assumption"><a href="#The-Flawed-Assumption" class="headerlink" title="The Flawed Assumption"></a>The Flawed Assumption</h3><p>Traditional classical models assumed:</p>
-<ul>
-<li>When facing uncertain situations, humans have a <strong>100% certain expectation</strong> about what others will do</li>
-</ul>
-<p>The paper shows this is unreasonable. In the Disjunction Effect experiment, participants must predict how a <strong>partner will behave</strong> (cooperate or defect). Realistically, people don’t have 100% certainty about others’ behavior.</p>
-<h3 id="The-Fix"><a href="#The-Fix" class="headerlink" title="The Fix"></a>The Fix</h3><p>By introducing a <strong>continuous “expectation parameter”</strong> representing subjective probability of partner’s cooperation, the classical model can reproduce <strong>any observed defection rate triplet data</strong>.</p>
-<h2 id="Why-This-Matters-for-Quantum-Cognition"><a href="#Why-This-Matters-for-Quantum-Cognition" class="headerlink" title="Why This Matters for Quantum Cognition"></a>Why This Matters for Quantum Cognition</h2><p>This is a <strong>direct challenge</strong> to the quantum cognition paradigm:</p>
-<table>
-<thead>
-<tr>
-<th>Claim</th>
-<th>Status</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>“Classical probability cannot explain disjunction effect”</td>
-<td>❌ <strong>Challenged</strong></td>
-</tr>
-<tr>
-<td>“Quantum mechanics is needed to explain human irrationality”</td>
-<td>⚠️ <strong>Questioned</strong></td>
-</tr>
-</tbody></table>
-<p>The paper suggests that some “quantum” effects in cognition might be <strong>artifacts of overly restrictive classical models</strong>, not genuine quantum processes.</p>
-<h2 id="Implications-for-Quantum-Consciousness-Research"><a href="#Implications-for-Quantum-Consciousness-Research" class="headerlink" title="Implications for Quantum Consciousness Research"></a>Implications for Quantum Consciousness Research</h2><p>If classical probability can explain decision anomalies that were attributed to quantum effects:</p>
-<ol>
-<li><strong>Evidence weakens</strong> for quantum processes in brain function</li>
-<li><strong>Quantum-like modeling</strong> (using quantum math formalism without actual quantum physics) still has value as a computational tool</li>
-<li><strong>Need more careful experiments</strong> to distinguish genuine quantum effects from classical uncertainty</li>
-</ol>
-<h2 id="The-Bigger-Picture"><a href="#The-Bigger-Picture" class="headerlink" title="The Bigger Picture"></a>The Bigger Picture</h2><p>The distinction matters:</p>
-<ul>
-<li><strong>Quantum brain</strong>: Actual quantum physical processes in neurons (very controversial)</li>
-<li><strong>Quantum-like modeling</strong>: Using quantum probability math to model cognition (useful, but not evidence for #1)</li>
-</ul>
-<p>This paper suggests the disjunction effect belongs firmly in category 2, not category 1.</p>
-<hr>
-<p><strong>Further reading</strong>:</p>
-<ul>
-<li>Original Busemeyer quantum cognition work</li>
-<li>IRAM-Omega-Q paper (arXiv:2603.16020) — quantum-like computational architecture</li>
-<li>Extreme Quantum Cognition Machines (arXiv:2603.05430)</li>
-</ul>
-<blockquote>
-<p><strong>Note</strong>: This is a research summary, not a peer-reviewed analysis. The paper presents an interesting challenge to quantum cognition, but requires further replication and debate.</p>
-</blockquote>
-
-	
-	</div>
-	
-  
-</div>
-	<a type="button" href="/2026/04/01/Disjunction-Effect-Classical-Probability-Challenge-Quantum-Cognition-2026-04-01/#more" class="btn btn-default more">Read More</a>
-</div>
-
-		
 
 		</div>
 
@@ -1325,7 +1291,7 @@
 		
 			<li><a href="/categories/#量子神経科学">量子神経科学 <span>(2)</span></a></li>
 		
-			<li><a href="/categories/#量子神经科学">量子神经科学 <span>(1)</span></a></li>
+			<li><a href="/categories/#量子神经科学">量子神经科学 <span>(2)</span></a></li>
 		
 			<li><a href="/categories/#量子脑与认知科学">量子脑与认知科学 <span>(3)</span></a></li>
 		
@@ -1350,45 +1316,45 @@
 		<h4 style="margin-top: 18px;">Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/#微管蛋白">微管蛋白 <span>(1)</span></a></li>
+			<li><a href="/tags/#Disjunction Effect">Disjunction Effect <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#量子">量子 <span>(2)</span></a></li>
+			<li><a href="/tags/#量子电路">量子电路 <span>(2)</span></a></li>
 		
-			<li><a href="/tags/#决策心理学">决策心理学 <span>(2)</span></a></li>
+			<li><a href="/tags/#Busemeyer">Busemeyer <span>(6)</span></a></li>
 		
-			<li><a href="/tags/#Consciousness">Consciousness <span>(1)</span></a></li>
+			<li><a href="/tags/#记忆形成">记忆形成 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#反事实分析">反事实分析 <span>(1)</span></a></li>
+			<li><a href="/tags/#几何相位">几何相位 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#deliberative-inference">deliberative-inference <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#量子相干性">量子相干性 <span>(7)</span></a></li>
+		
+			<li><a href="/tags/#热力学">热力学 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#决策科学">决策科学 <span>(2)</span></a></li>
+		
+			<li><a href="/tags/#量子神経科学">量子神経科学 <span>(2)</span></a></li>
+		
+			<li><a href="/tags/#丘脑">丘脑 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#量子动力学">量子动力学 <span>(1)</span></a></li>
 		
 			<li><a href="/tags/#前頭葉">前頭葉 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#智能理论">智能理论 <span>(2)</span></a></li>
+			<li><a href="/tags/#量子信息">量子信息 <span>(6)</span></a></li>
 		
-			<li><a href="/tags/#Fisher">Fisher <span>(6)</span></a></li>
+			<li><a href="/tags/#意识科学">意识科学 <span>(5)</span></a></li>
 		
-			<li><a href="/tags/#主体性">主体性 <span>(1)</span></a></li>
+			<li><a href="/tags/#UQT">UQT <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#前頭前野">前頭前野 <span>(1)</span></a></li>
+			<li><a href="/tags/#PhD申请">PhD申请 <span>(2)</span></a></li>
 		
-			<li><a href="/tags/#认知科学">认知科学 <span>(5)</span></a></li>
+			<li><a href="/tags/#IRAM-Omega-Q">IRAM-Omega-Q <span>(5)</span></a></li>
 		
-			<li><a href="/tags/#量子纠错">量子纠错 <span>(6)</span></a></li>
+			<li><a href="/tags/#量子記憶">量子記憶 <span>(3)</span></a></li>
 		
-			<li><a href="/tags/#量子生物學">量子生物學 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#quantum-consciousness">quantum-consciousness <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#突触可塑性">突触可塑性 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#SIE">SIE <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#YR Kwon">YR Kwon <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#前額葉">前額葉 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#微管">微管 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#记忆形成">记忆形成 <span>(1)</span></a></li>
+			<li><a href="/tags/#Giorgiev">Giorgiev <span>(1)</span></a></li>
 		
 		
 		   <li><a href="/tags">...<span>285</span></a></li>
