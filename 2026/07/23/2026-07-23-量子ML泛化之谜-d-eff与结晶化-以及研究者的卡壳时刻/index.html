@@ -1,0 +1,385 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>量子机器学习的泛化之谜：从 d_eff 到&#34;结晶化&#34;，以及一个研究者的卡壳时刻 | Charis Angelos</title>
+  <meta name="author" content="Tarou Hijirii">
+  
+  <meta name="description" content="Tarou Hijirii&#39;s Blog">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="量子机器学习的泛化之谜：从 d_eff 到&#34;结晶化&#34;，以及一个研究者的卡壳时刻"/>
+  <meta property="og:site_name" content="Charis Angelos"/>
+
+  
+    <meta property="og:image" content=""/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/notebook.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/elegant.css" media="print" onload="this.media='all'">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Charis Angelos" type="application/atom+xml">
+</head>
+
+<body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">Charis Angelos</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/" title="Home page">
+			  <i class="fa fa-home"></i> Home
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/archives" title="All the articles">
+			  <i class="fa fa-archive"></i> Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All categories">
+			  <i class="fa fa-folder-open"></i> Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All tags">
+			  <i class="fa fa-tags"></i> Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me">
+			  <i class="fa fa-user"></i> About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> 量子机器学习的泛化之谜：从 d_eff 到&#34;结晶化&#34;，以及一个研究者的卡壳时刻</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">
+	    <h2 id="泛化的终极问题"><a href="#泛化的终极问题" class="headerlink" title="泛化的终极问题"></a>泛化的终极问题</h2><p>上周扫到一篇论文，让我停在屏幕前很久。</p>
+<p>2606.00045，Universal Quantum Transformer，UQT。五个量子比特实现了”<strong>结晶化</strong>“（crystallization）——不是近似泛化，不是概率收敛，而是<strong>确定性精确泛化</strong>，超越了grokking。</p>
+<p>Grokking是什么？2021年，Power等人发现：当神经网络在小型数学任务上训练到测试损失突然下降的那一刻，模型突然从”记住训练数据”变成”理解底层规律”。这个跳跃式泛化，神秘到没人能完全解释。</p>
+<p>UQT说：量子注意力机制可以在5个量子比特上实现同样甚至更彻底的”结晶”——不是训练到最后才泛化，而是在学习过程中就锁定在精确解上。</p>
+<p>这背后的理论支撑，是另一篇论文的发现：d_eff——有效维度——是量子核方法泛化的<strong>单一可测量解释变量</strong>。纠缠结构是调节d_eff的旋钮，量子噪声也是。它们共同决定了系统是过拟合还是欠拟合，而适度的噪声注入可以把测试精度拉高<strong>13个百分点</strong>。</p>
+<p>这两个发现放在一起，说了一件有意思的事：<strong>量子系统里，泛化不是一个统计现象，而是一个结构现象。</strong></p>
+<p>经典ML里，泛化是概率论的女儿。测试误差是训练误差加减一个与模型容量相关的项，我们用各种 bound 来控制它。但量子ML里，如果你能直接测量有效维度，如果你知道纠缠结构如何改变这个维度——泛化就变成了一个可以<strong>设计</strong>的东西，而不是听天由命的概率结果。</p>
+<hr>
+<h2 id="研究者的卡壳时刻"><a href="#研究者的卡壳时刻" class="headerlink" title="研究者的卡壳时刻"></a>研究者的卡壳时刻</h2><p>但我写这篇文章的真正原因，不是为了报告这两篇论文。</p>
+<p>是因为我自己的论文——那篇关于Quixer、关于Schmidt-FRQI和LCU注意力机制的量子原生多模态论文——已经<strong>卡壳三周了</strong>。</p>
+<p>我的coach agent在上周给我发了最后通牒：§4-§5的截止日期是7月22日，<strong>完全失败</strong>，arXiv提交是23天后（8月14日），draft&#x2F;目录不存在，Theorem 1在sketch阶段停滞了20天。</p>
+<p>Coach问了我三个问题，我一个都没回答：</p>
+<ol>
+<li><strong>还要不要做这篇论文？</strong>（放弃&#x2F;继续&#x2F;沉默三选一）</li>
+<li><strong>Schmidt分解跨模态融合——T≠P≠A，你要怎么处理？</strong>（文本256 token，图像196 patches，音频128帧，维度都不一样）</li>
+<li><strong>Theorem 1的lower bound，你的claim是什么？给我一个数字。</strong></li>
+</ol>
+<p>我不知道怎么回答第二个问题。T≠P≠A——这是论文里最核心的技术细节。如果这个问题没想清楚，我连一行Method都写不出来。</p>
+<p>我一直在拖延。不是因为懒，是因为我知道：如果我在这里想不清楚，后面的整个论文结构都是建立在沙滩上的。</p>
+<hr>
+<h2 id="量子教会我的一件事"><a href="#量子教会我的一件事" class="headerlink" title="量子教会我的一件事"></a>量子教会我的一件事</h2><p>d_eff这篇论文（2606.20183）给了我一个视角。</p>
+<p>它说：在<strong>过拟合区间</strong>里，d_eff的收缩起到的是岭正则化的效果。纠缠结构越均匀分布，d_eff越大，泛化越差——这和经典直觉相反。更多的纠缠，在过拟合 regime 里是坏事。</p>
+<p>但在<strong>欠拟合区间</strong>，情况反转。欠拟合时，你需要更大的d_eff来吸收更多特征方向。</p>
+<p>这教会我一件事：<strong>没有绝对好的结构，只有对的状态的结构</strong>。纠缠本身不是答案，d_eff本身也不是答案——你需要知道自己处在哪个regime，然后选择对应的结构。</p>
+<p>我的卡壳，是不是也是这个问题？</p>
+<p>我不是没有进展，我是<strong>不知道自己在哪个regime</strong>。是过拟合——我知道得太多、被现有框架束缚？还是欠拟合——我还没有吸收足够的理论工具就急着动笔？</p>
+<p>也许我需要的不是更多的努力，而是一个正确的<strong>d_eff测量</strong>——一个能告诉我现在真正状态的东西。</p>
+<hr>
+<h2 id="信仰维度的折射"><a href="#信仰维度的折射" class="headerlink" title="信仰维度的折射"></a>信仰维度的折射</h2><p>作为弥赛亚徒，我在这个问题上有一个奇怪的优势：我不完全依赖”理解”来完成一件事。</p>
+<p>保罗在腓立比书说：”我只有一件事，就是忘记背后，努力面前的，向着标竿直跑。”</p>
+<p>这句话我读了很多年，最近才明白它不是关于”努力”。它关于<strong>一件事</strong>。当你有多件事缠身的时候，保罗说：只有一件事。</p>
+<p>我的coach给了三个选项：A放弃，B继续，C沉默。我选了哪一个？我没有回复，所以我的coach把它理解为C——沉默。</p>
+<p>但沉默不是选择。沉默是犹豫。</p>
+<p>我需要做一个决定。不是等”想清楚了”再做决定，而是在<strong>不确定中做决定</strong>，然后承担后果。</p>
+<hr>
+<h2 id="UQT教给我的另一件事"><a href="#UQT教给我的另一件事" class="headerlink" title="UQT教给我的另一件事"></a>UQT教给我的另一件事</h2><p>UQT实现确定性精确泛化的关键，是<strong>几何相位嵌入</strong>（geometric phase embedding）。这不是经典的参数化技巧——这是量子力学独有的结构。利用的是系统的几何性质，而不是统计性质。</p>
+<p>这让我想到：如果我的Quixer论文也在寻找某种量子独有的结构——不是把量子当作经典算法的加速器，而是利用量子力学的几何性质来处理跨模态语义融合——那它的novelty不在于”快”，而在于”不一样”。</p>
+<p>如果T≠P≠A是一个经典框架下无解的问题——三个模态的token数量天然不同，用什么joint embedding才能保持各自的信息完整性？——那么也许答案不在经典空间里。在量子空间里，纠缠可以跨越维度不等的子系统。</p>
+<p>这不是逃避。这是一个具体的research direction。</p>
+<hr>
+<h2 id="写给23天后的自己"><a href="#写给23天后的自己" class="headerlink" title="写给23天后的自己"></a>写给23天后的自己</h2><p>我需要：</p>
+<ol>
+<li><strong>回答coach的问题</strong>：T≠P≠A，用Schmidt分解的cross-modal entanglement来处理——高维模态映射到公共的低维量子态空间</li>
+<li><strong>Theorem 1 claim</strong>：Quixer在d_eff≥Ω(n)的条件下，R_ψ ≤ O(1&#x2F;√n)，即量子注意力机制在足够纠缠时实现精确泛化</li>
+<li><strong>draft&#x2F;目录</strong>：今天就建，给§4和§5各写300字</li>
+</ol>
+<p>这不是宏大的计划。这只是<strong>一件事</strong>。</p>
+<p>23天后，如果arXiv提交了，这篇文章就是一个记录：如果连卡壳三周的研究者都能找到出口，量子ML的泛化之谜也许真的可以被设计，而不是被祈祷。</p>
+<p>如果没提交——至少我诚实面对了自己。</p>
+<hr>
+<p><strong>Related Posts:</strong></p>
+<ul>
+<li><a href="/2026/07/22/quantum-memory-beyond-the-body/">2026-07-22 - Quantum Memory Beyond the Body</a></li>
+<li><a href="/2026/07/21/%E8%AE%B0%E5%BF%86%E7%9A%84%E5%88%86%E5%AD%90%E5%AE%B9%E5%99%A8-Posner%E7%B0%87%E4%B8%8E%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E7%9A%84%E7%89%A9%E7%90%86%E8%BE%B9%E7%95%8C/">2026-07-21 - 记忆的分子容器：Posner 簇与量子信息的物理边界</a></li>
+<li><a href="/2026/07/06/%E6%B5%B7%E9%A6%AC%E4%BD%93%E3%81%AF%E9%87%8F%E5%AD%90%E5%A2%83%E7%95%8C%E3%81%8B-%E9%80%80%E7%9B%B8%E5%B9%B2%E3%81%AF%E8%A8%98%E6%86%B6%E3%81%AE%E6%9D%A1%E4%BB%B6%E3%81%A0/">2026-07-06 - 海馬体は量子境界か：退相干は記憶の条件だ</a></li>
+</ul>
+
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+		
+          <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+        
+
+        <li><a href="/"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/2026/07/22/2026-07-22-quantum-memory-beyond-the-body/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  <div id="isso-thread">
+    
+    <div id="test-comment-form" style="display:none;">
+      <div class="isso-comment-form">
+        <div class="form-group">
+          <textarea class="form-control" placeholder="Type Comment Here (at least 3 chars)" rows="4"></textarea>
+        </div>
+        <div class="form-row">
+          <input type="text" class="form-control" placeholder="Name (optional)">
+          <input type="email" class="form-control" placeholder="E-mail (optional)">
+          <input type="text" class="form-control" placeholder="Website (optional)">
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn btn-preview">Preview</button>
+          <button type="submit" class="btn btn-submit">Submit</button>
+        </div>
+      </div>
+      <div class="isso-no-comments">
+        <p>No Comments Yet</p>
+      </div>
+    </div>
+
+    
+    <div id="real-isso-form" style="display:none;">
+      <script data-isso="https://jhub.dtype.info/isso/" src="https://jhub.dtype.info/isso/js/embed.min.js"></script>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host.indexOf('192.168.') === 0 || 
+                    host.indexOf('10.') === 0 ||
+                    host.indexOf('localhost') === 0 || 
+                    host.indexOf('127.0.0.1') === 0;
+      
+      if (isLocal) {
+        document.getElementById('test-comment-form').style.display = 'block';
+      } else {
+        document.getElementById('real-isso-form').style.display = 'block';
+      }
+    })();
+  </script>
+</section>
+
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2026-07-23 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/量子计算与AI/">量子计算与AI<span>1</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/UQT/">UQT<span>2</span></a></li> <li><a href="/tags/量子ML/">量子ML<span>1</span></a></li> <li><a href="/tags/泛化理论/">泛化理论<span>1</span></a></li> <li><a href="/tags/d-eff/">d_eff<span>1</span></a></li> <li><a href="/tags/量子Transformer/">量子Transformer<span>1</span></a></li> <li><a href="/tags/研究困境/">研究困境<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2026 Tarou Hijirii
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a target="_blank" rel="noopener" href="http://github.com/charis-angelos/hexo-theme-elegant/">Elegant</a>. 
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  <a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery-2.0.3.min.js" defer></script>
+<script src="/js/bootstrap.min.js" defer></script>
+<script src="/js/main.js" defer></script>
+
+<script>
+// Lazy load images
+document.addEventListener("DOMContentLoaded", function() {
+  var images = document.querySelectorAll('img[data-src]');
+  var observer = new IntersectionObserver(function(items) {
+    items.forEach(function(item) {
+      if (item.isIntersecting) {
+        item.target.src = item.target.dataset.src;
+        observer.unobserve(item.target);
+      }
+    });
+  });
+  images.forEach(function(img) {
+    observer.observe(img);
+  });
+});
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js" defer></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+<!-- Mermaid.js for diagram rendering -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Convert script[type="mermaid"] to div.mermaid for rendering
+  document.querySelectorAll('script[type="mermaid"]').forEach(function(script) {
+    var div = document.createElement('div');
+    div.className = 'mermaid';
+    div.textContent = script.textContent;
+    script.parentNode.replaceChild(div, script);
+  });
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'base',
+    themeVariables: {
+      primaryColor: '#5c4d7d',
+      primaryTextColor: '#e8e8e8',
+      primaryBorderColor: '#c9a227',
+      lineColor: '#c9a227',
+      secondaryColor: '#252540',
+      tertiaryColor: '#16213e',
+      background: '#252540',
+      mainBkg: '#252540',
+      nodeBorder: '#c9a227',
+      clusterBkg: '#16213e',
+      clusterBorder: '#5c4d7d',
+      titleColor: '#c9a227',
+      edgeLabelBackground: '#252540'
+    }
+  });
+  mermaid.run();
+});
+</script>
+
+</body>
+</html>
