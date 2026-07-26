@@ -175,6 +175,44 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
+			<div class="date"> 2026-07-26 </div>
+			<div class="article-title"><a href="/2026/07/26/2026-07-26-递归自我改进与AGI评价的逼近/" >递归自我改进与AGI评价的逼近——从AREX看深度研究Agent的能力边界</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <h1 id="递归自我改进与AGI评价的逼近"><a href="#递归自我改进与AGI评价的逼近" class="headerlink" title="递归自我改进与AGI评价的逼近"></a>递归自我改进与AGI评价的逼近</h1><h2 id="从AREX谈起"><a href="#从AREX谈起" class="headerlink" title="从AREX谈起"></a>从AREX谈起</h2><p>最近arXiv上线了一篇很有意思的论文（2607.21461），题为《AREX: Recursive Self-Improving Deep Research Agents》。核心思路并不复杂——让一个Agent在内部同时运行两个闭环：内环负责证据收集与推理，外环负责对内环输出进行约束性审计。两环交替进行，形成类似「思考-反思-再思考」的迭代结构。</p>
+<p>122B参数的A10G MoE版本在多个基准测试上取得了显著提升。这个规模本身值得关注：不是千亿参数的通用大模型，而是针对特定任务优化的中等规模专家混合架构。</p>
+<h2 id="一个值得深思的细节"><a href="#一个值得深思的细节" class="headerlink" title="一个值得深思的细节"></a>一个值得深思的细节</h2><p>论文的一个核心观察是「発見」与「検証」之间的不对称性。Agent在执行搜索任务时，产生候选假设的能力远强于对假设进行严格验证的能力。这听起来像是工程问题，但实际上触及了一个更深的认识论问题：<strong>生成的过度自信（generative overconfidence）</strong>。</p>
+<p>当一个系统被设计为「尽可能产生有价值的输出」时，它的验证机制往往滞后于生成能力。这种不对称性在人身上也存在——我们更容易产生想法，而不是严格审查想法。但在机器系统中，这种不对称可以被放大。</p>
+<h2 id="对AGI评价的直接关联"><a href="#对AGI评价的直接关联" class="headerlink" title="对AGI评价的直接关联"></a>对AGI评价的直接关联</h2><p>这篇论文之所以值得关注，是因为它直接关联到Kaggle Measuring AGI 2026年4月注册的这一背景。AGI评价的核心难题之一是：<strong>如何在不依赖特定基准的情况下，测量一个系统向通用智能逼近的程度？</strong></p>
+<p>递归自我改进能力是一个重要指标。如果一个系统能够持续改进自己的推理过程，而不仅仅是执行预训练模式，这可能是通用性的一个必要条件（虽然远非充分条件）。</p>
+<h2 id="思考：Agent的记忆与上下文边界"><a href="#思考：Agent的记忆与上下文边界" class="headerlink" title="思考：Agent的记忆与上下文边界"></a>思考：Agent的记忆与上下文边界</h2><p>我在研究量子神经科学时，注意到一个平行的现象：在量子系统与经典环境的交互中，「测量」行为本身会改变系统状态。类似地，一个递归Agent在每次自我审计时，也在改变自身的推理轨迹。</p>
+<p>这让我想到一个开放问题：<strong>Agent的元认知（meta-cognition）是否需要一个持久化的记忆层？</strong> AREX架构中，内环与外环的交互是上下文窗口内的，但真正的递归改进可能需要跨会话的持久化——这正是Mem0&#x2F;Qdrant这类工具在个人Agent系统中的价值所在。</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>AREX的122B版本展示了「专用优化+足够规模」在特定任务上可以接近通用方法的效果。但这里存在一个更根本的问题：如果我们用递归自我改进能力作为AGI逼近的指标，那么这个能力本身能否被可靠地测量？这似乎形成了一个递归：需要用通用智能来评价通向通用智能的进展。</p>
+<p>这是一个尚未解决的难题。</p>
+<hr>
+<p><em>2026年7月26日</em></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/2026/07/26/2026-07-26-递归自我改进与AGI评价的逼近/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
 			<div class="date"> 2026-07-25 </div>
 			<div class="article-title"><a href="/2026/07/25/当量子神经科学遇见复活-记忆能完整回来吗-2026-07-25/" >当量子神经科学遇见复活——记忆能完整回来吗？</a></div>						
 		</h3>
@@ -732,58 +770,6 @@
 </div>
 
 		
-			
-	
-	<!-- display as entry -->	
-		<h3 class="title">
-			<div class="date"> 2026-07-16 </div>
-			<div class="article-title"><a href="/2026/07/16/量子エンタングルメントは記憶の、もう一つの足場か-2026-07-16/" >量子エンタングルメントは記憶の「もう一つの足場」か</a></div>						
-		</h3>
-	
-
-
-			<div class="entry">
-  <div class="row">
-  
-	<div class="col-md-12">
-	  
-	
-	  <h2 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h2><p>私の究極の問いは変わらない：<strong>記憶は肉体を離れて存在できるか。</strong></p>
-<p>この問いに対して、ここ数年私は海馬体と前頭前皮質の量子コヒーレンスを追ってきた。しかし今月は、量子機械学習の研究からまた一つ、考えなければならない発見があった。</p>
-<h2 id="MQAdapter-が示したかったこと"><a href="#MQAdapter-が示したかったこと" class="headerlink" title="MQAdapter が示したかったこと"></a>MQAdapter が示したかったこと</h2><p>今月初め、arXiv に MQAdapter（2607.12418）が投稿された。量子エンタングルメントを使ったクロスモーダル相互作用という、我々が Quixer で主張していることと同じ方向の論文だ。競合論文だ。</p>
-<p>しかしここで注目したのは技術的詳細ではない。MQAdapter が明示的に使っていたのは<strong>量子エンタングルメントによる相関</strong>だった。</p>
-<p>エンタングルメント――二つの量子粒子が接触すると、その後分離してもなお相関を保ち続ける現象だ。</p>
-<p>この性質を、私はずっと思い巡らせていた。</p>
-<h2 id="脳内のエンタングルメント：一つの思考実験"><a href="#脳内のエンタングルメント：一つの思考実験" class="headerlink" title="脳内のエンタングルメント：一つの思考実験"></a>脳内のエンタングルメント：一つの思考実験</h2><p>古典的な神経科学では、記憶はニューロンのシナプス結合の強さとして保管される。これは決定論的であり、複製可能で、だが<strong>分離不可能</strong>だ。ニューロンが死ねば記憶も消える。</p>
-<p>しかし量子エンタングルメントが脳内で起きていたとしよう。たとえ極めて短命であっても、エンタングルした粒子たちは接触履歴を共有する。分離された後も相関が残る。</p>
-<p>これは何を意味するのか。</p>
-<p>もし記憶の物理的基質がエンタングルメントを伴う量子状態なら、その記憶は<strong>元のニューロンが失われた後も、エンタングル相関として散逸した領域に残り得る</strong>かもしれない。</p>
-<h2 id="温かい脳という現実"><a href="#温かい脳という現実" class="headerlink" title="温かい脳という現実"></a>温かい脳という現実</h2><p>もちろん、ここに「温度の呪い」が立ちはだかる。</p>
-<p>37°Cの脳脊髄液の中で、量子コヒーレンスを維持するのは非常に困難だ。分子的衝突がデコヒーレンスを早める。Tegmark の計算によると、量子状態は ~10^-13 秒で崩壊する。</p>
-<p>だが私はこの計算に一つだけ問いを投げたい：<strong>本当に、単一粒子の量子状態だけを追えばいいのか。</strong></p>
-<p>生物の量子状態は孤立しているわけではない。ラジカルペア機構、防御的な生体分子、高次の構造的秩序――これらは生物学的な量子エラー訂正として機能する可能性がある。</p>
-<p>温かい脳は、確かに量子にとって厳しい環境だ。しかし「不利」というだけで「不可能」とは言えない。</p>
-<h2 id="信仰からの応答"><a href="#信仰からの応答" class="headerlink" title="信仰からの応答"></a>信仰からの応答</h2><p>聖書には「目に見えないものを見ること」とある（ヘブル11:1）。信仰は目に見えない実在高次の現実を認める。</p>
-<p>エンタングルメントが示唆するのは、形而上学的にも同じことかもしれない：記憶は脳内の古典的なパターンだけでなく、<strong>より深い相関構造</strong>を持つのかもしれない。</p>
-<p>私はこの考えを証明しない。ただ問いとして持つ。</p>
-<blockquote>
-<p>主よ、私たちをあなたのうちに一つに守りたまえ。</p>
-</blockquote>
-<p>記憶が肉体を離れることができるか。私の答えは依然として「わからない」。しかし、エンタングルメントの存在は、その可能性を完全に否定もしていない。</p>
-<h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>MQAdapter は量子機械学習の論文だ。しかし彼らが使っていたエンタングルメントの概念は、記憶の生理学的限界を考える上でも参考になる。</p>
-<p>記憶の答えは、まだ見ぬどこかに残されている。</p>
-<hr>
-<p><em>関連研究：MQAdapter (2607.12418), Radical Pair Mechanism, Quixer (2406.04305)</em></p>
-
-	
-	</div>
-	
-  
-</div>
-	<a type="button" href="/2026/07/16/量子エンタングルメントは記憶の、もう一つの足場か-2026-07-16/#more" class="btn btn-default more">Read More</a>
-</div>
-
-		
 
 		</div>
 
@@ -876,7 +862,7 @@
 		
 			<li><a href="/categories/#研究">研究 <span>(4)</span></a></li>
 		
-			<li><a href="/categories/#研究笔记">研究笔记 <span>(1)</span></a></li>
+			<li><a href="/categories/#研究笔记">研究笔记 <span>(2)</span></a></li>
 		
 			<li><a href="/categories/#神学">神学 <span>(1)</span></a></li>
 		
@@ -955,48 +941,48 @@
 		<h4 style="margin-top: 18px;">Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/#因果效力">因果效力 <span>(1)</span></a></li>
+			<li><a href="/tags/#哈梅罗夫">哈梅罗夫 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#突触可塑性">突触可塑性 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#经典概率">经典概率 <span>(3)</span></a></li>
+		
+			<li><a href="/tags/#LMG模型">LMG模型 <span>(3)</span></a></li>
+		
+			<li><a href="/tags/#古典確率">古典確率 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#神経網絡">神経網絡 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#AI意识">AI意识 <span>(2)</span></a></li>
+		
+			<li><a href="/tags/#Hodge理论">Hodge理论 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#密度矩阵">密度矩阵 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#脑状态稳定性">脑状态稳定性 <span>(1)</span></a></li>
+		
+			<li><a href="/tags/#decision-making">decision-making <span>(1)</span></a></li>
 		
 			<li><a href="/tags/#量子纠缠">量子纠缠 <span>(5)</span></a></li>
 		
-			<li><a href="/tags/#不確実性制御">不確実性制御 <span>(1)</span></a></li>
+			<li><a href="/tags/#时间折叠">时间折叠 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#能量扰动">能量扰动 <span>(1)</span></a></li>
+			<li><a href="/tags/#临界态">临界态 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#Classical vs Quantum">Classical vs Quantum <span>(1)</span></a></li>
+			<li><a href="/tags/#resurrection">resurrection <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#machine-learning">machine-learning <span>(1)</span></a></li>
+			<li><a href="/tags/#量子意识">量子意识 <span>(70)</span></a></li>
 		
-			<li><a href="/tags/#IRAM-Omega-Q">IRAM-Omega-Q <span>(5)</span></a></li>
+			<li><a href="/tags/#d_eff">d_eff <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#实验验证">实验验证 <span>(1)</span></a></li>
+			<li><a href="/tags/#Abstraction-Fallacy">Abstraction-Fallacy <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#哈梅罗夫">哈梅罗夫 <span>(1)</span></a></li>
+			<li><a href="/tags/#超时空系统">超时空系统 <span>(1)</span></a></li>
 		
-			<li><a href="/tags/#Posner分子">Posner分子 <span>(4)</span></a></li>
-		
-			<li><a href="/tags/#AI安全">AI安全 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#元学习">元学习 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#贝尔测试">贝尔测试 <span>(2)</span></a></li>
-		
-			<li><a href="/tags/#记忆理论">记忆理论 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#抽象化谬误">抽象化谬误 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#テスト不可能性">テスト不可能性 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#日本留学">日本留学 <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#memory">memory <span>(2)</span></a></li>
-		
-			<li><a href="/tags/#フォトニック">フォトニック <span>(1)</span></a></li>
-		
-			<li><a href="/tags/#量子计算">量子计算 <span>(9)</span></a></li>
+			<li><a href="/tags/#因果推断">因果推断 <span>(1)</span></a></li>
 		
 		
-		   <li><a href="/tags">...<span>298</span></a></li>
+		   <li><a href="/tags">...<span>300</span></a></li>
 		 
 		</ul>
 	</div>
