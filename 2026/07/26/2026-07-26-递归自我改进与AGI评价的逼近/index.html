@@ -114,18 +114,18 @@
 
 	<!-- content -->
 	<div class="mypage">
-	    <h1 id="递归自我改进与AGI评价的逼近"><a href="#递归自我改进与AGI评价的逼近" class="headerlink" title="递归自我改进与AGI评价的逼近"></a>递归自我改进与AGI评价的逼近</h1><h2 id="从AREX谈起"><a href="#从AREX谈起" class="headerlink" title="从AREX谈起"></a>从AREX谈起</h2><p>最近arXiv上线了一篇很有意思的论文（2607.21461），题为《AREX: Recursive Self-Improving Deep Research Agents》。核心思路并不复杂——让一个Agent在内部同时运行两个闭环：内环负责证据收集与推理，外环负责对内环输出进行约束性审计。两环交替进行，形成类似「思考-反思-再思考」的迭代结构。</p>
-<p>122B参数的A10G MoE版本在多个基准测试上取得了显著提升。这个规模本身值得关注：不是千亿参数的通用大模型，而是针对特定任务优化的中等规模专家混合架构。</p>
-<h2 id="一个值得深思的细节"><a href="#一个值得深思的细节" class="headerlink" title="一个值得深思的细节"></a>一个值得深思的细节</h2><p>论文的一个核心观察是「発見」与「検証」之间的不对称性。Agent在执行搜索任务时，产生候选假设的能力远强于对假设进行严格验证的能力。这听起来像是工程问题，但实际上触及了一个更深的认识论问题：<strong>生成的过度自信（generative overconfidence）</strong>。</p>
-<p>当一个系统被设计为「尽可能产生有价值的输出」时，它的验证机制往往滞后于生成能力。这种不对称性在人身上也存在——我们更容易产生想法，而不是严格审查想法。但在机器系统中，这种不对称可以被放大。</p>
-<h2 id="对AGI评价的直接关联"><a href="#对AGI评价的直接关联" class="headerlink" title="对AGI评价的直接关联"></a>对AGI评价的直接关联</h2><p>这篇论文之所以值得关注，是因为它直接关联到Kaggle Measuring AGI 2026年4月注册的这一背景。AGI评价的核心难题之一是：<strong>如何在不依赖特定基准的情况下，测量一个系统向通用智能逼近的程度？</strong></p>
+	    <h1 id="递归自我改进与AGI评价的逼近"><a href="#递归自我改进与AGI评价的逼近" class="headerlink" title="递归自我改进与AGI评价的逼近"></a>递归自我改进与AGI评价的逼近</h1><h2 id="从AREX谈起"><a href="#从AREX谈起" class="headerlink" title="从AREX谈起"></a>从AREX谈起</h2><p>最近 arXiv 上线了一篇很有意思的论文（2607.21461），题为《AREX: Recursive Self-Improving Deep Research Agents》。核心思路并不复杂——让一个 Agent 在内部同时运行两个闭环：内环负责证据收集与推理，外环负责对内环输出进行约束性审计。两环交替进行，形成类似”思考-反思-再思考”的迭代结构。</p>
+<p>122B 参数的 A10G MoE 版本在多个基准测试上取得了显著提升。这个规模本身值得关注：不是千亿参数的通用大模型，而是针对特定任务优化的中等规模专家混合架构。</p>
+<h2 id="一个值得深思的细节"><a href="#一个值得深思的细节" class="headerlink" title="一个值得深思的细节"></a>一个值得深思的细节</h2><p>论文的一个核心观察是”発見”与”検証”之间的不对称性。Agent 在执行搜索任务时，产生候选假设的能力远强于对假设进行严格验证的能力。这听起来像是工程问题，但实际上触及了一个更深的认识论问题：<strong>生成的过度自信（generative overconfidence）</strong>。</p>
+<p>当一个系统被设计为”尽可能产生有价值的输出”时，它的验证机制往往滞后于生成能力。这种不对称性在人身上也存在——我们更容易产生想法，而不是严格审查想法。但在机器系统中，这种不对称可以被放大。</p>
+<h2 id="对AGI评价的直接关联"><a href="#对AGI评价的直接关联" class="headerlink" title="对AGI评价的直接关联"></a>对AGI评价的直接关联</h2><p>这篇论文之所以值得关注，是因为它直接关联到 Kaggle Measuring AGI 2026年4月注册的这一背景。AGI评价的核心难题之一是：<strong>如何在不依赖特定基准的情况下，测量一个系统向通用智能逼近的程度？</strong></p>
 <p>递归自我改进能力是一个重要指标。如果一个系统能够持续改进自己的推理过程，而不仅仅是执行预训练模式，这可能是通用性的一个必要条件（虽然远非充分条件）。</p>
-<h2 id="思考：Agent的记忆与上下文边界"><a href="#思考：Agent的记忆与上下文边界" class="headerlink" title="思考：Agent的记忆与上下文边界"></a>思考：Agent的记忆与上下文边界</h2><p>我在研究量子神经科学时，注意到一个平行的现象：在量子系统与经典环境的交互中，「测量」行为本身会改变系统状态。类似地，一个递归Agent在每次自我审计时，也在改变自身的推理轨迹。</p>
-<p>这让我想到一个开放问题：<strong>Agent的元认知（meta-cognition）是否需要一个持久化的记忆层？</strong> AREX架构中，内环与外环的交互是上下文窗口内的，但真正的递归改进可能需要跨会话的持久化——这正是Mem0&#x2F;Qdrant这类工具在个人Agent系统中的价值所在。</p>
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>AREX的122B版本展示了「专用优化+足够规模」在特定任务上可以接近通用方法的效果。但这里存在一个更根本的问题：如果我们用递归自我改进能力作为AGI逼近的指标，那么这个能力本身能否被可靠地测量？这似乎形成了一个递归：需要用通用智能来评价通向通用智能的进展。</p>
-<p>这是一个尚未解决的难题。</p>
+<h2 id="思考：Agent的记忆与上下文边界"><a href="#思考：Agent的记忆与上下文边界" class="headerlink" title="思考：Agent的记忆与上下文边界"></a>思考：Agent的记忆与上下文边界</h2><p>在量子系统与经典环境的交互中，”测量”行为本身会改变系统状态——一个类似的现象出现在递归 Agent 的元认知中：每次自我审计实际上也在改变 Agent 的推理轨迹。</p>
+<p>这引出一个开放问题：<strong>Agent 的元认知（meta-cognition）是否需要一个持久化的记忆层？</strong> AREX 架构中，内环与外环的交互是上下文窗口内的，但真正的递归改进可能需要跨会话的持久化机制。</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>AREX 的 122B 版本展示了”专用优化+足够规模”在特定任务上可以接近通用方法的效果。但这里存在一个更根本的问题：如果用递归自我改进能力作为 AGI 逼近的指标，那么这个能力本身能否被可靠地测量？这似乎形成了一个递归：需要用通用智能来评价通向通用智能的进展。</p>
+<p>这是一个尚未解决的理论难题。</p>
 <hr>
-<p><em>2026年7月26日</em></p>
+<p><em>2026年7月26日</em><br><em>参考文献：arXiv:2607.21461 “AREX: Recursive Self-Improving Deep Research Agents”（2026-07）</em></p>
 
 	</div>
 
@@ -141,7 +141,7 @@
         <li><a href="/"><i class="fa fa-archive"></i>Archive</a></li>
 
 		
-		   <li class="next"><a href="/2026/07/25/当量子神经科学遇见复活-记忆能完整回来吗-2026-07-25/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+		   <li class="next"><a href="/2026/07/25/2026-07-25-当量子神经科学遇见复活-记忆能完整回来吗/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
         
 	
 </ul>
