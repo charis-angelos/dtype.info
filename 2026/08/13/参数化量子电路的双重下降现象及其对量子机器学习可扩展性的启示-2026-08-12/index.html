@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Charis Angelos</title>
+  <title>参数化量子电路的双重下降现象及其对量子机器学习可扩展性的启示 | Charis Angelos</title>
   <meta name="author" content="Tarou Hijirii">
   
   <meta name="description" content="Tarou Hijirii&#39;s Blog">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="参数化量子电路的双重下降现象及其对量子机器学习可扩展性的启示"/>
   <meta property="og:site_name" content="Charis Angelos"/>
 
   
@@ -98,7 +98,7 @@
 
 	
 		<div class="page-header">		
-			<h1> </h1>
+			<h1> 参数化量子电路的双重下降现象及其对量子机器学习可扩展性的启示</h1>
 		</div>		
 	
 
@@ -114,8 +114,7 @@
 
 	<!-- content -->
 	<div class="mypage">
-	    <p>参数化量子电路的双重下降现象及其对量子机器学习可扩展性的启示</p>
-<p>近期 arXiv 预印本 [2607.21409]《深度参数化量子电路的谨慎乐观》提供了一个引人注目的经验证据：基于梯度的参数化量子电路（PQCs）在训练参数数量增加时，实际上可以在未见数据上表现出性能提升，呈现出典型的双重下降（double descent）曲线。这一发现挑战了传统机器学习中“模型过大必然导致过拟合”的直觉，为量子机器学习（QML）的可扩展性提供了新的理論依据。</p>
+	    <h1 id="参数化量子电路的双重下降现象及其对量子机器学习可扩展性的启示"><a href="#参数化量子电路的双重下降现象及其对量子机器学习可扩展性的启示" class="headerlink" title="参数化量子电路的双重下降现象及其对量子机器学习可扩展性的启示"></a>参数化量子电路的双重下降现象及其对量子机器学习可扩展性的启示</h1><p>近期 arXiv 预印本 [2607.21409]《深度参数化量子电路的谨慎乐观》提供了一个引人注目的经验证据：基于梯度的参数化量子电路（PQCs）在训练参数数量增加时，实际上可以在未见数据上表现出性能提升，呈现出典型的双重下降（double descent）曲线。这一发现挑战了传统机器学习中“模型过大必然导致过拟合”的直觉，为量子机器学习（QML）的可扩展性提供了新的理論依据。</p>
 <p>双重下降最初在经典深度学习中被观察到：随着模型参数数量先增加到过参数化区域，测试误差首先下降、然后上升（经典的U型曲线），但在进一步增加参数后，测试误差再次下降。在量子领域，类似现象的出现意味着，即使面对硬件噪声和有限相干时间，增加量子电路的深度和宽度并不一定会损害泛化能力，反而可能通过更丰富的表示能力和更优的优化景观来改善它。</p>
 <p>这篇論文通过解析方法（利用加一扰动技術和随机矩阵的谱性质）以及数值实验（在多个数据集上的重新上传 PQCs）验证了这一行为。作者指出，虽然通往实用量子机器学习的道路上仍有许多障碍（如噪声、表达能力限制和训练挑战），但更深的 PQCs 不必然导致性能下降这一发现令人鼓舞。</p>
 <p>将此结果放置在更广泛的量子研究背景下考虑尤为重要。例如，本周的量子研究日报强调了量子原生多模态模型（如 Quixer）的発展，以及相关的相位空间 tomography 和 PQC 可扩展性问题。双重下降现象表明，在这些原生量子架构中，增大模型规模可能不仅是可行的，而且可能有益。这也为量子机器学习中的模型选择提供了指导：在给定的硬件约束下，适当增加电路深度可能比仅仅增加宽度更有效。</p>
@@ -216,8 +215,27 @@
 
 	<!-- categories -->
     
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/量子计算与量子AI/">量子计算与量子AI<span>2</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
 
 	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/量子机器学习/">量子机器学习<span>5</span></a></li> <li><a href="/tags/参数化量子电路/">参数化量子电路<span>1</span></a></li> <li><a href="/tags/双重下降/">双重下降<span>1</span></a></li> <li><a href="/tags/可扩展性/">可扩展性<span>1</span></a></li> <li><a href="/tags/PQC/">PQC<span>1</span></a></li>
+    </ul>
+	</div>
 		
 
 	<!-- toc -->
