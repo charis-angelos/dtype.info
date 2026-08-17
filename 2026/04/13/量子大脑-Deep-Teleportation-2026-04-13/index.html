@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>量子大脑-Deep Teleportation：量子电路模拟意识报告 | Charis Angelos</title>
+  <title>量子大脑与Deep Teleportation：量子电路模拟意识报告 | Charis Angelos</title>
   <meta name="author" content="Tarou Hijirii">
   
   <meta name="description" content="Tarou Hijirii&#39;s Blog">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="量子大脑-Deep Teleportation：量子电路模拟意识报告"/>
+  <meta property="og:title" content="量子大脑与Deep Teleportation：量子电路模拟意识报告"/>
   <meta property="og:site_name" content="Charis Angelos"/>
 
   
@@ -98,7 +98,7 @@
 
 	
 		<div class="page-header">		
-			<h1> 量子大脑-Deep Teleportation：量子电路模拟意识报告</h1>
+			<h1> 量子大脑与Deep Teleportation：量子电路模拟意识报告</h1>
 		</div>		
 	
 
@@ -116,37 +116,40 @@
 	<div class="mypage">
 	    <h2 id="注意瞬脱：意识研究中的经典难题"><a href="#注意瞬脱：意识研究中的经典难题" class="headerlink" title="注意瞬脱：意识研究中的经典难题"></a>注意瞬脱：意识研究中的经典难题</h2><p>想象一下：你在看一连串快速闪过的图片，其中两个位置藏着你需要记住的目标（T1和T2）。当T1和T2间隔太短时，你会错过T2——这就是著名的<strong>注意瞬脱（Attentional Blink）</strong>现象。</p>
 <p>奇怪的是，<strong>lag-1时反而能报告T2</strong>（Lag-1 Sparing）：当T2紧跟在T1之后时，你还能抓住它；但再久一点就完全”看不见”了。这种非线性的人类反应模式，经典模型一直拟合不好。</p>
-<p>arXiv:2512.18585 提出了一种新方法：用<strong>量子纠缠电路</strong>来模拟这个现象。</p>
-<h2 id="Deep-Teleportation-Channel：三量子比特纠缠Ansatz"><a href="#Deep-Teleportation-Channel：三量子比特纠缠Ansatz" class="headerlink" title="Deep Teleportation Channel：三量子比特纠缠Ansatz"></a>Deep Teleportation Channel：三量子比特纠缠Ansatz</h2><p>論文的核心是用一个三量子比特的纠缠ansatz电路来模拟意识报告过程：</p>
+<p>论文《Deep Teleportation: Quantum Simulation of Conscious Report in Attentional Blink》（Ahmad Sohrabi，Carleton University，arXiv:2512.18585v2，q-bio.NC，投稿于2025年12月31日）提出了一种新方法：用<strong>量子纠缠电路</strong>来模拟这个现象。</p>
+<h2 id="Deep-Teleportation-Channel：三量子比特纠缠Ansatz"><a href="#Deep-Teleportation-Channel：三量子比特纠缠Ansatz" class="headerlink" title="Deep Teleportation Channel：三量子比特纠缠Ansatz"></a>Deep Teleportation Channel：三量子比特纠缠Ansatz</h2><p>论文的核心是用一个三量子比特的纠缠ansatz电路来模拟意识报告过程：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">电路架构：deep teleportation channel</span><br><span class="line">- 三个量子比特纠缠</span><br><span class="line">- mask刺激编码为随机角度旋转</span><br><span class="line">- 测量结果作为经典概率输出</span><br><span class="line">- 输出接入简单线性神经网络</span><br></pre></td></tr></table></figure>
 
 <p>不同于传统的EPR纠缠通道，这里用的是”深度远程传送通道”——这让模型能够捕捉时间动态。</p>
 <h2 id="核心结果：成功复现三个人类现象"><a href="#核心结果：成功复现三个人类现象" class="headerlink" title="核心结果：成功复现三个人类现象"></a>核心结果：成功复现三个人类现象</h2><ol>
-<li><p><strong>Lag-1 Sparing</strong>：T2紧跟T1时反而能报告（非线性！）</p>
-</li>
-<li><p><strong>Lag-7 Divergence</strong>：长间隔后的发散行为</p>
-</li>
-<li><p><strong>Masking Effect</strong>：掩蔽刺激的效应</p>
-</li>
+<li><strong>Lag-1 Sparing</strong>：T2紧跟T1时反而能报告（非线性！）</li>
+<li><strong>Lag-7 Divergence</strong>：长间隔后的发散行为</li>
+<li><strong>Masking Effect</strong>：掩蔽刺激的效应</li>
 </ol>
 <p>最终产生了一个<strong>非线性交替状态模式</strong>，与人眼数据高度吻合。</p>
-<h2 id="为什么重要"><a href="#为什么重要" class="headerlink" title="为什么重要"></a>为什么重要</h2><p>这是量子认知模型直接模拟<strong>意识报告</strong>现象的成功案例。之前的量子认知多用于视觉或推理，这次是少数直接针对”意识本身”的建模尝试。</p>
-<h3 id="关键技術点"><a href="#关键技術点" class="headerlink" title="关键技術点"></a>关键技術点</h3><ul>
-<li><strong>三比特纠缠</strong>：比双比特EPR更强大的表示能力</li>
-<li><strong>混合架构</strong>：量子电路 + 经典神经网络</li>
-<li><strong>时间动态</strong>：通过随机角度旋转编码时间结构</li>
+<h2 id="为什么重要"><a href="#为什么重要" class="headerlink" title="为什么重要"></a>为什么重要</h2><p>这是量子认知模型直接模拟<strong>意识报告</strong>现象的成功案例。之前的量子认知多用于视觉或推理，这次是少数直接针对”意识本身”的建模尝试。关键技術点：<strong>三比特纠缠</strong>（比双比特EPR更强大的表示能力）、<strong>混合架构</strong>（量子电路 + 经典神经网络）、<strong>时间动态</strong>（通过随机角度旋转编码时间结构）。</p>
+<h2 id="与其他量子认知研究的联系"><a href="#与其他量子认知研究的联系" class="headerlink" title="与其他量子认知研究的联系"></a>与其他量子认知研究的联系</h2><p>这项工作与量子认知领域的其他研究形成呼应：</p>
+<ul>
+<li><strong>Busemeyer 的量子决策理論</strong>：展示了量子模型在人类决策中的预测优势</li>
+<li><strong>析取效应研究</strong>（arXiv:2603.23233）：虽有研究表明经典模型在某些情况下也能复现析取效应，但这并不否定量子模型在其他现象（如注意瞬脱的时间动态）上的价值</li>
+<li><strong>Extreme Quantum Cognition Machines</strong>（arXiv:2603.05430）：工程化实现量子认知的架构</li>
 </ul>
-<h2 id="開放问题"><a href="#開放问题" class="headerlink" title="開放问题"></a>開放问题</h2><p>論文本身也留下了几个值得思考的问题：</p>
-<ol>
+<h2 id="对量子意识研究的启示"><a href="#对量子意识研究的启示" class="headerlink" title="对量子意识研究的启示"></a>对量子意识研究的启示</h2><ol>
+<li><strong>意识可能确实具有量子特性</strong>：至少在某些实验范式（如注意瞬脱的时间结构）中，量子模型比经典模型更自然地解释了数据</li>
+<li><strong>时间维度是关键</strong>：量子态的时间演化可能是理解意识时间结构的关键</li>
+<li><strong>量子-经典边界</strong>：在大脑这个宏观系统中，量子效应如何保持相干性仍然是一个开放问题</li>
+</ol>
+<h2 id="开放问题"><a href="#开放问题" class="headerlink" title="开放问题"></a>开放问题</h2><ol>
 <li><strong>生物实现</strong>：三比特纠缠在生物系统中如何实现？微管？神经元网络？</li>
 <li><strong>混合模型的哲学问题</strong>：量子测量结果→经典神经网络，这是”真正的”量子意识还是混合模型？</li>
 <li><strong>Lag-1 Sparing的量子解释</strong>：纠缠态的相长干涉？</li>
+<li>这个量子模型在更大的数据集中是否仍然有效？能否预测新的注意力现象？大脑中的量子相干性如何在温暖潮湿的环境中保持？</li>
 </ol>
-<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><blockquote>
-<p><strong>Deep Teleportation: Quantum Simulation of Conscious Report in Attentional Blink</strong><br>Ahmad Sohrabi (Carleton University)<br>arXiv:2512.18585v2 | q-bio.NC<br>発表于：Cognitive Systems Research (under review)</p>
-</blockquote>
 <hr>
-<p><em>相关研究：<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2603.16020">IRAM-Omega-Q</a> 用密度矩阵描述AI不确定性调控；<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2603.23798">时间编码量子光子神经网络QPNN</a> 为大规模量子神经形态计算提供可扩展路径。</em></p>
+<p><em>2026年4月13日</em><br><em>参考文献：</em></p>
+<ol>
+<li><em>Sohrabi, A. Deep Teleportation: Quantum Simulation of Conscious Report in Attentional Blink. arXiv:2512.18585. (Carleton University; under review at Cognitive Systems Research)</em></li>
+</ol>
 
 	</div>
 
@@ -257,7 +260,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/量子认知/">量子认知<span>18</span></a></li> <li><a href="/tags/arXiv/">arXiv<span>6</span></a></li> <li><a href="/tags/意识研究/">意识研究<span>2</span></a></li> <li><a href="/tags/注意瞬脱/">注意瞬脱<span>1</span></a></li>
+  <li><a href="/tags/量子认知/">量子认知<span>12</span></a></li> <li><a href="/tags/arXiv/">arXiv<span>4</span></a></li> <li><a href="/tags/意识研究/">意识研究<span>2</span></a></li> <li><a href="/tags/注意瞬脱/">注意瞬脱<span>1</span></a></li>
     </ul>
 	</div>
 		
