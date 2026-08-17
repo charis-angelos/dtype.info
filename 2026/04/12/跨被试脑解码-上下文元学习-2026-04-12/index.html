@@ -114,16 +114,16 @@
 
 	<!-- content -->
 	<div class="mypage">
-	    <h2 id="论文概要"><a href="#论文概要" class="headerlink" title="论文概要"></a>论文概要</h2><p><strong>arXiv: 2604.08537</strong> | CVPR 2026 接收 | 跨学科：cs.LG × q-bio.NC</p>
+	    <h2 id="論文概要"><a href="#論文概要" class="headerlink" title="論文概要"></a>論文概要</h2><p><strong>arXiv: 2604.08537</strong> | CVPR 2026 接收 | 跨学科：cs.LG × q-bio.NC</p>
 <p><strong>核心问题</strong>：跨被试脑信号解码长期面临个体差异障碍，传统方法需要为每个被试单独训练或微调模型。</p>
-<p><strong>解决方案</strong>：通过上下文元学习（in-context learning）实现完全免微调的跨被试、跨扫描仪泛化。</p>
+<p><strong>解決方案</strong>：通过上下文元学习（in-context learning）实现完全免微调的跨被试、跨扫描仪泛化。</p>
 <hr>
 <h2 id="方法亮点"><a href="#方法亮点" class="headerlink" title="方法亮点"></a>方法亮点</h2><h3 id="1-层级推理解码框架"><a href="#1-层级推理解码框架" class="headerlink" title="1. 层级推理解码框架"></a>1. 层级推理解码框架</h3><p>模型采用两层层级推理策略：</p>
 <ol>
 <li><strong>单Voxel层级</strong>：对每个体素的视觉响应编码器参数进行估计，方法是对多个刺激-响应样本构建上下文（context）</li>
-<li><strong>多Voxel聚合层级</strong>：将编码器参数和响应值组成上下文，执行聚合功能反转（aggregated functional inversion）</li>
+<li><strong>多Voxel聚合层级</strong>：将编码器参数和响应值组成上下文，実行聚合功能反转（aggregated functional inversion）</li>
 </ol>
-<h3 id="2-免微调的跨被试泛化"><a href="#2-免微调的跨被试泛化" class="headerlink" title="2. 免微调的跨被试泛化"></a>2. 免微调的跨被试泛化</h3><p>关键技术优势：</p>
+<h3 id="2-免微调的跨被试泛化"><a href="#2-免微调的跨被试泛化" class="headerlink" title="2. 免微调的跨被试泛化"></a>2. 免微调的跨被试泛化</h3><p>关键技術优势：</p>
 <ul>
 <li>只需少量图像-脑激活样本作为上下文</li>
 <li>无需解剖对齐（anatomical alignment）</li>
@@ -158,10 +158,10 @@
 </tbody></table>
 <hr>
 <h2 id="科学意义"><a href="#科学意义" class="headerlink" title="科学意义"></a>科学意义</h2><p><strong>基础模型范式</strong>：本文是迈向通用脑解码基础模型（generalizable foundation model for non-invasive brain decoding）的关键一步。</p>
-<p><strong>跨学科启示</strong>：最大异质性原则（Principle of Maximum Heterogeneity）认为，任何追求性能的分布式生产系统都会趋向于越来越异质的配置。本文的被试自适应解码策略正是这一原则的神经科学实例——每个被试的神经表征都是独特的编码配置，上下文元学习使模型能够动态适应这种异质性。</p>
+<p><strong>跨学科启示</strong>：最大异质性原则（Principle of Maximum Heterogeneity）认为，任何追求性能的分布式生産系统都会趋向于越来越异质的配置。本文的被试自适应解码策略正是这一原则的神经科学实例——每个被试的神经表征都是独特的编码配置，上下文元学习使模型能够动态适应这种异质性。</p>
 <hr>
 <h2 id="延伸阅读"><a href="#延伸阅读" class="headerlink" title="延伸阅读"></a>延伸阅读</h2><ul>
-<li>原论文：<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2604.08537">arXiv:2604.08537</a></li>
+<li>原論文：<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2604.08537">arXiv:2604.08537</a></li>
 <li>相关研究：<a href="https://dtype.info/2026/04/06/%E9%87%8F%E5%AD%90%E8%AE%A4%E7%9F%A5%E4%B8%8E%E8%AF%AD%E5%A2%83%E6%80%A7-Kochen-Specker%E5%AE%9A%E7%90%86/">量子认知与语境性</a> · <a href="https://dtype.info/2026/04/01/%E9%87%8F%E5%AD%90%E8%AE%A4%E7%9F%A5%E6%9C%BA%E5%99%A8-%E6%9E%81%E5%80%BC%E9%87%8F%E5%AD%90%E8%AE%A4%E7%9F%A5%E5%86%B3%E7%AD%96/">极值量子认知机器</a></li>
 </ul>
 

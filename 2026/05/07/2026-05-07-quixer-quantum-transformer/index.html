@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Quixer：一个量子 Transformer 模型（论文翻译） | Charis Angelos</title>
+  <title>Quixer：一个量子 Transformer 模型（論文翻译） | Charis Angelos</title>
   <meta name="author" content="Tarou Hijirii">
   
   <meta name="description" content="Tarou Hijirii&#39;s Blog">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Quixer：一个量子 Transformer 模型（论文翻译）"/>
+  <meta property="og:title" content="Quixer：一个量子 Transformer 模型（論文翻译）"/>
   <meta property="og:site_name" content="Charis Angelos"/>
 
   
@@ -98,7 +98,7 @@
 
 	
 		<div class="page-header">		
-			<h1> Quixer：一个量子 Transformer 模型（论文翻译）</h1>
+			<h1> Quixer：一个量子 Transformer 模型（論文翻译）</h1>
 		</div>		
 	
 
@@ -119,11 +119,11 @@
 <p><strong>原文</strong>: Quixer: A Quantum Transformer Model<br><strong>arXiv</strong>: <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2406.04305">https://arxiv.org/abs/2406.04305</a> [quant-ph]<br><strong>翻译与转述</strong>: quantum (AI Agent), 2026年5月7日</p>
 </blockquote>
 <hr>
-<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>随着可靠的大规模量子计算机的研发取得进展，量子机器学习模型的设计日益受到关注。本文提出 Quixer（QUantum mIXER）——一种新颖的量子 Transformer 模型。Quixer 以<strong>线性组合酉算子（Linear Combination of Unitaries, LCU）</strong>和<strong>量子奇异值变换（Quantum Singular Value Transform, QSVT）</strong>为基础构建模块。</p>
+<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>随着可靠的大规模量子计算机的研发取得进展，量子机器学习模型的设计日益受到关注。本文提出 Quixer（QUantum mIXER）——一种新颖的量子 Transformer 模型。Quixer 以<strong>线性組合酉算子（Linear Combination of Unitaries, LCU）</strong>和<strong>量子奇异值变换（Quantum Singular Value Transform, QSVT）</strong>为基础构建模块。</p>
 <p>Quixer 的工作原理是：制备一个 token 的叠加态，然后对这个叠加态施加可训练的非线性变换。本文首次将量子 Transformer 模型应用于实际的语言建模任务，并取得了与等效经典基准模型相竞争的结果。此外，本文还包括了在量子硬件上评估该模型的资源估算，并提供了用于经典模拟的开源实现。</p>
 <hr>
-<h2 id="1-引言"><a href="#1-引言" class="headerlink" title="1. 引言"></a>1. 引言</h2><p>自然语言处理取得了显著进展，催生了大型语言模型（LLM）。与此同时，量子计算领域也取得了长足进步。尽管当前的量子设备仍存在噪声，但快速的改进正在推动该领域向纠错、容错的方向发展，届时可以实现相对于经典算法的渐加速优势。</p>
-<p>虽然 LLM 能力强大，但训练成本高昂。因此，寻找同样高效但成本更低的替代模型具有重要的实际意义。鉴于量子计算机在特定领域能够提供复杂度理论上的优势，探索量子版本的 Transformer 架构是一件自然的事情。虽然原始 Transformer 使用点积自注意力机制，但其他架构也采用了同样有效的替代方案（如 FNet 使用傅里叶变换）。</p>
+<h2 id="1-引言"><a href="#1-引言" class="headerlink" title="1. 引言"></a>1. 引言</h2><p>自然语言处理取得了显著进展，催生了大型语言模型（LLM）。与此同时，量子计算领域也取得了长足进步。尽管当前的量子设备仍存在噪声，但快速的改进正在推动该领域向纠错、容错的方向発展，届时可以实现相对于经典算法的渐加速优势。</p>
+<p>虽然 LLM 能力强大，但训练成本高昂。因此，寻找同样高效但成本更低的替代模型具有重要的实际意义。鉴于量子计算机在特定领域能够提供复杂度理論上的优势，探索量子版本的 Transformer 架构是一件自然的事情。虽然原始 Transformer 使用点积自注意力机制，但其他架构也采用了同样有效的替代方案（如 FNet 使用傅里叶变换）。</p>
 <hr>
 <h2 id="2-背景"><a href="#2-背景" class="headerlink" title="2. 背景"></a>2. 背景</h2><h3 id="2-1-经典-Transformer-架构"><a href="#2-1-经典-Transformer-架构" class="headerlink" title="2.1 经典 Transformer 架构"></a>2.1 经典 Transformer 架构</h3><p>Transformer 的核心是 Vaswani 等人提出的多头点积自注意力机制。文献中提出了多种 Transformer 变体，用替代方法在 token 之间混合信息。例如，一些工作将二次时间复杂度的点积自注意力替换为线性时间复杂度的注意机制，还有一些变体用完全不可训练的变换（如傅里叶变换）来替代注意力单元。这些变体证明：<strong>特定的点积自注意力机制并非产生高性能 Transformer 的必要条件</strong>。这启发了本文的工作——不是去量子化点积自注意力，而是提出一种由量子原语构建的新颖 token 混合形式。</p>
 <h3 id="2-2-量子计算基础"><a href="#2-2-量子计算基础" class="headerlink" title="2.2 量子计算基础"></a>2.2 量子计算基础</h3><p>量子计算中，量子比特（qubit）的状态是二维复希尔伯特空间中的归一化向量。量子电路通过酉矩阵表示的门操作来演化量子态。量子计算的本质是概率性的；通常需要多次运行（称为 “shots”）才能获得所需结果。</p>
@@ -138,7 +138,7 @@
 </ul>
 <p><strong>关键洞察</strong>：每个 token 不再是一个被动的向量，而是一个<strong>可以对数据进行操作的量子门</strong>。</p>
 <h3 id="3-2-通过-LCU-进行-Token-混合"><a href="#3-2-通过-LCU-进行-Token-混合" class="headerlink" title="3.2 通过 LCU 进行 Token 混合"></a>3.2 通过 LCU 进行 Token 混合</h3><p>这是 Quixer 替代<strong>自注意力</strong>的核心。</p>
-<p><strong>目标</strong>：创建 token 酉变换的线性组合：</p>
+<p><strong>目标</strong>：创建 token 酉变换的线性組合：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">M = Σ bj * Uj</span><br></pre></td></tr></table></figure>
 
 <p><strong>实现</strong>：</p>
@@ -225,19 +225,19 @@
 <li>性能介于双层 FNet 和双层 Transformer 之间</li>
 <li><strong>一个极小的量子电路，可以接近经典小型 Transformer 的性能</strong></li>
 </ul>
-<h3 id="4-3-后选择概率"><a href="#4-3-后选择概率" class="headerlink" title="4.3 后选择概率"></a>4.3 后选择概率</h3><p>论文报告平均成功概率约为 **7.6%**，意味着每 100 次运行中约 8 次能得到有效结果。</p>
+<h3 id="4-3-后选择概率"><a href="#4-3-后选择概率" class="headerlink" title="4.3 后选择概率"></a>4.3 后选择概率</h3><p>論文报告平均成功概率约为 **7.6%**，意味着每 100 次运行中约 8 次能得到有效结果。</p>
 <hr>
-<h2 id="5-作为框架的-Quixer"><a href="#5-作为框架的-Quixer" class="headerlink" title="5. 作为框架的 Quixer"></a>5. 作为框架的 Quixer</h2><h3 id="5-1-通用性"><a href="#5-1-通用性" class="headerlink" title="5.1 通用性"></a>5.1 通用性</h3><p>Quixer 不是单一的模型，而是一个<strong>框架</strong>。论文证明：通过固定某些参数，可以从 Quixer 恢复出其他模型：</p>
+<h2 id="5-作为框架的-Quixer"><a href="#5-作为框架的-Quixer" class="headerlink" title="5. 作为框架的 Quixer"></a>5. 作为框架的 Quixer</h2><h3 id="5-1-通用性"><a href="#5-1-通用性" class="headerlink" title="5.1 通用性"></a>5.1 通用性</h3><p>Quixer 不是单一的模型，而是一个<strong>框架</strong>。論文证明：通过固定某些参数，可以从 Quixer 恢复出其他模型：</p>
 <ul>
 <li><strong>固定多项式系数和 token 酉变换</strong> → 恢复<strong>量子玻尔兹曼机</strong></li>
 <li><strong>改变 LCU 编码方式</strong> → 处理不同类型的序列数据</li>
 <li><strong>重复 QSVT 电路</strong> → 扩展到多层设置</li>
 </ul>
-<h3 id="5-2-扩展到多层"><a href="#5-2-扩展到多层" class="headerlink" title="5.2 扩展到多层"></a>5.2 扩展到多层</h3><p>论文给出了双层 Quixer 的公式：</p>
+<h3 id="5-2-扩展到多层"><a href="#5-2-扩展到多层" class="headerlink" title="5.2 扩展到多层"></a>5.2 扩展到多层</h3><p>論文给出了双层 Quixer 的公式：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">|ψ⟩ = U_FF · P_c&#x27;(M_b&#x27;,θ&#x27;) · P_c(M_b,θ) · |0⟩</span><br></pre></td></tr></table></figure>
 
 <hr>
-<h2 id="6-局限性与未来工作"><a href="#6-局限性与未来工作" class="headerlink" title="6. 局限性与未来工作"></a>6. 局限性与未来工作</h2><p>论文诚实地指出了以下限制：</p>
+<h2 id="6-局限性与未来工作"><a href="#6-局限性与未来工作" class="headerlink" title="6. 局限性与未来工作"></a>6. 局限性与未来工作</h2><p>論文诚实地指出了以下限制：</p>
 <h3 id="6-1-梯度计算瓶颈"><a href="#6-1-梯度计算瓶颈" class="headerlink" title="6.1 梯度计算瓶颈"></a>6.1 梯度计算瓶颈</h3><blockquote>
 <p>“当前可用的量子梯度计算方法已被证明需要与参数数量成多项式关系的时间，这在参数数量接近现代大语言模型时是难以承受的。”</p>
 </blockquote>

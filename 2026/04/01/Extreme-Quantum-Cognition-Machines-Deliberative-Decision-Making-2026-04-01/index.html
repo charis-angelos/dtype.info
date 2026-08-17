@@ -114,10 +114,10 @@
 
 	<!-- content -->
 	<div class="mypage">
-	    <h1 id="Extreme-Quantum-Cognition-Machines-—-量子动力学与线性读出的决策架构"><a href="#Extreme-Quantum-Cognition-Machines-—-量子动力学与线性读出的决策架构" class="headerlink" title="Extreme Quantum Cognition Machines — 量子动力学与线性读出的决策架构"></a>Extreme Quantum Cognition Machines — 量子动力学与线性读出的决策架构</h1><p><strong>论文</strong>: 2603.05430 — “Extreme Quantum Cognition Machines for Deliberative Decision Making”<br><strong>发表日期</strong>: 2026年3月10日</p>
+	    <h1 id="Extreme-Quantum-Cognition-Machines-—-量子动力学与线性读出的决策架构"><a href="#Extreme-Quantum-Cognition-Machines-—-量子动力学与线性读出的决策架构" class="headerlink" title="Extreme Quantum Cognition Machines — 量子动力学与线性读出的决策架构"></a>Extreme Quantum Cognition Machines — 量子动力学与线性读出的决策架构</h1><p><strong>論文</strong>: 2603.05430 — “Extreme Quantum Cognition Machines for Deliberative Decision Making”<br><strong>発表日期</strong>: 2026年3月10日</p>
 <hr>
-<h2 id="核心思想"><a href="#核心思想" class="headerlink" title="核心思想"></a>核心思想</h2><p>传统量子认知模型（如 Busemeyer 团队的工作）聚焦于用量子力学原理解释人类认知偏差。但这些模型通常是<strong>理论性的</strong>，难以工程化实现。</p>
-<p>本文提出了一个全新的框架：<strong>Extreme Quantum Cognition Machines (XQCM)<strong>，将量子动力学作为固定特征映射器，仅在读出层进行学习。这打破了量子认知的”理论解释”范式，走向</strong>实用决策系统</strong>。</p>
+<h2 id="核心思想"><a href="#核心思想" class="headerlink" title="核心思想"></a>核心思想</h2><p>传统量子认知模型（如 Busemeyer 团队的工作）聚焦于用量子力学原理解释人类认知偏差。但这些模型通常是<strong>理論性的</strong>，难以工程化实现。</p>
+<p>本文提出了一个全新的框架：<strong>Extreme Quantum Cognition Machines (XQCM)<strong>，将量子动力学作为固定特征映射器，仅在读出层进行学习。这打破了量子认知的”理論解释”范式，走向</strong>实用决策系统</strong>。</p>
 <hr>
 <h2 id="架构设计"><a href="#架构设计" class="headerlink" title="架构设计"></a>架构设计</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入 → [固定量子动力学特征映射] → 非线性特征空间 → [线性读出层学习] → 决策输出</span><br></pre></td></tr></table></figure>
 
@@ -169,7 +169,7 @@
 </tr>
 <tr>
 <td>可扩展性</td>
-<td>理论演示，小规模</td>
+<td>理論演示，小规模</td>
 <td>原则上可扩展到大规模问题</td>
 </tr>
 <tr>
@@ -179,7 +179,7 @@
 </tr>
 </tbody></table>
 <hr>
-<h2 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h2><p>论文验证了语言分类任务（deliberative inference 的典型案例），并讨论了以下应用：</p>
+<h2 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h2><p>論文验证了语言分类任务（deliberative inference 的典型案例），并讨论了以下应用：</p>
 <ul>
 <li><strong>符号推理</strong>：量子叠加态天然支持多假设并行</li>
 <li><strong>序列分析</strong>：时间序列的量子演化</li>
@@ -190,7 +190,7 @@
 <h2 id="我的思考"><a href="#我的思考" class="headerlink" title="我的思考"></a>我的思考</h2><h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><ol>
 <li><p><strong>动态注意力机制</strong>是本文最大的创新。传统量子模型用固定演化，这里让输入直接调制 Hamiltonian，实现了一种”输入感知的非线性变换”。</p>
 </li>
-<li><p><strong>可硬件实现</strong>是关键突破。不同于纯理论模型，XQCM 讨论了与当前量子硬件的兼容性。</p>
+<li><p><strong>可硬件实现</strong>是关键突破。不同于纯理論模型，XQCM 讨论了与当前量子硬件的兼容性。</p>
 </li>
 <li><p><strong>训练稳定性</strong>。线性读出层意味着不需要梯度反向传播到量子电路，避免了当前量子机器学习的核心难题。</p>
 </li>
@@ -198,13 +198,13 @@
 <h3 id="局限与疑问"><a href="#局限与疑问" class="headerlink" title="局限与疑问"></a>局限与疑问</h3><ol>
 <li><p><strong>固定量子动力学</strong>是否限制了表达能力？如果量子特征映射不是最优的，整体性能会受限。</p>
 </li>
-<li><p><strong>纠缠的来源</strong>。输入依赖的交互项如何物理实现？论文没有详细讨论。</p>
+<li><p><strong>纠缠的来源</strong>。输入依赖的交互项如何物理实现？論文没有详细讨论。</p>
 </li>
 <li><p><strong>经典模拟的成本</strong>。在经典计算机上模拟量子动力学是指数困难的，这限制了实验规模。</p>
 </li>
 </ol>
 <hr>
-<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>XQCM 代表了量子认知从”解释工具”到”工程系统”的转型。动态注意力 + 线性读出的组合既务实又有理论依据。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>XQCM 代表了量子认知从”解释工具”到”工程系统”的转型。动态注意力 + 线性读出的組合既务实又有理論依据。</p>
 <p>值得关注的后续问题：</p>
 <ul>
 <li>这种架构能否在近期量子硬件上实现实用优势？</li>
@@ -212,7 +212,7 @@
 <li>“deliberative decision making”的量子优势究竟来自哪里？</li>
 </ul>
 <hr>
-<p><em>相关论文：arXiv:2603.05430</em></p>
+<p><em>相关論文：arXiv:2603.05430</em></p>
 
 	</div>
 
